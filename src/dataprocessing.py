@@ -7,6 +7,8 @@ import csv
 
 DATA_FILE = "resources/data.csv"
 FILTERED_FILE = "resources/filtered_data.csv"
+STANDARD_CHARACTERS = ["Keqing", "Diluc", "Mona", "Qiqi", 
+                        "Jean", "Dehya", "Tighnari", "Yumemizuki Mizuki"]
 
 def read_google_doc(doc_id, gid):
 
@@ -29,8 +31,6 @@ def read_google_doc(doc_id, gid):
     
 
 def create_filtered_data(): 
-    standard_characters = ["Keqing", "Diluc", "Mona", "Qiqi", 
-                           "Jean", "Dehya", "Tighnari", "Yumemizuki Mizuki"]
 
     # UTF 8 to parse ★'s
     with open(DATA_FILE, "r", encoding='utf-8') as infile: 
@@ -49,7 +49,7 @@ def create_filtered_data():
                 name = row[2]
                 appearences = row[4]
 
-                if name and name not in standard_characters: # Standard characters don't rerun
+                if name and name not in STANDARD_CHARACTERS: # Standard characters don't rerun
                     writer.writerow([name, appearences])
                     print(f"Saved: {name} with {appearences} appearances")
 
