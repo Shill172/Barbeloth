@@ -3,8 +3,11 @@
 
 import requests 
 import os
+import csv
 
-#TODO filter read in so new csv is neat and contains needed data
+DATA_FILE = "resources/data.csv"
+FILTERED_FILE = "resources/filtered_data.csv"
+
 def read_google_doc(doc_id, gid):
 
     resources = "resources"
@@ -16,17 +19,47 @@ def read_google_doc(doc_id, gid):
     response = requests.get(url) 
 
     if response.status_code == 200: 
-        file_path = os.path.join(resources, "data.csv")
 
-        with open(file_path, "wb") as f: 
+        with open(DATA_FILE, "wb") as f: 
             f.write(response.content)
 
-        print(f"Successfully wrote to {file_path}")
+        print(f"Successfully wrote to {DATA_FILE}")
     else: 
         return "Error: Couldn't fetch document"
+    
+
+def create_filtered_data(): 
+    standard_characters = ["Keqing", "Diluc", "Mona", "Qiqi", 
+                           "Jean", "Dehya", "Tighnari", "Yumemizuki Mizuki"]
+
+    # UTF 8 to parse ★'s
+    with open(DATA_FILE, "r", encoding='utf-8') as infile: 
+        reader = list(csv.reader(infile))
+
+    with open(FILTERED_FILE, "w", newline='', encoding='utf-8') as outfile: 
+        writer = csv.writer(outfile)
+
+        writer.writerow(["Name", "Appearances"])
+
+        # Example csv structure: 
+        # [Blank, Rarity, Name, Blank, Appearences]
+        for row in reader:
+            if row[1] == "★★★★★": # Only care about 5-stars
+                
+                name = row[2]
+                appearences = row[4]
+
+                if name and name not in standard_characters: # Standard characters don't rerun
+                    writer.writerow([name, appearences])
+                    print(f"Saved: {name} with {appearences} appearances")
+
+            elif row[1] == "★★★★":
+                break; 
+            
+        print("Data filter complete")
     
 doc_id = "1QLE2W3Suz-UgJCLKWL7FuffZlP5a7QUy"
 gid = "551073839"
 
-raw_data = read_google_doc(doc_id, gid)
-print(raw_data)
+read_google_doc(doc_id, gid)
+create_filtered_data()
