@@ -1,6 +1,7 @@
 # Going to read from the community updated google doc to get data for:
 # Num reruns, avg rerun time,.. 
 
+import json
 import requests 
 import os
 import csv
@@ -43,10 +44,13 @@ def create_filtered_data():
     with open(DATA_FILE, "r", encoding='utf-8') as infile: 
         reader = list(csv.reader(infile))
 
+    with open("resources/characters.json", "r", encoding="utf-8") as f:
+        api_data = json.load(f)
+
     with open(FILTERED_FILE, "w", newline='', encoding='utf-8') as outfile: 
         writer = csv.writer(outfile)
 
-        writer.writerow(["Name", "Appearances"])
+        writer.writerow(["Name", "Appearances", "Element", "Weapon"])
 
         # Example csv structure: 
         # [Blank, Rarity, Name, Blank, Appearences]
@@ -60,8 +64,12 @@ def create_filtered_data():
                     name = CORRECTIONS[name]
 
                 if name and name not in STANDARD_CHARACTERS: # Standard characters don't rerun
-                    writer.writerow([name, appearences])
-                    print(f"Saved: {name} with {appearences} appearances")
+                   
+                    element = api_data.get(name, {}).get("element", "Unknown")
+                    weapon = api_data.get(name, {}).get("weapon", "Unknown")
+                   
+                    writer.writerow([name, appearences, element, weapon])
+                    print(f"Saved: {name} ({element} {weapon}) with {appearences} appearances")
 
             elif row[1] == "★★★★":
                 break; 
@@ -71,5 +79,6 @@ def create_filtered_data():
 doc_id = "1QLE2W3Suz-UgJCLKWL7FuffZlP5a7QUy"
 gid = "551073839"
 
-read_google_doc_for_rerun_info(doc_id, gid)
-create_filtered_data()
+if __name__ == "__main__":
+    read_google_doc_for_rerun_info(doc_id, gid)
+    create_filtered_data()

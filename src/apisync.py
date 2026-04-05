@@ -47,13 +47,13 @@ def sync_local_data():
 
             clean_data.update(MANUAL_DATA)
 
-            os.makedirs("resources", exist_ok=True)
-            with open(MY_API, "w", encoding="utf-8") as f:
-                json.dump(clean_data, f, indent=4)
+        os.makedirs("resources", exist_ok=True)
+        with open(MY_API, "w", encoding="utf-8") as f:
+            json.dump(clean_data, f, indent=4)
 
         print(f"Saved {len(clean_data)} characters to {MY_API}")
     else:
-        print("Failed to sync. API returned: {response.status_code}")
+        print(f"Failed to sync. API returned: {response.status_code}")
 
 # Need this as JMP API isn't updated. 
 def find_missing_characters():
@@ -78,5 +78,6 @@ def find_missing_characters():
         else: 
             print("All characters are accounted for")
 
-sync_local_data()
-find_missing_characters()
+if __name__ == "__main__":
+    sync_local_data()
+    find_missing_characters()

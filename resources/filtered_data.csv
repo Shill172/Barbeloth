@@ -1,54 +1,54 @@
-Name,Appearances
-Venti,7
-Klee,6
-Tartaglia,6
-Zhongli,7
-Albedo,5
-Ganyu,5
-Xiao,6
-Hu Tao,5
-Eula,5
-Kaedehara Kazuha,6
-Kamisato Ayaka,5
-Yoimiya,6
-Raiden Shogun,6
-Sangonomiya Kokomi,5
-Arataki Itto,5
-Shenhe,4
-Yae Miko,5
-Kamisato Ayato,4
-Yelan,5
-Cyno,4
-Nilou,4
-Nahida,5
-Wanderer,4
-Alhaitham,4
-Baizhu,4
-Lyney,3
-Neuvillette,4
-Wriothesley,2
-Furina,4
-Navia,3
-Xianyun,2
-Chiori,3
-Arlecchino,3
-Clorinde,2
-Sigewinne,2
-Emilie,2
-Mualani,2
-Kinich,2
-Xilonen,3
-Chasca,2
-Mavuika,2
-Citlali,2
-Varesa,2
-Escoffier,2
-Skirk,2
-Ineffa,2
-Lauma,1
-Flins,2
-Nefer,1
-Durin,1
-Columbina,1
-Zibai,1
-Varka,1
+Name,Appearances,Element,Weapon
+Venti,7,Anemo,Bow
+Klee,6,Pyro,Catalyst
+Tartaglia,6,Hydro,Bow
+Zhongli,7,Geo,Polearm
+Albedo,5,Geo,Sword
+Ganyu,5,Cryo,Bow
+Xiao,6,Anemo,Polearm
+Hu Tao,5,Pyro,Polearm
+Eula,5,Cryo,Claymore
+Kaedehara Kazuha,6,Anemo,Sword
+Kamisato Ayaka,5,Cryo,Sword
+Yoimiya,6,Pyro,Bow
+Raiden Shogun,6,Electro,Polearm
+Sangonomiya Kokomi,5,Hydro,Catalyst
+Arataki Itto,5,Geo,Claymore
+Shenhe,4,Cryo,Polearm
+Yae Miko,5,Electro,Catalyst
+Kamisato Ayato,4,Hydro,Sword
+Yelan,5,Hydro,Bow
+Cyno,4,Electro,Polearm
+Nilou,4,Hydro,Sword
+Nahida,5,Dendro,Catalyst
+Wanderer,4,Anemo,Catalyst
+Alhaitham,4,Dendro,Sword
+Baizhu,4,Dendro,Catalyst
+Lyney,3,Pyro,Bow
+Neuvillette,4,Hydro,Catalyst
+Wriothesley,2,Cryo,Catalyst
+Furina,4,Hydro,Sword
+Navia,3,Geo,Claymore
+Xianyun,2,Anemo,Catalyst
+Chiori,3,Geo,Sword
+Arlecchino,3,Pyro,Polearm
+Clorinde,2,Electro,Sword
+Sigewinne,2,Hydro,Bow
+Emilie,2,Dendro,Polearm
+Mualani,2,Hydro,Catalyst
+Kinich,2,Dendro,Claymore
+Xilonen,3,Geo,Sword
+Chasca,2,Anemo,Bow
+Mavuika,2,Pyro,Claymore
+Citlali,2,Cryo,Catalyst
+Varesa,2,Electro,Catalyst
+Escoffier,2,Cryo,Polearm
+Skirk,2,Cryo,Sword
+Ineffa,2,Electro,Polearm
+Lauma,1,Dendro,Catalyst
+Flins,2,Electro,Polearm
+Nefer,1,Dendro,Catalyst
+Durin,1,Pyro,Sword
+Columbina,1,Hydro,Catalyst
+Zibai,1,Geo,Sword
+Varka,1,Anemo,Claymore
