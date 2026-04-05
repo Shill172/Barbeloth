@@ -75,10 +75,3 @@ def create_filtered_data():
                 break; 
             
         print("Data filter complete")
-    
-doc_id = "1QLE2W3Suz-UgJCLKWL7FuffZlP5a7QUy"
-gid = "551073839"
-
-if __name__ == "__main__":
-    read_google_doc_for_rerun_info(doc_id, gid)
-    create_filtered_data()

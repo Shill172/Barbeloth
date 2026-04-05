@@ -77,7 +77,3 @@ def find_missing_characters():
                 print(f"{name}")
         else: 
             print("All characters are accounted for")
-
-if __name__ == "__main__":
-    sync_local_data()
-    find_missing_characters()
