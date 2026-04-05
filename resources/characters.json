@@ -1,0 +1,218 @@
+{
+    "Albedo": {
+        "element": "Geo",
+        "weapon": "Sword"
+    },
+    "Xilonen": {
+        "element": "Geo",
+        "weapon": "Sword"
+    },
+    "Chasca": {
+        "element": "Anemo",
+        "weapon": "Bow"
+    },
+    "Mavuika": {
+        "element": "Pyro",
+        "weapon": "Claymore"
+    },
+    "Citlali": {
+        "element": "Cryo",
+        "weapon": "Catalyst"
+    },
+    "Varesa": {
+        "element": "Electro",
+        "weapon": "Catalyst"
+    },
+    "Escoffier": {
+        "element": "Cryo",
+        "weapon": "Polearm"
+    },
+    "Skirk": {
+        "element": "Cryo",
+        "weapon": "Sword"
+    },
+    "Ineffa": {
+        "element": "Electro",
+        "weapon": "Polearm"
+    },
+    "Lauma": {
+        "element": "Dendro",
+        "weapon": "Catalyst"
+    },
+    "Flins": {
+        "element": "Electro",
+        "weapon": "Polearm"
+    },
+    "Nefer": {
+        "element": "Dendro",
+        "weapon": "Catalyst"
+    },
+    "Durin": {
+        "element": "Pyro",
+        "weapon": "Sword"
+    },
+    "Columbina": {
+        "element": "Hydro",
+        "weapon": "Catalyst"
+    },
+    "Zibai": {
+        "element": "Geo",
+        "weapon": "Sword"
+    },
+    "Varka": {
+        "element": "Anemo",
+        "weapon": "Claymore"
+    },
+    "Alhaitham": {
+        "element": "Dendro",
+        "weapon": "Sword"
+    },
+    "Arataki Itto": {
+        "element": "Geo",
+        "weapon": "Claymore"
+    },
+    "Arlecchino": {
+        "element": "Pyro",
+        "weapon": "Polearm"
+    },
+    "Kamisato Ayaka": {
+        "element": "Cryo",
+        "weapon": "Sword"
+    },
+    "Kamisato Ayato": {
+        "element": "Hydro",
+        "weapon": "Sword"
+    },
+    "Baizhu": {
+        "element": "Dendro",
+        "weapon": "Catalyst"
+    },
+    "Chiori": {
+        "element": "Geo",
+        "weapon": "Sword"
+    },
+    "Clorinde": {
+        "element": "Electro",
+        "weapon": "Sword"
+    },
+    "Cyno": {
+        "element": "Electro",
+        "weapon": "Polearm"
+    },
+    "Emilie": {
+        "element": "Dendro",
+        "weapon": "Polearm"
+    },
+    "Eula": {
+        "element": "Cryo",
+        "weapon": "Claymore"
+    },
+    "Furina": {
+        "element": "Hydro",
+        "weapon": "Sword"
+    },
+    "Ganyu": {
+        "element": "Cryo",
+        "weapon": "Bow"
+    },
+    "Hu Tao": {
+        "element": "Pyro",
+        "weapon": "Polearm"
+    },
+    "Kaedehara Kazuha": {
+        "element": "Anemo",
+        "weapon": "Sword"
+    },
+    "Kinich": {
+        "element": "Dendro",
+        "weapon": "Claymore"
+    },
+    "Klee": {
+        "element": "Pyro",
+        "weapon": "Catalyst"
+    },
+    "Sangonomiya Kokomi": {
+        "element": "Hydro",
+        "weapon": "Catalyst"
+    },
+    "Lyney": {
+        "element": "Pyro",
+        "weapon": "Bow"
+    },
+    "Mualani": {
+        "element": "Hydro",
+        "weapon": "Catalyst"
+    },
+    "Nahida": {
+        "element": "Dendro",
+        "weapon": "Catalyst"
+    },
+    "Navia": {
+        "element": "Geo",
+        "weapon": "Claymore"
+    },
+    "Neuvillette": {
+        "element": "Hydro",
+        "weapon": "Catalyst"
+    },
+    "Nilou": {
+        "element": "Hydro",
+        "weapon": "Sword"
+    },
+    "Raiden Shogun": {
+        "element": "Electro",
+        "weapon": "Polearm"
+    },
+    "Shenhe": {
+        "element": "Cryo",
+        "weapon": "Polearm"
+    },
+    "Sigewinne": {
+        "element": "Hydro",
+        "weapon": "Bow"
+    },
+    "Tartaglia": {
+        "element": "Hydro",
+        "weapon": "Bow"
+    },
+    "Traveler": {
+        "element": "Hydro",
+        "weapon": "Sword"
+    },
+    "Venti": {
+        "element": "Anemo",
+        "weapon": "Bow"
+    },
+    "Wanderer": {
+        "element": "Anemo",
+        "weapon": "Catalyst"
+    },
+    "Wriothesley": {
+        "element": "Cryo",
+        "weapon": "Catalyst"
+    },
+    "Xianyun": {
+        "element": "Anemo",
+        "weapon": "Catalyst"
+    },
+    "Xiao": {
+        "element": "Anemo",
+        "weapon": "Polearm"
+    },
+    "Yae Miko": {
+        "element": "Electro",
+        "weapon": "Catalyst"
+    },
+    "Yelan": {
+        "element": "Hydro",
+        "weapon": "Bow"
+    },
+    "Yoimiya": {
+        "element": "Pyro",
+        "weapon": "Bow"
+    },
+    "Zhongli": {
+        "element": "Geo",
+        "weapon": "Polearm"
+    }
+}

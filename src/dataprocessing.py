@@ -10,7 +10,7 @@ FILTERED_FILE = "resources/filtered_data.csv"
 STANDARD_CHARACTERS = ["Keqing", "Diluc", "Mona", "Qiqi", 
                         "Jean", "Dehya", "Tighnari", "Yumemizuki Mizuki"]
 
-def read_google_doc(doc_id, gid):
+def read_google_doc_for_rerun_info(doc_id, gid):
 
     resources = "resources"
     if not os.path.exists(resources):
@@ -32,6 +32,13 @@ def read_google_doc(doc_id, gid):
 
 def create_filtered_data(): 
 
+    # Some names are spelt wrong in the google doc
+    CORRECTIONS = {
+        "XIanyun": "Xianyun",
+        "Emelie": "Emilie",
+        "Mauvika": "Mavuika"
+    }
+
     # UTF 8 to parse ★'s
     with open(DATA_FILE, "r", encoding='utf-8') as infile: 
         reader = list(csv.reader(infile))
@@ -49,6 +56,9 @@ def create_filtered_data():
                 name = row[2]
                 appearences = row[4]
 
+                if name in CORRECTIONS:
+                    name = CORRECTIONS[name]
+
                 if name and name not in STANDARD_CHARACTERS: # Standard characters don't rerun
                     writer.writerow([name, appearences])
                     print(f"Saved: {name} with {appearences} appearances")
@@ -61,5 +71,5 @@ def create_filtered_data():
 doc_id = "1QLE2W3Suz-UgJCLKWL7FuffZlP5a7QUy"
 gid = "551073839"
 
-read_google_doc(doc_id, gid)
+read_google_doc_for_rerun_info(doc_id, gid)
 create_filtered_data()
