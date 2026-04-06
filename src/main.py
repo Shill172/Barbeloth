@@ -1,4 +1,4 @@
-from dataprocessing import read_google_doc_for_rerun_info, create_filtered_data
+from dataprocessing import read_google_doc_for_rerun_info, parse_banner_history
 from apisync import sync_local_data, find_missing_characters
 
 def main(): 
@@ -12,7 +12,7 @@ def main():
     sync_local_data()
 
     print("Filtering data...")
-    create_filtered_data()
+    parse_banner_history()
 
     print("Checking if characters are missing...")
     find_missing_characters()
