@@ -153,19 +153,20 @@ def parse_banner_history():
                 ran = ran_in_patch[(name, patch)]
                 time_since_ran = 0
                 seen_first_run = True
-                has_debuted = 1
+                rows.append([name, patch, ran, time_since_ran, element, weapon])
             else:
                 ran = 0
                 if seen_first_run:
                     time_since_ran += 1 
+                    rows.append([name, patch, ran, time_since_ran, element, weapon])
                 else:
                     time_since_ran = 0  
 
-            rows.append([name, patch, ran, time_since_ran, has_debuted, element, weapon])
+            
 
     with open("resources/banner_history_long.csv", "w", newline="", encoding="utf-8") as f:
         writer = csv.writer(f)
-        writer.writerow(["Name", "Patch", "Ran", "Time_since_ran", "Debuted", "Element", "Weapon"])
+        writer.writerow(["Name", "Patch", "Ran", "Time_since_ran", "Element", "Weapon"])
         writer.writerows(rows)
 
     print(f"Written {len(rows)} rows to banner_history_long.csv")

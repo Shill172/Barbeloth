@@ -63,6 +63,10 @@
         "element": "Anemo",
         "weapon": "Claymore"
     },
+    "Linnea": {
+        "element": "Geo",
+        "weapon": "Bow"
+    },
     "Alhaitham": {
         "element": "Dendro",
         "weapon": "Sword"

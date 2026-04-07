@@ -1,2545 +1,1365 @@
-Name,Patch,Ran,Time_since_ran,Debuted,Element,Weapon
-Venti,1.0,1,0,1,Anemo,Bow
-Venti,1.1,0,1,1,Anemo,Bow
-Venti,1.2,0,2,1,Anemo,Bow
-Venti,1.3,0,3,1,Anemo,Bow
-Venti,1.4,1,0,1,Anemo,Bow
-Venti,1.5,0,1,1,Anemo,Bow
-Venti,1.6,0,2,1,Anemo,Bow
-Venti,2.0,0,3,1,Anemo,Bow
-Venti,2.1,0,4,1,Anemo,Bow
-Venti,2.2,0,5,1,Anemo,Bow
-Venti,2.3,0,6,1,Anemo,Bow
-Venti,2.4,0,7,1,Anemo,Bow
-Venti,2.5,0,8,1,Anemo,Bow
-Venti,2.6,1,0,1,Anemo,Bow
-Venti,2.7,0,1,1,Anemo,Bow
-Venti,2.8,0,2,1,Anemo,Bow
-Venti,3.0,0,3,1,Anemo,Bow
-Venti,3.1,1,0,1,Anemo,Bow
-Venti,3.2,0,1,1,Anemo,Bow
-Venti,3.3,0,2,1,Anemo,Bow
-Venti,3.4,0,3,1,Anemo,Bow
-Venti,3.5,0,4,1,Anemo,Bow
-Venti,3.6,0,5,1,Anemo,Bow
-Venti,3.7,0,6,1,Anemo,Bow
-Venti,3.8,0,7,1,Anemo,Bow
-Venti,4.0,0,8,1,Anemo,Bow
-Venti,4.1,1,0,1,Anemo,Bow
-Venti,4.2,0,1,1,Anemo,Bow
-Venti,4.3,0,2,1,Anemo,Bow
-Venti,4.4,0,3,1,Anemo,Bow
-Venti,4.5,0,4,1,Anemo,Bow
-Venti,4.6,0,5,1,Anemo,Bow
-Venti,4.7,0,6,1,Anemo,Bow
-Venti,4.8,0,7,1,Anemo,Bow
-Venti,5.0,0,8,1,Anemo,Bow
-Venti,5.1,0,9,1,Anemo,Bow
-Venti,5.2,0,10,1,Anemo,Bow
-Venti,5.3,0,11,1,Anemo,Bow
-Venti,5.4,0,12,1,Anemo,Bow
-Venti,5.5,1,0,1,Anemo,Bow
-Venti,5.6,0,1,1,Anemo,Bow
-Venti,5.7,0,2,1,Anemo,Bow
-Venti,5.8,0,3,1,Anemo,Bow
-Venti,Luna I,0,4,1,Anemo,Bow
-Venti,Luna II,0,5,1,Anemo,Bow
-Venti,Luna III,1,0,1,Anemo,Bow
-Venti,Luna IV,0,1,1,Anemo,Bow
-Venti,Luna V,0,2,1,Anemo,Bow
-Klee,1.0,1,0,1,Pyro,Catalyst
-Klee,1.1,0,1,1,Pyro,Catalyst
-Klee,1.2,0,2,1,Pyro,Catalyst
-Klee,1.3,0,3,1,Pyro,Catalyst
-Klee,1.4,0,4,1,Pyro,Catalyst
-Klee,1.5,0,5,1,Pyro,Catalyst
-Klee,1.6,1,0,1,Pyro,Catalyst
-Klee,2.0,0,1,1,Pyro,Catalyst
-Klee,2.1,0,2,1,Pyro,Catalyst
-Klee,2.2,0,3,1,Pyro,Catalyst
-Klee,2.3,0,4,1,Pyro,Catalyst
-Klee,2.4,0,5,1,Pyro,Catalyst
-Klee,2.5,0,6,1,Pyro,Catalyst
-Klee,2.6,0,7,1,Pyro,Catalyst
-Klee,2.7,0,8,1,Pyro,Catalyst
-Klee,2.8,1,0,1,Pyro,Catalyst
-Klee,3.0,0,1,1,Pyro,Catalyst
-Klee,3.1,0,2,1,Pyro,Catalyst
-Klee,3.2,0,3,1,Pyro,Catalyst
-Klee,3.3,0,4,1,Pyro,Catalyst
-Klee,3.4,0,5,1,Pyro,Catalyst
-Klee,3.5,0,6,1,Pyro,Catalyst
-Klee,3.6,0,7,1,Pyro,Catalyst
-Klee,3.7,0,8,1,Pyro,Catalyst
-Klee,3.8,1,0,1,Pyro,Catalyst
-Klee,4.0,0,1,1,Pyro,Catalyst
-Klee,4.1,0,2,1,Pyro,Catalyst
-Klee,4.2,0,3,1,Pyro,Catalyst
-Klee,4.3,0,4,1,Pyro,Catalyst
-Klee,4.4,0,5,1,Pyro,Catalyst
-Klee,4.5,C,0,1,Pyro,Catalyst
-Klee,4.6,0,1,1,Pyro,Catalyst
-Klee,4.7,0,2,1,Pyro,Catalyst
-Klee,4.8,0,3,1,Pyro,Catalyst
-Klee,5.0,0,4,1,Pyro,Catalyst
-Klee,5.1,0,5,1,Pyro,Catalyst
-Klee,5.2,0,6,1,Pyro,Catalyst
-Klee,5.3,0,7,1,Pyro,Catalyst
-Klee,5.4,0,8,1,Pyro,Catalyst
-Klee,5.5,0,9,1,Pyro,Catalyst
-Klee,5.6,0,10,1,Pyro,Catalyst
-Klee,5.7,0,11,1,Pyro,Catalyst
-Klee,5.8,0,12,1,Pyro,Catalyst
-Klee,Luna I,0,13,1,Pyro,Catalyst
-Klee,Luna II,0,14,1,Pyro,Catalyst
-Klee,Luna III,0,15,1,Pyro,Catalyst
-Klee,Luna IV,0,16,1,Pyro,Catalyst
-Klee,Luna V,C,0,1,Pyro,Catalyst
-Tartaglia,1.0,0,0,0,Hydro,Bow
-Tartaglia,1.1,1,0,1,Hydro,Bow
-Tartaglia,1.2,0,1,1,Hydro,Bow
-Tartaglia,1.3,0,2,1,Hydro,Bow
-Tartaglia,1.4,1,0,1,Hydro,Bow
-Tartaglia,1.5,0,1,1,Hydro,Bow
-Tartaglia,1.6,0,2,1,Hydro,Bow
-Tartaglia,2.0,0,3,1,Hydro,Bow
-Tartaglia,2.1,0,4,1,Hydro,Bow
-Tartaglia,2.2,1,0,1,Hydro,Bow
-Tartaglia,2.3,0,1,1,Hydro,Bow
-Tartaglia,2.4,0,2,1,Hydro,Bow
-Tartaglia,2.5,0,3,1,Hydro,Bow
-Tartaglia,2.6,0,4,1,Hydro,Bow
-Tartaglia,2.7,0,5,1,Hydro,Bow
-Tartaglia,2.8,0,6,1,Hydro,Bow
-Tartaglia,3.0,0,7,1,Hydro,Bow
-Tartaglia,3.1,0,8,1,Hydro,Bow
-Tartaglia,3.2,1,0,1,Hydro,Bow
-Tartaglia,3.3,0,1,1,Hydro,Bow
-Tartaglia,3.4,0,2,1,Hydro,Bow
-Tartaglia,3.5,0,3,1,Hydro,Bow
-Tartaglia,3.6,0,4,1,Hydro,Bow
-Tartaglia,3.7,0,5,1,Hydro,Bow
-Tartaglia,3.8,0,6,1,Hydro,Bow
-Tartaglia,4.0,1,0,1,Hydro,Bow
-Tartaglia,4.1,0,1,1,Hydro,Bow
-Tartaglia,4.2,0,2,1,Hydro,Bow
-Tartaglia,4.3,0,3,1,Hydro,Bow
-Tartaglia,4.4,0,4,1,Hydro,Bow
-Tartaglia,4.5,0,5,1,Hydro,Bow
-Tartaglia,4.6,0,6,1,Hydro,Bow
-Tartaglia,4.7,0,7,1,Hydro,Bow
-Tartaglia,4.8,0,8,1,Hydro,Bow
-Tartaglia,5.0,0,9,1,Hydro,Bow
-Tartaglia,5.1,0,10,1,Hydro,Bow
-Tartaglia,5.2,0,11,1,Hydro,Bow
-Tartaglia,5.3,C,0,1,Hydro,Bow
-Tartaglia,5.4,0,1,1,Hydro,Bow
-Tartaglia,5.5,0,2,1,Hydro,Bow
-Tartaglia,5.6,0,3,1,Hydro,Bow
-Tartaglia,5.7,0,4,1,Hydro,Bow
-Tartaglia,5.8,0,5,1,Hydro,Bow
-Tartaglia,Luna I,0,6,1,Hydro,Bow
-Tartaglia,Luna II,0,7,1,Hydro,Bow
-Tartaglia,Luna III,0,8,1,Hydro,Bow
-Tartaglia,Luna IV,0,9,1,Hydro,Bow
-Tartaglia,Luna V,0,10,1,Hydro,Bow
-Zhongli,1.0,0,0,0,Geo,Polearm
-Zhongli,1.1,1,0,1,Geo,Polearm
-Zhongli,1.2,0,1,1,Geo,Polearm
-Zhongli,1.3,0,2,1,Geo,Polearm
-Zhongli,1.4,0,3,1,Geo,Polearm
-Zhongli,1.5,1,0,1,Geo,Polearm
-Zhongli,1.6,0,1,1,Geo,Polearm
-Zhongli,2.0,0,2,1,Geo,Polearm
-Zhongli,2.1,0,3,1,Geo,Polearm
-Zhongli,2.2,0,4,1,Geo,Polearm
-Zhongli,2.3,0,5,1,Geo,Polearm
-Zhongli,2.4,1,0,1,Geo,Polearm
-Zhongli,2.5,0,1,1,Geo,Polearm
-Zhongli,2.6,0,2,1,Geo,Polearm
-Zhongli,2.7,0,3,1,Geo,Polearm
-Zhongli,2.8,0,4,1,Geo,Polearm
-Zhongli,3.0,1,0,1,Geo,Polearm
-Zhongli,3.1,0,1,1,Geo,Polearm
-Zhongli,3.2,0,2,1,Geo,Polearm
-Zhongli,3.3,0,3,1,Geo,Polearm
-Zhongli,3.4,0,4,1,Geo,Polearm
-Zhongli,3.5,0,5,1,Geo,Polearm
-Zhongli,3.6,0,6,1,Geo,Polearm
-Zhongli,3.7,0,7,1,Geo,Polearm
-Zhongli,3.8,0,8,1,Geo,Polearm
-Zhongli,4.0,1,0,1,Geo,Polearm
-Zhongli,4.1,0,1,1,Geo,Polearm
-Zhongli,4.2,0,2,1,Geo,Polearm
-Zhongli,4.3,0,3,1,Geo,Polearm
-Zhongli,4.4,0,4,1,Geo,Polearm
-Zhongli,4.5,0,5,1,Geo,Polearm
-Zhongli,4.6,0,6,1,Geo,Polearm
-Zhongli,4.7,0,7,1,Geo,Polearm
-Zhongli,4.8,0,8,1,Geo,Polearm
-Zhongli,5.0,0,9,1,Geo,Polearm
-Zhongli,5.1,0,10,1,Geo,Polearm
-Zhongli,5.2,1,0,1,Geo,Polearm
-Zhongli,5.3,0,1,1,Geo,Polearm
-Zhongli,5.4,0,2,1,Geo,Polearm
-Zhongli,5.5,0,3,1,Geo,Polearm
-Zhongli,5.6,0,4,1,Geo,Polearm
-Zhongli,5.7,0,5,1,Geo,Polearm
-Zhongli,5.8,0,6,1,Geo,Polearm
-Zhongli,Luna I,0,7,1,Geo,Polearm
-Zhongli,Luna II,1,0,1,Geo,Polearm
-Zhongli,Luna III,0,1,1,Geo,Polearm
-Zhongli,Luna IV,0,2,1,Geo,Polearm
-Zhongli,Luna V,0,3,1,Geo,Polearm
-Albedo,1.0,0,0,0,Geo,Sword
-Albedo,1.1,0,0,0,Geo,Sword
-Albedo,1.2,1,0,1,Geo,Sword
-Albedo,1.3,0,1,1,Geo,Sword
-Albedo,1.4,0,2,1,Geo,Sword
-Albedo,1.5,0,3,1,Geo,Sword
-Albedo,1.6,0,4,1,Geo,Sword
-Albedo,2.0,0,5,1,Geo,Sword
-Albedo,2.1,0,6,1,Geo,Sword
-Albedo,2.2,0,7,1,Geo,Sword
-Albedo,2.3,1,0,1,Geo,Sword
-Albedo,2.4,0,1,1,Geo,Sword
-Albedo,2.5,0,2,1,Geo,Sword
-Albedo,2.6,0,3,1,Geo,Sword
-Albedo,2.7,0,4,1,Geo,Sword
-Albedo,2.8,0,5,1,Geo,Sword
-Albedo,3.0,0,6,1,Geo,Sword
-Albedo,3.1,1,0,1,Geo,Sword
-Albedo,3.2,0,1,1,Geo,Sword
-Albedo,3.3,0,2,1,Geo,Sword
-Albedo,3.4,0,3,1,Geo,Sword
-Albedo,3.5,0,4,1,Geo,Sword
-Albedo,3.6,0,5,1,Geo,Sword
-Albedo,3.7,0,6,1,Geo,Sword
-Albedo,3.8,0,7,1,Geo,Sword
-Albedo,4.0,0,8,1,Geo,Sword
-Albedo,4.1,0,9,1,Geo,Sword
-Albedo,4.2,0,10,1,Geo,Sword
-Albedo,4.3,0,11,1,Geo,Sword
-Albedo,4.4,0,12,1,Geo,Sword
-Albedo,4.5,C,0,1,Geo,Sword
-Albedo,4.6,0,1,1,Geo,Sword
-Albedo,4.7,0,2,1,Geo,Sword
-Albedo,4.8,0,3,1,Geo,Sword
-Albedo,5.0,0,4,1,Geo,Sword
-Albedo,5.1,0,5,1,Geo,Sword
-Albedo,5.2,0,6,1,Geo,Sword
-Albedo,5.3,0,7,1,Geo,Sword
-Albedo,5.4,0,8,1,Geo,Sword
-Albedo,5.5,0,9,1,Geo,Sword
-Albedo,5.6,0,10,1,Geo,Sword
-Albedo,5.7,0,11,1,Geo,Sword
-Albedo,5.8,0,12,1,Geo,Sword
-Albedo,Luna I,0,13,1,Geo,Sword
-Albedo,Luna II,0,14,1,Geo,Sword
-Albedo,Luna III,0,15,1,Geo,Sword
-Albedo,Luna IV,0,16,1,Geo,Sword
-Albedo,Luna V,C,0,1,Geo,Sword
-Ganyu,1.0,0,0,0,Cryo,Bow
-Ganyu,1.1,0,0,0,Cryo,Bow
-Ganyu,1.2,1,0,1,Cryo,Bow
-Ganyu,1.3,0,1,1,Cryo,Bow
-Ganyu,1.4,0,2,1,Cryo,Bow
-Ganyu,1.5,0,3,1,Cryo,Bow
-Ganyu,1.6,0,4,1,Cryo,Bow
-Ganyu,2.0,0,5,1,Cryo,Bow
-Ganyu,2.1,0,6,1,Cryo,Bow
-Ganyu,2.2,0,7,1,Cryo,Bow
-Ganyu,2.3,0,8,1,Cryo,Bow
-Ganyu,2.4,1,0,1,Cryo,Bow
-Ganyu,2.5,0,1,1,Cryo,Bow
-Ganyu,2.6,0,2,1,Cryo,Bow
-Ganyu,2.7,0,3,1,Cryo,Bow
-Ganyu,2.8,0,4,1,Cryo,Bow
-Ganyu,3.0,1,0,1,Cryo,Bow
-Ganyu,3.1,0,1,1,Cryo,Bow
-Ganyu,3.2,0,2,1,Cryo,Bow
-Ganyu,3.3,0,3,1,Cryo,Bow
-Ganyu,3.4,0,4,1,Cryo,Bow
-Ganyu,3.5,0,5,1,Cryo,Bow
-Ganyu,3.6,1,0,1,Cryo,Bow
-Ganyu,3.7,0,1,1,Cryo,Bow
-Ganyu,3.8,0,2,1,Cryo,Bow
-Ganyu,4.0,0,3,1,Cryo,Bow
-Ganyu,4.1,0,4,1,Cryo,Bow
-Ganyu,4.2,0,5,1,Cryo,Bow
-Ganyu,4.3,0,6,1,Cryo,Bow
-Ganyu,4.4,0,7,1,Cryo,Bow
-Ganyu,4.5,0,8,1,Cryo,Bow
-Ganyu,4.6,0,9,1,Cryo,Bow
-Ganyu,4.7,0,10,1,Cryo,Bow
-Ganyu,4.8,0,11,1,Cryo,Bow
-Ganyu,5.0,0,12,1,Cryo,Bow
-Ganyu,5.1,0,13,1,Cryo,Bow
-Ganyu,5.2,0,14,1,Cryo,Bow
-Ganyu,5.3,C,0,1,Cryo,Bow
-Ganyu,5.4,0,1,1,Cryo,Bow
-Ganyu,5.5,0,2,1,Cryo,Bow
-Ganyu,5.6,0,3,1,Cryo,Bow
-Ganyu,5.7,0,4,1,Cryo,Bow
-Ganyu,5.8,0,5,1,Cryo,Bow
-Ganyu,Luna I,0,6,1,Cryo,Bow
-Ganyu,Luna II,0,7,1,Cryo,Bow
-Ganyu,Luna III,0,8,1,Cryo,Bow
-Ganyu,Luna IV,0,9,1,Cryo,Bow
-Ganyu,Luna V,0,10,1,Cryo,Bow
-Xiao,1.0,0,0,0,Anemo,Polearm
-Xiao,1.1,0,0,0,Anemo,Polearm
-Xiao,1.2,0,0,0,Anemo,Polearm
-Xiao,1.3,1,0,1,Anemo,Polearm
-Xiao,1.4,0,1,1,Anemo,Polearm
-Xiao,1.5,0,2,1,Anemo,Polearm
-Xiao,1.6,0,3,1,Anemo,Polearm
-Xiao,2.0,0,4,1,Anemo,Polearm
-Xiao,2.1,0,5,1,Anemo,Polearm
-Xiao,2.2,0,6,1,Anemo,Polearm
-Xiao,2.3,0,7,1,Anemo,Polearm
-Xiao,2.4,1,0,1,Anemo,Polearm
-Xiao,2.5,0,1,1,Anemo,Polearm
-Xiao,2.6,0,2,1,Anemo,Polearm
-Xiao,2.7,1,0,1,Anemo,Polearm
-Xiao,2.8,0,1,1,Anemo,Polearm
-Xiao,3.0,0,2,1,Anemo,Polearm
-Xiao,3.1,0,3,1,Anemo,Polearm
-Xiao,3.2,0,4,1,Anemo,Polearm
-Xiao,3.3,0,5,1,Anemo,Polearm
-Xiao,3.4,1,0,1,Anemo,Polearm
-Xiao,3.5,0,1,1,Anemo,Polearm
-Xiao,3.6,0,2,1,Anemo,Polearm
-Xiao,3.7,0,3,1,Anemo,Polearm
-Xiao,3.8,0,4,1,Anemo,Polearm
-Xiao,4.0,0,5,1,Anemo,Polearm
-Xiao,4.1,0,6,1,Anemo,Polearm
-Xiao,4.2,0,7,1,Anemo,Polearm
-Xiao,4.3,0,8,1,Anemo,Polearm
-Xiao,4.4,1,0,1,Anemo,Polearm
-Xiao,4.5,0,1,1,Anemo,Polearm
-Xiao,4.6,0,2,1,Anemo,Polearm
-Xiao,4.7,0,3,1,Anemo,Polearm
-Xiao,4.8,0,4,1,Anemo,Polearm
-Xiao,5.0,0,5,1,Anemo,Polearm
-Xiao,5.1,0,6,1,Anemo,Polearm
-Xiao,5.2,0,7,1,Anemo,Polearm
-Xiao,5.3,C,0,1,Anemo,Polearm
-Xiao,5.4,0,1,1,Anemo,Polearm
-Xiao,5.5,0,2,1,Anemo,Polearm
-Xiao,5.6,0,3,1,Anemo,Polearm
-Xiao,5.7,0,4,1,Anemo,Polearm
-Xiao,5.8,0,5,1,Anemo,Polearm
-Xiao,Luna I,0,6,1,Anemo,Polearm
-Xiao,Luna II,0,7,1,Anemo,Polearm
-Xiao,Luna III,0,8,1,Anemo,Polearm
-Xiao,Luna IV,0,9,1,Anemo,Polearm
-Xiao,Luna V,0,10,1,Anemo,Polearm
-Hu Tao,1.0,0,0,0,Pyro,Polearm
-Hu Tao,1.1,0,0,0,Pyro,Polearm
-Hu Tao,1.2,0,0,0,Pyro,Polearm
-Hu Tao,1.3,1,0,1,Pyro,Polearm
-Hu Tao,1.4,0,1,1,Pyro,Polearm
-Hu Tao,1.5,0,2,1,Pyro,Polearm
-Hu Tao,1.6,0,3,1,Pyro,Polearm
-Hu Tao,2.0,0,4,1,Pyro,Polearm
-Hu Tao,2.1,0,5,1,Pyro,Polearm
-Hu Tao,2.2,1,0,1,Pyro,Polearm
-Hu Tao,2.3,0,1,1,Pyro,Polearm
-Hu Tao,2.4,0,2,1,Pyro,Polearm
-Hu Tao,2.5,0,3,1,Pyro,Polearm
-Hu Tao,2.6,0,4,1,Pyro,Polearm
-Hu Tao,2.7,0,5,1,Pyro,Polearm
-Hu Tao,2.8,0,6,1,Pyro,Polearm
-Hu Tao,3.0,0,7,1,Pyro,Polearm
-Hu Tao,3.1,0,8,1,Pyro,Polearm
-Hu Tao,3.2,0,9,1,Pyro,Polearm
-Hu Tao,3.3,0,10,1,Pyro,Polearm
-Hu Tao,3.4,1,0,1,Pyro,Polearm
-Hu Tao,3.5,0,1,1,Pyro,Polearm
-Hu Tao,3.6,0,2,1,Pyro,Polearm
-Hu Tao,3.7,0,3,1,Pyro,Polearm
-Hu Tao,3.8,0,4,1,Pyro,Polearm
-Hu Tao,4.0,0,5,1,Pyro,Polearm
-Hu Tao,4.1,1,0,1,Pyro,Polearm
-Hu Tao,4.2,0,1,1,Pyro,Polearm
-Hu Tao,4.3,0,2,1,Pyro,Polearm
-Hu Tao,4.4,0,3,1,Pyro,Polearm
-Hu Tao,4.5,0,4,1,Pyro,Polearm
-Hu Tao,4.6,0,5,1,Pyro,Polearm
-Hu Tao,4.7,0,6,1,Pyro,Polearm
-Hu Tao,4.8,0,7,1,Pyro,Polearm
-Hu Tao,5.0,0,8,1,Pyro,Polearm
-Hu Tao,5.1,1,0,1,Pyro,Polearm
-Hu Tao,5.2,0,1,1,Pyro,Polearm
-Hu Tao,5.3,0,2,1,Pyro,Polearm
-Hu Tao,5.4,0,3,1,Pyro,Polearm
-Hu Tao,5.5,0,4,1,Pyro,Polearm
-Hu Tao,5.6,0,5,1,Pyro,Polearm
-Hu Tao,5.7,0,6,1,Pyro,Polearm
-Hu Tao,5.8,0,7,1,Pyro,Polearm
-Hu Tao,Luna I,0,8,1,Pyro,Polearm
-Hu Tao,Luna II,0,9,1,Pyro,Polearm
-Hu Tao,Luna III,0,10,1,Pyro,Polearm
-Hu Tao,Luna IV,0,11,1,Pyro,Polearm
-Hu Tao,Luna V,0,12,1,Pyro,Polearm
-Eula,1.0,0,0,0,Cryo,Claymore
-Eula,1.1,0,0,0,Cryo,Claymore
-Eula,1.2,0,0,0,Cryo,Claymore
-Eula,1.3,0,0,0,Cryo,Claymore
-Eula,1.4,0,0,0,Cryo,Claymore
-Eula,1.5,1,0,1,Cryo,Claymore
-Eula,1.6,0,1,1,Cryo,Claymore
-Eula,2.0,0,2,1,Cryo,Claymore
-Eula,2.1,0,3,1,Cryo,Claymore
-Eula,2.2,0,4,1,Cryo,Claymore
-Eula,2.3,1,0,1,Cryo,Claymore
-Eula,2.4,0,1,1,Cryo,Claymore
-Eula,2.5,0,2,1,Cryo,Claymore
-Eula,2.6,0,3,1,Cryo,Claymore
-Eula,2.7,0,4,1,Cryo,Claymore
-Eula,2.8,0,5,1,Cryo,Claymore
-Eula,3.0,0,6,1,Cryo,Claymore
-Eula,3.1,0,7,1,Cryo,Claymore
-Eula,3.2,0,8,1,Cryo,Claymore
-Eula,3.3,0,9,1,Cryo,Claymore
-Eula,3.4,0,10,1,Cryo,Claymore
-Eula,3.5,0,11,1,Cryo,Claymore
-Eula,3.6,0,12,1,Cryo,Claymore
-Eula,3.7,0,13,1,Cryo,Claymore
-Eula,3.8,1,0,1,Cryo,Claymore
-Eula,4.0,0,1,1,Cryo,Claymore
-Eula,4.1,0,2,1,Cryo,Claymore
-Eula,4.2,0,3,1,Cryo,Claymore
-Eula,4.3,0,4,1,Cryo,Claymore
-Eula,4.4,0,5,1,Cryo,Claymore
-Eula,4.5,C,0,1,Cryo,Claymore
-Eula,4.6,0,1,1,Cryo,Claymore
-Eula,4.7,0,2,1,Cryo,Claymore
-Eula,4.8,0,3,1,Cryo,Claymore
-Eula,5.0,0,4,1,Cryo,Claymore
-Eula,5.1,0,5,1,Cryo,Claymore
-Eula,5.2,0,6,1,Cryo,Claymore
-Eula,5.3,0,7,1,Cryo,Claymore
-Eula,5.4,0,8,1,Cryo,Claymore
-Eula,5.5,0,9,1,Cryo,Claymore
-Eula,5.6,0,10,1,Cryo,Claymore
-Eula,5.7,0,11,1,Cryo,Claymore
-Eula,5.8,0,12,1,Cryo,Claymore
-Eula,Luna I,0,13,1,Cryo,Claymore
-Eula,Luna II,0,14,1,Cryo,Claymore
-Eula,Luna III,0,15,1,Cryo,Claymore
-Eula,Luna IV,0,16,1,Cryo,Claymore
-Eula,Luna V,C,0,1,Cryo,Claymore
-Kaedehara Kazuha,1.0,0,0,0,Anemo,Sword
-Kaedehara Kazuha,1.1,0,0,0,Anemo,Sword
-Kaedehara Kazuha,1.2,0,0,0,Anemo,Sword
-Kaedehara Kazuha,1.3,0,0,0,Anemo,Sword
-Kaedehara Kazuha,1.4,0,0,0,Anemo,Sword
-Kaedehara Kazuha,1.5,0,0,0,Anemo,Sword
-Kaedehara Kazuha,1.6,1,0,1,Anemo,Sword
-Kaedehara Kazuha,2.0,0,1,1,Anemo,Sword
-Kaedehara Kazuha,2.1,0,2,1,Anemo,Sword
-Kaedehara Kazuha,2.2,0,3,1,Anemo,Sword
-Kaedehara Kazuha,2.3,0,4,1,Anemo,Sword
-Kaedehara Kazuha,2.4,0,5,1,Anemo,Sword
-Kaedehara Kazuha,2.5,0,6,1,Anemo,Sword
-Kaedehara Kazuha,2.6,0,7,1,Anemo,Sword
-Kaedehara Kazuha,2.7,0,8,1,Anemo,Sword
-Kaedehara Kazuha,2.8,1,0,1,Anemo,Sword
-Kaedehara Kazuha,3.0,0,1,1,Anemo,Sword
-Kaedehara Kazuha,3.1,0,2,1,Anemo,Sword
-Kaedehara Kazuha,3.2,0,3,1,Anemo,Sword
-Kaedehara Kazuha,3.3,0,4,1,Anemo,Sword
-Kaedehara Kazuha,3.4,0,5,1,Anemo,Sword
-Kaedehara Kazuha,3.5,0,6,1,Anemo,Sword
-Kaedehara Kazuha,3.6,0,7,1,Anemo,Sword
-Kaedehara Kazuha,3.7,1,0,1,Anemo,Sword
-Kaedehara Kazuha,3.8,0,1,1,Anemo,Sword
-Kaedehara Kazuha,4.0,0,2,1,Anemo,Sword
-Kaedehara Kazuha,4.1,0,3,1,Anemo,Sword
-Kaedehara Kazuha,4.2,0,4,1,Anemo,Sword
-Kaedehara Kazuha,4.3,0,5,1,Anemo,Sword
-Kaedehara Kazuha,4.4,0,6,1,Anemo,Sword
-Kaedehara Kazuha,4.5,1,0,1,Anemo,Sword
-Kaedehara Kazuha,4.6,0,1,1,Anemo,Sword
-Kaedehara Kazuha,4.7,0,2,1,Anemo,Sword
-Kaedehara Kazuha,4.8,0,3,1,Anemo,Sword
-Kaedehara Kazuha,5.0,1,0,1,Anemo,Sword
-Kaedehara Kazuha,5.1,0,1,1,Anemo,Sword
-Kaedehara Kazuha,5.2,0,2,1,Anemo,Sword
-Kaedehara Kazuha,5.3,0,3,1,Anemo,Sword
-Kaedehara Kazuha,5.4,0,4,1,Anemo,Sword
-Kaedehara Kazuha,5.5,0,5,1,Anemo,Sword
-Kaedehara Kazuha,5.6,C,0,1,Anemo,Sword
-Kaedehara Kazuha,5.7,0,1,1,Anemo,Sword
-Kaedehara Kazuha,5.8,0,2,1,Anemo,Sword
-Kaedehara Kazuha,Luna I,0,3,1,Anemo,Sword
-Kaedehara Kazuha,Luna II,0,4,1,Anemo,Sword
-Kaedehara Kazuha,Luna III,0,5,1,Anemo,Sword
-Kaedehara Kazuha,Luna IV,0,6,1,Anemo,Sword
-Kaedehara Kazuha,Luna V,0,7,1,Anemo,Sword
-Kamisato Ayaka,1.0,0,0,0,Cryo,Sword
-Kamisato Ayaka,1.1,0,0,0,Cryo,Sword
-Kamisato Ayaka,1.2,0,0,0,Cryo,Sword
-Kamisato Ayaka,1.3,0,0,0,Cryo,Sword
-Kamisato Ayaka,1.4,0,0,0,Cryo,Sword
-Kamisato Ayaka,1.5,0,0,0,Cryo,Sword
-Kamisato Ayaka,1.6,0,0,0,Cryo,Sword
-Kamisato Ayaka,2.0,1,0,1,Cryo,Sword
-Kamisato Ayaka,2.1,0,1,1,Cryo,Sword
-Kamisato Ayaka,2.2,0,2,1,Cryo,Sword
-Kamisato Ayaka,2.3,0,3,1,Cryo,Sword
-Kamisato Ayaka,2.4,0,4,1,Cryo,Sword
-Kamisato Ayaka,2.5,0,5,1,Cryo,Sword
-Kamisato Ayaka,2.6,1,0,1,Cryo,Sword
-Kamisato Ayaka,2.7,0,1,1,Cryo,Sword
-Kamisato Ayaka,2.8,0,2,1,Cryo,Sword
-Kamisato Ayaka,3.0,0,3,1,Cryo,Sword
-Kamisato Ayaka,3.1,0,4,1,Cryo,Sword
-Kamisato Ayaka,3.2,0,5,1,Cryo,Sword
-Kamisato Ayaka,3.3,0,6,1,Cryo,Sword
-Kamisato Ayaka,3.4,0,7,1,Cryo,Sword
-Kamisato Ayaka,3.5,1,0,1,Cryo,Sword
-Kamisato Ayaka,3.6,0,1,1,Cryo,Sword
-Kamisato Ayaka,3.7,0,2,1,Cryo,Sword
-Kamisato Ayaka,3.8,0,3,1,Cryo,Sword
-Kamisato Ayaka,4.0,0,4,1,Cryo,Sword
-Kamisato Ayaka,4.1,0,5,1,Cryo,Sword
-Kamisato Ayaka,4.2,0,6,1,Cryo,Sword
-Kamisato Ayaka,4.3,1,0,1,Cryo,Sword
-Kamisato Ayaka,4.4,0,1,1,Cryo,Sword
-Kamisato Ayaka,4.5,0,2,1,Cryo,Sword
-Kamisato Ayaka,4.6,0,3,1,Cryo,Sword
-Kamisato Ayaka,4.7,0,4,1,Cryo,Sword
-Kamisato Ayaka,4.8,0,5,1,Cryo,Sword
-Kamisato Ayaka,5.0,0,6,1,Cryo,Sword
-Kamisato Ayaka,5.1,0,7,1,Cryo,Sword
-Kamisato Ayaka,5.2,0,8,1,Cryo,Sword
-Kamisato Ayaka,5.3,0,9,1,Cryo,Sword
-Kamisato Ayaka,5.4,0,10,1,Cryo,Sword
-Kamisato Ayaka,5.5,0,11,1,Cryo,Sword
-Kamisato Ayaka,5.6,C,0,1,Cryo,Sword
-Kamisato Ayaka,5.7,0,1,1,Cryo,Sword
-Kamisato Ayaka,5.8,0,2,1,Cryo,Sword
-Kamisato Ayaka,Luna I,0,3,1,Cryo,Sword
-Kamisato Ayaka,Luna II,0,4,1,Cryo,Sword
-Kamisato Ayaka,Luna III,0,5,1,Cryo,Sword
-Kamisato Ayaka,Luna IV,0,6,1,Cryo,Sword
-Kamisato Ayaka,Luna V,0,7,1,Cryo,Sword
-Yoimiya,1.0,0,0,0,Pyro,Bow
-Yoimiya,1.1,0,0,0,Pyro,Bow
-Yoimiya,1.2,0,0,0,Pyro,Bow
-Yoimiya,1.3,0,0,0,Pyro,Bow
-Yoimiya,1.4,0,0,0,Pyro,Bow
-Yoimiya,1.5,0,0,0,Pyro,Bow
-Yoimiya,1.6,0,0,0,Pyro,Bow
-Yoimiya,2.0,1,0,1,Pyro,Bow
-Yoimiya,2.1,0,1,1,Pyro,Bow
-Yoimiya,2.2,0,2,1,Pyro,Bow
-Yoimiya,2.3,0,3,1,Pyro,Bow
-Yoimiya,2.4,0,4,1,Pyro,Bow
-Yoimiya,2.5,0,5,1,Pyro,Bow
-Yoimiya,2.6,0,6,1,Pyro,Bow
-Yoimiya,2.7,0,7,1,Pyro,Bow
-Yoimiya,2.8,1,0,1,Pyro,Bow
-Yoimiya,3.0,0,1,1,Pyro,Bow
-Yoimiya,3.1,0,2,1,Pyro,Bow
-Yoimiya,3.2,1,0,1,Pyro,Bow
-Yoimiya,3.3,0,1,1,Pyro,Bow
-Yoimiya,3.4,0,2,1,Pyro,Bow
-Yoimiya,3.5,0,3,1,Pyro,Bow
-Yoimiya,3.6,0,4,1,Pyro,Bow
-Yoimiya,3.7,1,0,1,Pyro,Bow
-Yoimiya,3.8,0,1,1,Pyro,Bow
-Yoimiya,4.0,0,2,1,Pyro,Bow
-Yoimiya,4.1,0,3,1,Pyro,Bow
-Yoimiya,4.2,0,4,1,Pyro,Bow
-Yoimiya,4.3,1,0,1,Pyro,Bow
-Yoimiya,4.4,0,1,1,Pyro,Bow
-Yoimiya,4.5,0,2,1,Pyro,Bow
-Yoimiya,4.6,0,3,1,Pyro,Bow
-Yoimiya,4.7,0,4,1,Pyro,Bow
-Yoimiya,4.8,0,5,1,Pyro,Bow
-Yoimiya,5.0,0,6,1,Pyro,Bow
-Yoimiya,5.1,0,7,1,Pyro,Bow
-Yoimiya,5.2,0,8,1,Pyro,Bow
-Yoimiya,5.3,0,9,1,Pyro,Bow
-Yoimiya,5.4,0,10,1,Pyro,Bow
-Yoimiya,5.5,0,11,1,Pyro,Bow
-Yoimiya,5.6,C,0,1,Pyro,Bow
-Yoimiya,5.7,0,1,1,Pyro,Bow
-Yoimiya,5.8,0,2,1,Pyro,Bow
-Yoimiya,Luna I,0,3,1,Pyro,Bow
-Yoimiya,Luna II,0,4,1,Pyro,Bow
-Yoimiya,Luna III,0,5,1,Pyro,Bow
-Yoimiya,Luna IV,0,6,1,Pyro,Bow
-Yoimiya,Luna V,0,7,1,Pyro,Bow
-Raiden Shogun,1.0,0,0,0,Electro,Polearm
-Raiden Shogun,1.1,0,0,0,Electro,Polearm
-Raiden Shogun,1.2,0,0,0,Electro,Polearm
-Raiden Shogun,1.3,0,0,0,Electro,Polearm
-Raiden Shogun,1.4,0,0,0,Electro,Polearm
-Raiden Shogun,1.5,0,0,0,Electro,Polearm
-Raiden Shogun,1.6,0,0,0,Electro,Polearm
-Raiden Shogun,2.0,0,0,0,Electro,Polearm
-Raiden Shogun,2.1,1,0,1,Electro,Polearm
-Raiden Shogun,2.2,0,1,1,Electro,Polearm
-Raiden Shogun,2.3,0,2,1,Electro,Polearm
-Raiden Shogun,2.4,0,3,1,Electro,Polearm
-Raiden Shogun,2.5,1,0,1,Electro,Polearm
-Raiden Shogun,2.6,0,1,1,Electro,Polearm
-Raiden Shogun,2.7,0,2,1,Electro,Polearm
-Raiden Shogun,2.8,0,3,1,Electro,Polearm
-Raiden Shogun,3.0,0,4,1,Electro,Polearm
-Raiden Shogun,3.1,0,5,1,Electro,Polearm
-Raiden Shogun,3.2,0,6,1,Electro,Polearm
-Raiden Shogun,3.3,1,0,1,Electro,Polearm
-Raiden Shogun,3.4,0,1,1,Electro,Polearm
-Raiden Shogun,3.5,0,2,1,Electro,Polearm
-Raiden Shogun,3.6,0,3,1,Electro,Polearm
-Raiden Shogun,3.7,0,4,1,Electro,Polearm
-Raiden Shogun,3.8,0,5,1,Electro,Polearm
-Raiden Shogun,4.0,0,6,1,Electro,Polearm
-Raiden Shogun,4.1,0,7,1,Electro,Polearm
-Raiden Shogun,4.2,0,8,1,Electro,Polearm
-Raiden Shogun,4.3,1,0,1,Electro,Polearm
-Raiden Shogun,4.4,0,1,1,Electro,Polearm
-Raiden Shogun,4.5,0,2,1,Electro,Polearm
-Raiden Shogun,4.6,0,3,1,Electro,Polearm
-Raiden Shogun,4.7,0,4,1,Electro,Polearm
-Raiden Shogun,4.8,0,5,1,Electro,Polearm
-Raiden Shogun,5.0,1,0,1,Electro,Polearm
-Raiden Shogun,5.1,0,1,1,Electro,Polearm
-Raiden Shogun,5.2,0,2,1,Electro,Polearm
-Raiden Shogun,5.3,0,3,1,Electro,Polearm
-Raiden Shogun,5.4,0,4,1,Electro,Polearm
-Raiden Shogun,5.5,0,5,1,Electro,Polearm
-Raiden Shogun,5.6,1,0,1,Electro,Polearm
-Raiden Shogun,5.7,0,1,1,Electro,Polearm
-Raiden Shogun,5.8,0,2,1,Electro,Polearm
-Raiden Shogun,Luna I,0,3,1,Electro,Polearm
-Raiden Shogun,Luna II,0,4,1,Electro,Polearm
-Raiden Shogun,Luna III,0,5,1,Electro,Polearm
-Raiden Shogun,Luna IV,0,6,1,Electro,Polearm
-Raiden Shogun,Luna V,0,7,1,Electro,Polearm
-Sangonomiya Kokomi,1.0,0,0,0,Hydro,Catalyst
-Sangonomiya Kokomi,1.1,0,0,0,Hydro,Catalyst
-Sangonomiya Kokomi,1.2,0,0,0,Hydro,Catalyst
-Sangonomiya Kokomi,1.3,0,0,0,Hydro,Catalyst
-Sangonomiya Kokomi,1.4,0,0,0,Hydro,Catalyst
-Sangonomiya Kokomi,1.5,0,0,0,Hydro,Catalyst
-Sangonomiya Kokomi,1.6,0,0,0,Hydro,Catalyst
-Sangonomiya Kokomi,2.0,0,0,0,Hydro,Catalyst
-Sangonomiya Kokomi,2.1,1,0,1,Hydro,Catalyst
-Sangonomiya Kokomi,2.2,0,1,1,Hydro,Catalyst
-Sangonomiya Kokomi,2.3,0,2,1,Hydro,Catalyst
-Sangonomiya Kokomi,2.4,0,3,1,Hydro,Catalyst
-Sangonomiya Kokomi,2.5,1,0,1,Hydro,Catalyst
-Sangonomiya Kokomi,2.6,0,1,1,Hydro,Catalyst
-Sangonomiya Kokomi,2.7,0,2,1,Hydro,Catalyst
-Sangonomiya Kokomi,2.8,0,3,1,Hydro,Catalyst
-Sangonomiya Kokomi,3.0,1,0,1,Hydro,Catalyst
-Sangonomiya Kokomi,3.1,0,1,1,Hydro,Catalyst
-Sangonomiya Kokomi,3.2,0,2,1,Hydro,Catalyst
-Sangonomiya Kokomi,3.3,0,3,1,Hydro,Catalyst
-Sangonomiya Kokomi,3.4,0,4,1,Hydro,Catalyst
-Sangonomiya Kokomi,3.5,0,5,1,Hydro,Catalyst
-Sangonomiya Kokomi,3.6,0,6,1,Hydro,Catalyst
-Sangonomiya Kokomi,3.7,0,7,1,Hydro,Catalyst
-Sangonomiya Kokomi,3.8,1,0,1,Hydro,Catalyst
-Sangonomiya Kokomi,4.0,0,1,1,Hydro,Catalyst
-Sangonomiya Kokomi,4.1,0,2,1,Hydro,Catalyst
-Sangonomiya Kokomi,4.2,0,3,1,Hydro,Catalyst
-Sangonomiya Kokomi,4.3,0,4,1,Hydro,Catalyst
-Sangonomiya Kokomi,4.4,0,5,1,Hydro,Catalyst
-Sangonomiya Kokomi,4.5,0,6,1,Hydro,Catalyst
-Sangonomiya Kokomi,4.6,0,7,1,Hydro,Catalyst
-Sangonomiya Kokomi,4.7,0,8,1,Hydro,Catalyst
-Sangonomiya Kokomi,4.8,0,9,1,Hydro,Catalyst
-Sangonomiya Kokomi,5.0,0,10,1,Hydro,Catalyst
-Sangonomiya Kokomi,5.1,0,11,1,Hydro,Catalyst
-Sangonomiya Kokomi,5.2,0,12,1,Hydro,Catalyst
-Sangonomiya Kokomi,5.3,0,13,1,Hydro,Catalyst
-Sangonomiya Kokomi,5.4,0,14,1,Hydro,Catalyst
-Sangonomiya Kokomi,5.5,0,15,1,Hydro,Catalyst
-Sangonomiya Kokomi,5.6,C,0,1,Hydro,Catalyst
-Sangonomiya Kokomi,5.7,0,1,1,Hydro,Catalyst
-Sangonomiya Kokomi,5.8,0,2,1,Hydro,Catalyst
-Sangonomiya Kokomi,Luna I,0,3,1,Hydro,Catalyst
-Sangonomiya Kokomi,Luna II,0,4,1,Hydro,Catalyst
-Sangonomiya Kokomi,Luna III,0,5,1,Hydro,Catalyst
-Sangonomiya Kokomi,Luna IV,0,6,1,Hydro,Catalyst
-Sangonomiya Kokomi,Luna V,0,7,1,Hydro,Catalyst
-Arataki Itto,1.0,0,0,0,Geo,Claymore
-Arataki Itto,1.1,0,0,0,Geo,Claymore
-Arataki Itto,1.2,0,0,0,Geo,Claymore
-Arataki Itto,1.3,0,0,0,Geo,Claymore
-Arataki Itto,1.4,0,0,0,Geo,Claymore
-Arataki Itto,1.5,0,0,0,Geo,Claymore
-Arataki Itto,1.6,0,0,0,Geo,Claymore
-Arataki Itto,2.0,0,0,0,Geo,Claymore
-Arataki Itto,2.1,0,0,0,Geo,Claymore
-Arataki Itto,2.2,0,0,0,Geo,Claymore
-Arataki Itto,2.3,1,0,1,Geo,Claymore
-Arataki Itto,2.4,0,1,1,Geo,Claymore
-Arataki Itto,2.5,0,2,1,Geo,Claymore
-Arataki Itto,2.6,0,3,1,Geo,Claymore
-Arataki Itto,2.7,1,0,1,Geo,Claymore
-Arataki Itto,2.8,0,1,1,Geo,Claymore
-Arataki Itto,3.0,0,2,1,Geo,Claymore
-Arataki Itto,3.1,0,3,1,Geo,Claymore
-Arataki Itto,3.2,0,4,1,Geo,Claymore
-Arataki Itto,3.3,1,0,1,Geo,Claymore
-Arataki Itto,3.4,0,1,1,Geo,Claymore
-Arataki Itto,3.5,0,2,1,Geo,Claymore
-Arataki Itto,3.6,0,3,1,Geo,Claymore
-Arataki Itto,3.7,0,4,1,Geo,Claymore
-Arataki Itto,3.8,0,5,1,Geo,Claymore
-Arataki Itto,4.0,0,6,1,Geo,Claymore
-Arataki Itto,4.1,0,7,1,Geo,Claymore
-Arataki Itto,4.2,0,8,1,Geo,Claymore
-Arataki Itto,4.3,0,9,1,Geo,Claymore
-Arataki Itto,4.4,0,10,1,Geo,Claymore
-Arataki Itto,4.5,1,0,1,Geo,Claymore
-Arataki Itto,4.6,0,1,1,Geo,Claymore
-Arataki Itto,4.7,0,2,1,Geo,Claymore
-Arataki Itto,4.8,0,3,1,Geo,Claymore
-Arataki Itto,5.0,0,4,1,Geo,Claymore
-Arataki Itto,5.1,0,5,1,Geo,Claymore
-Arataki Itto,5.2,0,6,1,Geo,Claymore
-Arataki Itto,5.3,0,7,1,Geo,Claymore
-Arataki Itto,5.4,0,8,1,Geo,Claymore
-Arataki Itto,5.5,0,9,1,Geo,Claymore
-Arataki Itto,5.6,C,0,1,Geo,Claymore
-Arataki Itto,5.7,0,1,1,Geo,Claymore
-Arataki Itto,5.8,0,2,1,Geo,Claymore
-Arataki Itto,Luna I,0,3,1,Geo,Claymore
-Arataki Itto,Luna II,0,4,1,Geo,Claymore
-Arataki Itto,Luna III,0,5,1,Geo,Claymore
-Arataki Itto,Luna IV,0,6,1,Geo,Claymore
-Arataki Itto,Luna V,0,7,1,Geo,Claymore
-Shenhe,1.0,0,0,0,Cryo,Polearm
-Shenhe,1.1,0,0,0,Cryo,Polearm
-Shenhe,1.2,0,0,0,Cryo,Polearm
-Shenhe,1.3,0,0,0,Cryo,Polearm
-Shenhe,1.4,0,0,0,Cryo,Polearm
-Shenhe,1.5,0,0,0,Cryo,Polearm
-Shenhe,1.6,0,0,0,Cryo,Polearm
-Shenhe,2.0,0,0,0,Cryo,Polearm
-Shenhe,2.1,0,0,0,Cryo,Polearm
-Shenhe,2.2,0,0,0,Cryo,Polearm
-Shenhe,2.3,0,0,0,Cryo,Polearm
-Shenhe,2.4,1,0,1,Cryo,Polearm
-Shenhe,2.5,0,1,1,Cryo,Polearm
-Shenhe,2.6,0,2,1,Cryo,Polearm
-Shenhe,2.7,0,3,1,Cryo,Polearm
-Shenhe,2.8,0,4,1,Cryo,Polearm
-Shenhe,3.0,0,5,1,Cryo,Polearm
-Shenhe,3.1,0,6,1,Cryo,Polearm
-Shenhe,3.2,0,7,1,Cryo,Polearm
-Shenhe,3.3,0,8,1,Cryo,Polearm
-Shenhe,3.4,0,9,1,Cryo,Polearm
-Shenhe,3.5,1,0,1,Cryo,Polearm
-Shenhe,3.6,0,1,1,Cryo,Polearm
-Shenhe,3.7,0,2,1,Cryo,Polearm
-Shenhe,3.8,0,3,1,Cryo,Polearm
-Shenhe,4.0,0,4,1,Cryo,Polearm
-Shenhe,4.1,0,5,1,Cryo,Polearm
-Shenhe,4.2,0,6,1,Cryo,Polearm
-Shenhe,4.3,0,7,1,Cryo,Polearm
-Shenhe,4.4,0,8,1,Cryo,Polearm
-Shenhe,4.5,0,9,1,Cryo,Polearm
-Shenhe,4.6,0,10,1,Cryo,Polearm
-Shenhe,4.7,0,11,1,Cryo,Polearm
-Shenhe,4.8,0,12,1,Cryo,Polearm
-Shenhe,5.0,0,13,1,Cryo,Polearm
-Shenhe,5.1,0,14,1,Cryo,Polearm
-Shenhe,5.2,0,15,1,Cryo,Polearm
-Shenhe,5.3,C,0,1,Cryo,Polearm
-Shenhe,5.4,0,1,1,Cryo,Polearm
-Shenhe,5.5,0,2,1,Cryo,Polearm
-Shenhe,5.6,0,3,1,Cryo,Polearm
-Shenhe,5.7,1,0,1,Cryo,Polearm
-Shenhe,5.8,0,1,1,Cryo,Polearm
-Shenhe,Luna I,0,2,1,Cryo,Polearm
-Shenhe,Luna II,0,3,1,Cryo,Polearm
-Shenhe,Luna III,0,4,1,Cryo,Polearm
-Shenhe,Luna IV,0,5,1,Cryo,Polearm
-Shenhe,Luna V,0,6,1,Cryo,Polearm
-Yae Miko,1.0,0,0,0,Electro,Catalyst
-Yae Miko,1.1,0,0,0,Electro,Catalyst
-Yae Miko,1.2,0,0,0,Electro,Catalyst
-Yae Miko,1.3,0,0,0,Electro,Catalyst
-Yae Miko,1.4,0,0,0,Electro,Catalyst
-Yae Miko,1.5,0,0,0,Electro,Catalyst
-Yae Miko,1.6,0,0,0,Electro,Catalyst
-Yae Miko,2.0,0,0,0,Electro,Catalyst
-Yae Miko,2.1,0,0,0,Electro,Catalyst
-Yae Miko,2.2,0,0,0,Electro,Catalyst
-Yae Miko,2.3,0,0,0,Electro,Catalyst
-Yae Miko,2.4,0,0,0,Electro,Catalyst
-Yae Miko,2.5,1,0,1,Electro,Catalyst
-Yae Miko,2.6,0,1,1,Electro,Catalyst
-Yae Miko,2.7,0,2,1,Electro,Catalyst
-Yae Miko,2.8,0,3,1,Electro,Catalyst
-Yae Miko,3.0,0,4,1,Electro,Catalyst
-Yae Miko,3.1,0,5,1,Electro,Catalyst
-Yae Miko,3.2,1,0,1,Electro,Catalyst
-Yae Miko,3.3,0,1,1,Electro,Catalyst
-Yae Miko,3.4,0,2,1,Electro,Catalyst
-Yae Miko,3.5,0,3,1,Electro,Catalyst
-Yae Miko,3.6,0,4,1,Electro,Catalyst
-Yae Miko,3.7,1,0,1,Electro,Catalyst
-Yae Miko,3.8,0,1,1,Electro,Catalyst
-Yae Miko,4.0,0,2,1,Electro,Catalyst
-Yae Miko,4.1,0,3,1,Electro,Catalyst
-Yae Miko,4.2,0,4,1,Electro,Catalyst
-Yae Miko,4.3,0,5,1,Electro,Catalyst
-Yae Miko,4.4,1,0,1,Electro,Catalyst
-Yae Miko,4.5,0,1,1,Electro,Catalyst
-Yae Miko,4.6,0,2,1,Electro,Catalyst
-Yae Miko,4.7,0,3,1,Electro,Catalyst
-Yae Miko,4.8,0,4,1,Electro,Catalyst
-Yae Miko,5.0,0,5,1,Electro,Catalyst
-Yae Miko,5.1,0,6,1,Electro,Catalyst
-Yae Miko,5.2,0,7,1,Electro,Catalyst
-Yae Miko,5.3,0,8,1,Electro,Catalyst
-Yae Miko,5.4,0,9,1,Electro,Catalyst
-Yae Miko,5.5,0,10,1,Electro,Catalyst
-Yae Miko,5.6,C,0,1,Electro,Catalyst
-Yae Miko,5.7,0,1,1,Electro,Catalyst
-Yae Miko,5.8,0,2,1,Electro,Catalyst
-Yae Miko,Luna I,0,3,1,Electro,Catalyst
-Yae Miko,Luna II,0,4,1,Electro,Catalyst
-Yae Miko,Luna III,0,5,1,Electro,Catalyst
-Yae Miko,Luna IV,0,6,1,Electro,Catalyst
-Yae Miko,Luna V,0,7,1,Electro,Catalyst
-Kamisato Ayato,1.0,0,0,0,Hydro,Sword
-Kamisato Ayato,1.1,0,0,0,Hydro,Sword
-Kamisato Ayato,1.2,0,0,0,Hydro,Sword
-Kamisato Ayato,1.3,0,0,0,Hydro,Sword
-Kamisato Ayato,1.4,0,0,0,Hydro,Sword
-Kamisato Ayato,1.5,0,0,0,Hydro,Sword
-Kamisato Ayato,1.6,0,0,0,Hydro,Sword
-Kamisato Ayato,2.0,0,0,0,Hydro,Sword
-Kamisato Ayato,2.1,0,0,0,Hydro,Sword
-Kamisato Ayato,2.2,0,0,0,Hydro,Sword
-Kamisato Ayato,2.3,0,0,0,Hydro,Sword
-Kamisato Ayato,2.4,0,0,0,Hydro,Sword
-Kamisato Ayato,2.5,0,0,0,Hydro,Sword
-Kamisato Ayato,2.6,1,0,1,Hydro,Sword
-Kamisato Ayato,2.7,0,1,1,Hydro,Sword
-Kamisato Ayato,2.8,0,2,1,Hydro,Sword
-Kamisato Ayato,3.0,0,3,1,Hydro,Sword
-Kamisato Ayato,3.1,0,4,1,Hydro,Sword
-Kamisato Ayato,3.2,0,5,1,Hydro,Sword
-Kamisato Ayato,3.3,1,0,1,Hydro,Sword
-Kamisato Ayato,3.4,0,1,1,Hydro,Sword
-Kamisato Ayato,3.5,0,2,1,Hydro,Sword
-Kamisato Ayato,3.6,0,3,1,Hydro,Sword
-Kamisato Ayato,3.7,0,4,1,Hydro,Sword
-Kamisato Ayato,3.8,0,5,1,Hydro,Sword
-Kamisato Ayato,4.0,0,6,1,Hydro,Sword
-Kamisato Ayato,4.1,0,7,1,Hydro,Sword
-Kamisato Ayato,4.2,1,0,1,Hydro,Sword
-Kamisato Ayato,4.3,0,1,1,Hydro,Sword
-Kamisato Ayato,4.4,0,2,1,Hydro,Sword
-Kamisato Ayato,4.5,0,3,1,Hydro,Sword
-Kamisato Ayato,4.6,0,4,1,Hydro,Sword
-Kamisato Ayato,4.7,0,5,1,Hydro,Sword
-Kamisato Ayato,4.8,0,6,1,Hydro,Sword
-Kamisato Ayato,5.0,0,7,1,Hydro,Sword
-Kamisato Ayato,5.1,0,8,1,Hydro,Sword
-Kamisato Ayato,5.2,0,9,1,Hydro,Sword
-Kamisato Ayato,5.3,0,10,1,Hydro,Sword
-Kamisato Ayato,5.4,0,11,1,Hydro,Sword
-Kamisato Ayato,5.5,0,12,1,Hydro,Sword
-Kamisato Ayato,5.6,C,0,1,Hydro,Sword
-Kamisato Ayato,5.7,0,1,1,Hydro,Sword
-Kamisato Ayato,5.8,0,2,1,Hydro,Sword
-Kamisato Ayato,Luna I,0,3,1,Hydro,Sword
-Kamisato Ayato,Luna II,0,4,1,Hydro,Sword
-Kamisato Ayato,Luna III,0,5,1,Hydro,Sword
-Kamisato Ayato,Luna IV,0,6,1,Hydro,Sword
-Kamisato Ayato,Luna V,0,7,1,Hydro,Sword
-Yelan,1.0,0,0,0,Hydro,Bow
-Yelan,1.1,0,0,0,Hydro,Bow
-Yelan,1.2,0,0,0,Hydro,Bow
-Yelan,1.3,0,0,0,Hydro,Bow
-Yelan,1.4,0,0,0,Hydro,Bow
-Yelan,1.5,0,0,0,Hydro,Bow
-Yelan,1.6,0,0,0,Hydro,Bow
-Yelan,2.0,0,0,0,Hydro,Bow
-Yelan,2.1,0,0,0,Hydro,Bow
-Yelan,2.2,0,0,0,Hydro,Bow
-Yelan,2.3,0,0,0,Hydro,Bow
-Yelan,2.4,0,0,0,Hydro,Bow
-Yelan,2.5,0,0,0,Hydro,Bow
-Yelan,2.6,0,0,0,Hydro,Bow
-Yelan,2.7,1,0,1,Hydro,Bow
-Yelan,2.8,0,1,1,Hydro,Bow
-Yelan,3.0,0,2,1,Hydro,Bow
-Yelan,3.1,0,3,1,Hydro,Bow
-Yelan,3.2,0,4,1,Hydro,Bow
-Yelan,3.3,0,5,1,Hydro,Bow
-Yelan,3.4,1,0,1,Hydro,Bow
-Yelan,3.5,0,1,1,Hydro,Bow
-Yelan,3.6,0,2,1,Hydro,Bow
-Yelan,3.7,0,3,1,Hydro,Bow
-Yelan,3.8,0,4,1,Hydro,Bow
-Yelan,4.0,1,0,1,Hydro,Bow
-Yelan,4.1,0,1,1,Hydro,Bow
-Yelan,4.2,0,2,1,Hydro,Bow
-Yelan,4.3,0,3,1,Hydro,Bow
-Yelan,4.4,0,4,1,Hydro,Bow
-Yelan,4.5,0,5,1,Hydro,Bow
-Yelan,4.6,0,6,1,Hydro,Bow
-Yelan,4.7,0,7,1,Hydro,Bow
-Yelan,4.8,1,0,1,Hydro,Bow
-Yelan,5.0,0,1,1,Hydro,Bow
-Yelan,5.1,0,2,1,Hydro,Bow
-Yelan,5.2,0,3,1,Hydro,Bow
-Yelan,5.3,0,4,1,Hydro,Bow
-Yelan,5.4,0,5,1,Hydro,Bow
-Yelan,5.5,0,6,1,Hydro,Bow
-Yelan,5.6,0,7,1,Hydro,Bow
-Yelan,5.7,0,8,1,Hydro,Bow
-Yelan,5.8,0,9,1,Hydro,Bow
-Yelan,Luna I,1,0,1,Hydro,Bow
-Yelan,Luna II,0,1,1,Hydro,Bow
-Yelan,Luna III,0,2,1,Hydro,Bow
-Yelan,Luna IV,0,3,1,Hydro,Bow
-Yelan,Luna V,0,4,1,Hydro,Bow
-Cyno,1.0,0,0,0,Electro,Polearm
-Cyno,1.1,0,0,0,Electro,Polearm
-Cyno,1.2,0,0,0,Electro,Polearm
-Cyno,1.3,0,0,0,Electro,Polearm
-Cyno,1.4,0,0,0,Electro,Polearm
-Cyno,1.5,0,0,0,Electro,Polearm
-Cyno,1.6,0,0,0,Electro,Polearm
-Cyno,2.0,0,0,0,Electro,Polearm
-Cyno,2.1,0,0,0,Electro,Polearm
-Cyno,2.2,0,0,0,Electro,Polearm
-Cyno,2.3,0,0,0,Electro,Polearm
-Cyno,2.4,0,0,0,Electro,Polearm
-Cyno,2.5,0,0,0,Electro,Polearm
-Cyno,2.6,0,0,0,Electro,Polearm
-Cyno,2.7,0,0,0,Electro,Polearm
-Cyno,2.8,0,0,0,Electro,Polearm
-Cyno,3.0,0,0,0,Electro,Polearm
-Cyno,3.1,1,0,1,Electro,Polearm
-Cyno,3.2,0,1,1,Electro,Polearm
-Cyno,3.3,0,2,1,Electro,Polearm
-Cyno,3.4,0,3,1,Electro,Polearm
-Cyno,3.5,1,0,1,Electro,Polearm
-Cyno,3.6,0,1,1,Electro,Polearm
-Cyno,3.7,0,2,1,Electro,Polearm
-Cyno,3.8,0,3,1,Electro,Polearm
-Cyno,4.0,0,4,1,Electro,Polearm
-Cyno,4.1,0,5,1,Electro,Polearm
-Cyno,4.2,1,0,1,Electro,Polearm
-Cyno,4.3,0,1,1,Electro,Polearm
-Cyno,4.4,0,2,1,Electro,Polearm
-Cyno,4.5,0,3,1,Electro,Polearm
-Cyno,4.6,0,4,1,Electro,Polearm
-Cyno,4.7,0,5,1,Electro,Polearm
-Cyno,4.8,0,6,1,Electro,Polearm
-Cyno,5.0,0,7,1,Electro,Polearm
-Cyno,5.1,0,8,1,Electro,Polearm
-Cyno,5.2,0,9,1,Electro,Polearm
-Cyno,5.3,0,10,1,Electro,Polearm
-Cyno,5.4,0,11,1,Electro,Polearm
-Cyno,5.5,0,12,1,Electro,Polearm
-Cyno,5.6,0,13,1,Electro,Polearm
-Cyno,5.7,0,14,1,Electro,Polearm
-Cyno,5.8,0,15,1,Electro,Polearm
-Cyno,Luna I,C,0,1,Electro,Polearm
-Cyno,Luna II,0,1,1,Electro,Polearm
-Cyno,Luna III,0,2,1,Electro,Polearm
-Cyno,Luna IV,0,3,1,Electro,Polearm
-Cyno,Luna V,0,4,1,Electro,Polearm
-Nilou,1.0,0,0,0,Hydro,Sword
-Nilou,1.1,0,0,0,Hydro,Sword
-Nilou,1.2,0,0,0,Hydro,Sword
-Nilou,1.3,0,0,0,Hydro,Sword
-Nilou,1.4,0,0,0,Hydro,Sword
-Nilou,1.5,0,0,0,Hydro,Sword
-Nilou,1.6,0,0,0,Hydro,Sword
-Nilou,2.0,0,0,0,Hydro,Sword
-Nilou,2.1,0,0,0,Hydro,Sword
-Nilou,2.2,0,0,0,Hydro,Sword
-Nilou,2.3,0,0,0,Hydro,Sword
-Nilou,2.4,0,0,0,Hydro,Sword
-Nilou,2.5,0,0,0,Hydro,Sword
-Nilou,2.6,0,0,0,Hydro,Sword
-Nilou,2.7,0,0,0,Hydro,Sword
-Nilou,2.8,0,0,0,Hydro,Sword
-Nilou,3.0,0,0,0,Hydro,Sword
-Nilou,3.1,1,0,1,Hydro,Sword
-Nilou,3.2,0,1,1,Hydro,Sword
-Nilou,3.3,0,2,1,Hydro,Sword
-Nilou,3.4,0,3,1,Hydro,Sword
-Nilou,3.5,0,4,1,Hydro,Sword
-Nilou,3.6,1,0,1,Hydro,Sword
-Nilou,3.7,0,1,1,Hydro,Sword
-Nilou,3.8,0,2,1,Hydro,Sword
-Nilou,4.0,0,3,1,Hydro,Sword
-Nilou,4.1,0,4,1,Hydro,Sword
-Nilou,4.2,0,5,1,Hydro,Sword
-Nilou,4.3,0,6,1,Hydro,Sword
-Nilou,4.4,0,7,1,Hydro,Sword
-Nilou,4.5,0,8,1,Hydro,Sword
-Nilou,4.6,0,9,1,Hydro,Sword
-Nilou,4.7,0,10,1,Hydro,Sword
-Nilou,4.8,1,0,1,Hydro,Sword
-Nilou,5.0,0,1,1,Hydro,Sword
-Nilou,5.1,0,2,1,Hydro,Sword
-Nilou,5.2,0,3,1,Hydro,Sword
-Nilou,5.3,0,4,1,Hydro,Sword
-Nilou,5.4,0,5,1,Hydro,Sword
-Nilou,5.5,0,6,1,Hydro,Sword
-Nilou,5.6,0,7,1,Hydro,Sword
-Nilou,5.7,0,8,1,Hydro,Sword
-Nilou,5.8,0,9,1,Hydro,Sword
-Nilou,Luna I,C,0,1,Hydro,Sword
-Nilou,Luna II,0,1,1,Hydro,Sword
-Nilou,Luna III,0,2,1,Hydro,Sword
-Nilou,Luna IV,0,3,1,Hydro,Sword
-Nilou,Luna V,0,4,1,Hydro,Sword
-Nahida,1.0,0,0,0,Dendro,Catalyst
-Nahida,1.1,0,0,0,Dendro,Catalyst
-Nahida,1.2,0,0,0,Dendro,Catalyst
-Nahida,1.3,0,0,0,Dendro,Catalyst
-Nahida,1.4,0,0,0,Dendro,Catalyst
-Nahida,1.5,0,0,0,Dendro,Catalyst
-Nahida,1.6,0,0,0,Dendro,Catalyst
-Nahida,2.0,0,0,0,Dendro,Catalyst
-Nahida,2.1,0,0,0,Dendro,Catalyst
-Nahida,2.2,0,0,0,Dendro,Catalyst
-Nahida,2.3,0,0,0,Dendro,Catalyst
-Nahida,2.4,0,0,0,Dendro,Catalyst
-Nahida,2.5,0,0,0,Dendro,Catalyst
-Nahida,2.6,0,0,0,Dendro,Catalyst
-Nahida,2.7,0,0,0,Dendro,Catalyst
-Nahida,2.8,0,0,0,Dendro,Catalyst
-Nahida,3.0,0,0,0,Dendro,Catalyst
-Nahida,3.1,0,0,0,Dendro,Catalyst
-Nahida,3.2,1,0,1,Dendro,Catalyst
-Nahida,3.3,0,1,1,Dendro,Catalyst
-Nahida,3.4,0,2,1,Dendro,Catalyst
-Nahida,3.5,0,3,1,Dendro,Catalyst
-Nahida,3.6,1,0,1,Dendro,Catalyst
-Nahida,3.7,0,1,1,Dendro,Catalyst
-Nahida,3.8,0,2,1,Dendro,Catalyst
-Nahida,4.0,0,3,1,Dendro,Catalyst
-Nahida,4.1,0,4,1,Dendro,Catalyst
-Nahida,4.2,0,5,1,Dendro,Catalyst
-Nahida,4.3,0,6,1,Dendro,Catalyst
-Nahida,4.4,1,0,1,Dendro,Catalyst
-Nahida,4.5,0,1,1,Dendro,Catalyst
-Nahida,4.6,0,2,1,Dendro,Catalyst
-Nahida,4.7,0,3,1,Dendro,Catalyst
-Nahida,4.8,0,4,1,Dendro,Catalyst
-Nahida,5.0,0,5,1,Dendro,Catalyst
-Nahida,5.1,1,0,1,Dendro,Catalyst
-Nahida,5.2,0,1,1,Dendro,Catalyst
-Nahida,5.3,0,2,1,Dendro,Catalyst
-Nahida,5.4,0,3,1,Dendro,Catalyst
-Nahida,5.5,0,4,1,Dendro,Catalyst
-Nahida,5.6,0,5,1,Dendro,Catalyst
-Nahida,5.7,0,6,1,Dendro,Catalyst
-Nahida,5.8,0,7,1,Dendro,Catalyst
-Nahida,Luna I,1,0,1,Dendro,Catalyst
-Nahida,Luna II,0,1,1,Dendro,Catalyst
-Nahida,Luna III,0,2,1,Dendro,Catalyst
-Nahida,Luna IV,0,3,1,Dendro,Catalyst
-Nahida,Luna V,0,4,1,Dendro,Catalyst
-Wanderer,1.0,0,0,0,Anemo,Catalyst
-Wanderer,1.1,0,0,0,Anemo,Catalyst
-Wanderer,1.2,0,0,0,Anemo,Catalyst
-Wanderer,1.3,0,0,0,Anemo,Catalyst
-Wanderer,1.4,0,0,0,Anemo,Catalyst
-Wanderer,1.5,0,0,0,Anemo,Catalyst
-Wanderer,1.6,0,0,0,Anemo,Catalyst
-Wanderer,2.0,0,0,0,Anemo,Catalyst
-Wanderer,2.1,0,0,0,Anemo,Catalyst
-Wanderer,2.2,0,0,0,Anemo,Catalyst
-Wanderer,2.3,0,0,0,Anemo,Catalyst
-Wanderer,2.4,0,0,0,Anemo,Catalyst
-Wanderer,2.5,0,0,0,Anemo,Catalyst
-Wanderer,2.6,0,0,0,Anemo,Catalyst
-Wanderer,2.7,0,0,0,Anemo,Catalyst
-Wanderer,2.8,0,0,0,Anemo,Catalyst
-Wanderer,3.0,0,0,0,Anemo,Catalyst
-Wanderer,3.1,0,0,0,Anemo,Catalyst
-Wanderer,3.2,0,0,0,Anemo,Catalyst
-Wanderer,3.3,1,0,1,Anemo,Catalyst
-Wanderer,3.4,0,1,1,Anemo,Catalyst
-Wanderer,3.5,0,2,1,Anemo,Catalyst
-Wanderer,3.6,0,3,1,Anemo,Catalyst
-Wanderer,3.7,0,4,1,Anemo,Catalyst
-Wanderer,3.8,1,0,1,Anemo,Catalyst
-Wanderer,4.0,0,1,1,Anemo,Catalyst
-Wanderer,4.1,0,2,1,Anemo,Catalyst
-Wanderer,4.2,0,3,1,Anemo,Catalyst
-Wanderer,4.3,0,4,1,Anemo,Catalyst
-Wanderer,4.4,0,5,1,Anemo,Catalyst
-Wanderer,4.5,0,6,1,Anemo,Catalyst
-Wanderer,4.6,1,0,1,Anemo,Catalyst
-Wanderer,4.7,0,1,1,Anemo,Catalyst
-Wanderer,4.8,0,2,1,Anemo,Catalyst
-Wanderer,5.0,0,3,1,Anemo,Catalyst
-Wanderer,5.1,0,4,1,Anemo,Catalyst
-Wanderer,5.2,0,5,1,Anemo,Catalyst
-Wanderer,5.3,0,6,1,Anemo,Catalyst
-Wanderer,5.4,0,7,1,Anemo,Catalyst
-Wanderer,5.5,0,8,1,Anemo,Catalyst
-Wanderer,5.6,0,9,1,Anemo,Catalyst
-Wanderer,5.7,0,10,1,Anemo,Catalyst
-Wanderer,5.8,0,11,1,Anemo,Catalyst
-Wanderer,Luna I,C,0,1,Anemo,Catalyst
-Wanderer,Luna II,0,1,1,Anemo,Catalyst
-Wanderer,Luna III,0,2,1,Anemo,Catalyst
-Wanderer,Luna IV,0,3,1,Anemo,Catalyst
-Wanderer,Luna V,0,4,1,Anemo,Catalyst
-Alhaitham,1.0,0,0,0,Dendro,Sword
-Alhaitham,1.1,0,0,0,Dendro,Sword
-Alhaitham,1.2,0,0,0,Dendro,Sword
-Alhaitham,1.3,0,0,0,Dendro,Sword
-Alhaitham,1.4,0,0,0,Dendro,Sword
-Alhaitham,1.5,0,0,0,Dendro,Sword
-Alhaitham,1.6,0,0,0,Dendro,Sword
-Alhaitham,2.0,0,0,0,Dendro,Sword
-Alhaitham,2.1,0,0,0,Dendro,Sword
-Alhaitham,2.2,0,0,0,Dendro,Sword
-Alhaitham,2.3,0,0,0,Dendro,Sword
-Alhaitham,2.4,0,0,0,Dendro,Sword
-Alhaitham,2.5,0,0,0,Dendro,Sword
-Alhaitham,2.6,0,0,0,Dendro,Sword
-Alhaitham,2.7,0,0,0,Dendro,Sword
-Alhaitham,2.8,0,0,0,Dendro,Sword
-Alhaitham,3.0,0,0,0,Dendro,Sword
-Alhaitham,3.1,0,0,0,Dendro,Sword
-Alhaitham,3.2,0,0,0,Dendro,Sword
-Alhaitham,3.3,0,0,0,Dendro,Sword
-Alhaitham,3.4,1,0,1,Dendro,Sword
-Alhaitham,3.5,0,1,1,Dendro,Sword
-Alhaitham,3.6,0,2,1,Dendro,Sword
-Alhaitham,3.7,1,0,1,Dendro,Sword
-Alhaitham,3.8,0,1,1,Dendro,Sword
-Alhaitham,4.0,0,2,1,Dendro,Sword
-Alhaitham,4.1,0,3,1,Dendro,Sword
-Alhaitham,4.2,0,4,1,Dendro,Sword
-Alhaitham,4.3,0,5,1,Dendro,Sword
-Alhaitham,4.4,0,6,1,Dendro,Sword
-Alhaitham,4.5,0,7,1,Dendro,Sword
-Alhaitham,4.6,0,8,1,Dendro,Sword
-Alhaitham,4.7,1,0,1,Dendro,Sword
-Alhaitham,4.8,0,1,1,Dendro,Sword
-Alhaitham,5.0,0,2,1,Dendro,Sword
-Alhaitham,5.1,0,3,1,Dendro,Sword
-Alhaitham,5.2,0,4,1,Dendro,Sword
-Alhaitham,5.3,0,5,1,Dendro,Sword
-Alhaitham,5.4,0,6,1,Dendro,Sword
-Alhaitham,5.5,0,7,1,Dendro,Sword
-Alhaitham,5.6,0,8,1,Dendro,Sword
-Alhaitham,5.7,0,9,1,Dendro,Sword
-Alhaitham,5.8,0,10,1,Dendro,Sword
-Alhaitham,Luna I,C,0,1,Dendro,Sword
-Alhaitham,Luna II,0,1,1,Dendro,Sword
-Alhaitham,Luna III,0,2,1,Dendro,Sword
-Alhaitham,Luna IV,0,3,1,Dendro,Sword
-Alhaitham,Luna V,0,4,1,Dendro,Sword
-Baizhu,1.0,0,0,0,Dendro,Catalyst
-Baizhu,1.1,0,0,0,Dendro,Catalyst
-Baizhu,1.2,0,0,0,Dendro,Catalyst
-Baizhu,1.3,0,0,0,Dendro,Catalyst
-Baizhu,1.4,0,0,0,Dendro,Catalyst
-Baizhu,1.5,0,0,0,Dendro,Catalyst
-Baizhu,1.6,0,0,0,Dendro,Catalyst
-Baizhu,2.0,0,0,0,Dendro,Catalyst
-Baizhu,2.1,0,0,0,Dendro,Catalyst
-Baizhu,2.2,0,0,0,Dendro,Catalyst
-Baizhu,2.3,0,0,0,Dendro,Catalyst
-Baizhu,2.4,0,0,0,Dendro,Catalyst
-Baizhu,2.5,0,0,0,Dendro,Catalyst
-Baizhu,2.6,0,0,0,Dendro,Catalyst
-Baizhu,2.7,0,0,0,Dendro,Catalyst
-Baizhu,2.8,0,0,0,Dendro,Catalyst
-Baizhu,3.0,0,0,0,Dendro,Catalyst
-Baizhu,3.1,0,0,0,Dendro,Catalyst
-Baizhu,3.2,0,0,0,Dendro,Catalyst
-Baizhu,3.3,0,0,0,Dendro,Catalyst
-Baizhu,3.4,0,0,0,Dendro,Catalyst
-Baizhu,3.5,0,0,0,Dendro,Catalyst
-Baizhu,3.6,1,0,1,Dendro,Catalyst
-Baizhu,3.7,0,1,1,Dendro,Catalyst
-Baizhu,3.8,0,2,1,Dendro,Catalyst
-Baizhu,4.0,0,3,1,Dendro,Catalyst
-Baizhu,4.1,0,4,1,Dendro,Catalyst
-Baizhu,4.2,1,0,1,Dendro,Catalyst
-Baizhu,4.3,0,1,1,Dendro,Catalyst
-Baizhu,4.4,0,2,1,Dendro,Catalyst
-Baizhu,4.5,0,3,1,Dendro,Catalyst
-Baizhu,4.6,1,0,1,Dendro,Catalyst
-Baizhu,4.7,0,1,1,Dendro,Catalyst
-Baizhu,4.8,0,2,1,Dendro,Catalyst
-Baizhu,5.0,0,3,1,Dendro,Catalyst
-Baizhu,5.1,0,4,1,Dendro,Catalyst
-Baizhu,5.2,0,5,1,Dendro,Catalyst
-Baizhu,5.3,C,0,1,Dendro,Catalyst
-Baizhu,5.4,0,1,1,Dendro,Catalyst
-Baizhu,5.5,0,2,1,Dendro,Catalyst
-Baizhu,5.6,0,3,1,Dendro,Catalyst
-Baizhu,5.7,0,4,1,Dendro,Catalyst
-Baizhu,5.8,0,5,1,Dendro,Catalyst
-Baizhu,Luna I,0,6,1,Dendro,Catalyst
-Baizhu,Luna II,0,7,1,Dendro,Catalyst
-Baizhu,Luna III,0,8,1,Dendro,Catalyst
-Baizhu,Luna IV,0,9,1,Dendro,Catalyst
-Baizhu,Luna V,0,10,1,Dendro,Catalyst
-Lyney,1.0,0,0,0,Pyro,Bow
-Lyney,1.1,0,0,0,Pyro,Bow
-Lyney,1.2,0,0,0,Pyro,Bow
-Lyney,1.3,0,0,0,Pyro,Bow
-Lyney,1.4,0,0,0,Pyro,Bow
-Lyney,1.5,0,0,0,Pyro,Bow
-Lyney,1.6,0,0,0,Pyro,Bow
-Lyney,2.0,0,0,0,Pyro,Bow
-Lyney,2.1,0,0,0,Pyro,Bow
-Lyney,2.2,0,0,0,Pyro,Bow
-Lyney,2.3,0,0,0,Pyro,Bow
-Lyney,2.4,0,0,0,Pyro,Bow
-Lyney,2.5,0,0,0,Pyro,Bow
-Lyney,2.6,0,0,0,Pyro,Bow
-Lyney,2.7,0,0,0,Pyro,Bow
-Lyney,2.8,0,0,0,Pyro,Bow
-Lyney,3.0,0,0,0,Pyro,Bow
-Lyney,3.1,0,0,0,Pyro,Bow
-Lyney,3.2,0,0,0,Pyro,Bow
-Lyney,3.3,0,0,0,Pyro,Bow
-Lyney,3.4,0,0,0,Pyro,Bow
-Lyney,3.5,0,0,0,Pyro,Bow
-Lyney,3.6,0,0,0,Pyro,Bow
-Lyney,3.7,0,0,0,Pyro,Bow
-Lyney,3.8,0,0,0,Pyro,Bow
-Lyney,4.0,1,0,1,Pyro,Bow
-Lyney,4.1,0,1,1,Pyro,Bow
-Lyney,4.2,0,2,1,Pyro,Bow
-Lyney,4.3,0,3,1,Pyro,Bow
-Lyney,4.4,0,4,1,Pyro,Bow
-Lyney,4.5,0,5,1,Pyro,Bow
-Lyney,4.6,1,0,1,Pyro,Bow
-Lyney,4.7,0,1,1,Pyro,Bow
-Lyney,4.8,0,2,1,Pyro,Bow
-Lyney,5.0,0,3,1,Pyro,Bow
-Lyney,5.1,0,4,1,Pyro,Bow
-Lyney,5.2,1,0,1,Pyro,Bow
-Lyney,5.3,0,1,1,Pyro,Bow
-Lyney,5.4,0,2,1,Pyro,Bow
-Lyney,5.5,0,3,1,Pyro,Bow
-Lyney,5.6,0,4,1,Pyro,Bow
-Lyney,5.7,0,5,1,Pyro,Bow
-Lyney,5.8,0,6,1,Pyro,Bow
-Lyney,Luna I,0,7,1,Pyro,Bow
-Lyney,Luna II,0,8,1,Pyro,Bow
-Lyney,Luna III,0,9,1,Pyro,Bow
-Lyney,Luna IV,0,10,1,Pyro,Bow
-Lyney,Luna V,0,11,1,Pyro,Bow
-Neuvillette,1.0,0,0,0,Hydro,Catalyst
-Neuvillette,1.1,0,0,0,Hydro,Catalyst
-Neuvillette,1.2,0,0,0,Hydro,Catalyst
-Neuvillette,1.3,0,0,0,Hydro,Catalyst
-Neuvillette,1.4,0,0,0,Hydro,Catalyst
-Neuvillette,1.5,0,0,0,Hydro,Catalyst
-Neuvillette,1.6,0,0,0,Hydro,Catalyst
-Neuvillette,2.0,0,0,0,Hydro,Catalyst
-Neuvillette,2.1,0,0,0,Hydro,Catalyst
-Neuvillette,2.2,0,0,0,Hydro,Catalyst
-Neuvillette,2.3,0,0,0,Hydro,Catalyst
-Neuvillette,2.4,0,0,0,Hydro,Catalyst
-Neuvillette,2.5,0,0,0,Hydro,Catalyst
-Neuvillette,2.6,0,0,0,Hydro,Catalyst
-Neuvillette,2.7,0,0,0,Hydro,Catalyst
-Neuvillette,2.8,0,0,0,Hydro,Catalyst
-Neuvillette,3.0,0,0,0,Hydro,Catalyst
-Neuvillette,3.1,0,0,0,Hydro,Catalyst
-Neuvillette,3.2,0,0,0,Hydro,Catalyst
-Neuvillette,3.3,0,0,0,Hydro,Catalyst
-Neuvillette,3.4,0,0,0,Hydro,Catalyst
-Neuvillette,3.5,0,0,0,Hydro,Catalyst
-Neuvillette,3.6,0,0,0,Hydro,Catalyst
-Neuvillette,3.7,0,0,0,Hydro,Catalyst
-Neuvillette,3.8,0,0,0,Hydro,Catalyst
-Neuvillette,4.0,0,0,0,Hydro,Catalyst
-Neuvillette,4.1,1,0,1,Hydro,Catalyst
-Neuvillette,4.2,0,1,1,Hydro,Catalyst
-Neuvillette,4.3,0,2,1,Hydro,Catalyst
-Neuvillette,4.4,0,3,1,Hydro,Catalyst
-Neuvillette,4.5,1,0,1,Hydro,Catalyst
-Neuvillette,4.6,0,1,1,Hydro,Catalyst
-Neuvillette,4.7,0,2,1,Hydro,Catalyst
-Neuvillette,4.8,0,3,1,Hydro,Catalyst
-Neuvillette,5.0,0,4,1,Hydro,Catalyst
-Neuvillette,5.1,0,5,1,Hydro,Catalyst
-Neuvillette,5.2,1,0,1,Hydro,Catalyst
-Neuvillette,5.3,0,1,1,Hydro,Catalyst
-Neuvillette,5.4,0,2,1,Hydro,Catalyst
-Neuvillette,5.5,0,3,1,Hydro,Catalyst
-Neuvillette,5.6,0,4,1,Hydro,Catalyst
-Neuvillette,5.7,0,5,1,Hydro,Catalyst
-Neuvillette,5.8,0,6,1,Hydro,Catalyst
-Neuvillette,Luna I,0,7,1,Hydro,Catalyst
-Neuvillette,Luna II,0,8,1,Hydro,Catalyst
-Neuvillette,Luna III,0,9,1,Hydro,Catalyst
-Neuvillette,Luna IV,1,0,1,Hydro,Catalyst
-Neuvillette,Luna V,0,1,1,Hydro,Catalyst
-Wriothesley,1.0,0,0,0,Cryo,Catalyst
-Wriothesley,1.1,0,0,0,Cryo,Catalyst
-Wriothesley,1.2,0,0,0,Cryo,Catalyst
-Wriothesley,1.3,0,0,0,Cryo,Catalyst
-Wriothesley,1.4,0,0,0,Cryo,Catalyst
-Wriothesley,1.5,0,0,0,Cryo,Catalyst
-Wriothesley,1.6,0,0,0,Cryo,Catalyst
-Wriothesley,2.0,0,0,0,Cryo,Catalyst
-Wriothesley,2.1,0,0,0,Cryo,Catalyst
-Wriothesley,2.2,0,0,0,Cryo,Catalyst
-Wriothesley,2.3,0,0,0,Cryo,Catalyst
-Wriothesley,2.4,0,0,0,Cryo,Catalyst
-Wriothesley,2.5,0,0,0,Cryo,Catalyst
-Wriothesley,2.6,0,0,0,Cryo,Catalyst
-Wriothesley,2.7,0,0,0,Cryo,Catalyst
-Wriothesley,2.8,0,0,0,Cryo,Catalyst
-Wriothesley,3.0,0,0,0,Cryo,Catalyst
-Wriothesley,3.1,0,0,0,Cryo,Catalyst
-Wriothesley,3.2,0,0,0,Cryo,Catalyst
-Wriothesley,3.3,0,0,0,Cryo,Catalyst
-Wriothesley,3.4,0,0,0,Cryo,Catalyst
-Wriothesley,3.5,0,0,0,Cryo,Catalyst
-Wriothesley,3.6,0,0,0,Cryo,Catalyst
-Wriothesley,3.7,0,0,0,Cryo,Catalyst
-Wriothesley,3.8,0,0,0,Cryo,Catalyst
-Wriothesley,4.0,0,0,0,Cryo,Catalyst
-Wriothesley,4.1,1,0,1,Cryo,Catalyst
-Wriothesley,4.2,0,1,1,Cryo,Catalyst
-Wriothesley,4.3,0,2,1,Cryo,Catalyst
-Wriothesley,4.4,0,3,1,Cryo,Catalyst
-Wriothesley,4.5,0,4,1,Cryo,Catalyst
-Wriothesley,4.6,0,5,1,Cryo,Catalyst
-Wriothesley,4.7,0,6,1,Cryo,Catalyst
-Wriothesley,4.8,0,7,1,Cryo,Catalyst
-Wriothesley,5.0,0,8,1,Cryo,Catalyst
-Wriothesley,5.1,0,9,1,Cryo,Catalyst
-Wriothesley,5.2,0,10,1,Cryo,Catalyst
-Wriothesley,5.3,0,11,1,Cryo,Catalyst
-Wriothesley,5.4,1,0,1,Cryo,Catalyst
-Wriothesley,5.5,0,1,1,Cryo,Catalyst
-Wriothesley,5.6,0,2,1,Cryo,Catalyst
-Wriothesley,5.7,0,3,1,Cryo,Catalyst
-Wriothesley,5.8,0,4,1,Cryo,Catalyst
-Wriothesley,Luna I,0,5,1,Cryo,Catalyst
-Wriothesley,Luna II,0,6,1,Cryo,Catalyst
-Wriothesley,Luna III,0,7,1,Cryo,Catalyst
-Wriothesley,Luna IV,0,8,1,Cryo,Catalyst
-Wriothesley,Luna V,0,9,1,Cryo,Catalyst
-Furina,1.0,0,0,0,Hydro,Sword
-Furina,1.1,0,0,0,Hydro,Sword
-Furina,1.2,0,0,0,Hydro,Sword
-Furina,1.3,0,0,0,Hydro,Sword
-Furina,1.4,0,0,0,Hydro,Sword
-Furina,1.5,0,0,0,Hydro,Sword
-Furina,1.6,0,0,0,Hydro,Sword
-Furina,2.0,0,0,0,Hydro,Sword
-Furina,2.1,0,0,0,Hydro,Sword
-Furina,2.2,0,0,0,Hydro,Sword
-Furina,2.3,0,0,0,Hydro,Sword
-Furina,2.4,0,0,0,Hydro,Sword
-Furina,2.5,0,0,0,Hydro,Sword
-Furina,2.6,0,0,0,Hydro,Sword
-Furina,2.7,0,0,0,Hydro,Sword
-Furina,2.8,0,0,0,Hydro,Sword
-Furina,3.0,0,0,0,Hydro,Sword
-Furina,3.1,0,0,0,Hydro,Sword
-Furina,3.2,0,0,0,Hydro,Sword
-Furina,3.3,0,0,0,Hydro,Sword
-Furina,3.4,0,0,0,Hydro,Sword
-Furina,3.5,0,0,0,Hydro,Sword
-Furina,3.6,0,0,0,Hydro,Sword
-Furina,3.7,0,0,0,Hydro,Sword
-Furina,3.8,0,0,0,Hydro,Sword
-Furina,4.0,0,0,0,Hydro,Sword
-Furina,4.1,0,0,0,Hydro,Sword
-Furina,4.2,1,0,1,Hydro,Sword
-Furina,4.3,0,1,1,Hydro,Sword
-Furina,4.4,0,2,1,Hydro,Sword
-Furina,4.5,0,3,1,Hydro,Sword
-Furina,4.6,0,4,1,Hydro,Sword
-Furina,4.7,1,0,1,Hydro,Sword
-Furina,4.8,0,1,1,Hydro,Sword
-Furina,5.0,0,2,1,Hydro,Sword
-Furina,5.1,0,3,1,Hydro,Sword
-Furina,5.2,0,4,1,Hydro,Sword
-Furina,5.3,0,5,1,Hydro,Sword
-Furina,5.4,1,0,1,Hydro,Sword
-Furina,5.5,0,1,1,Hydro,Sword
-Furina,5.6,0,2,1,Hydro,Sword
-Furina,5.7,0,3,1,Hydro,Sword
-Furina,5.8,0,4,1,Hydro,Sword
-Furina,Luna I,0,5,1,Hydro,Sword
-Furina,Luna II,1,0,1,Hydro,Sword
-Furina,Luna III,0,1,1,Hydro,Sword
-Furina,Luna IV,0,2,1,Hydro,Sword
-Furina,Luna V,0,3,1,Hydro,Sword
-Navia,1.0,0,0,0,Geo,Claymore
-Navia,1.1,0,0,0,Geo,Claymore
-Navia,1.2,0,0,0,Geo,Claymore
-Navia,1.3,0,0,0,Geo,Claymore
-Navia,1.4,0,0,0,Geo,Claymore
-Navia,1.5,0,0,0,Geo,Claymore
-Navia,1.6,0,0,0,Geo,Claymore
-Navia,2.0,0,0,0,Geo,Claymore
-Navia,2.1,0,0,0,Geo,Claymore
-Navia,2.2,0,0,0,Geo,Claymore
-Navia,2.3,0,0,0,Geo,Claymore
-Navia,2.4,0,0,0,Geo,Claymore
-Navia,2.5,0,0,0,Geo,Claymore
-Navia,2.6,0,0,0,Geo,Claymore
-Navia,2.7,0,0,0,Geo,Claymore
-Navia,2.8,0,0,0,Geo,Claymore
-Navia,3.0,0,0,0,Geo,Claymore
-Navia,3.1,0,0,0,Geo,Claymore
-Navia,3.2,0,0,0,Geo,Claymore
-Navia,3.3,0,0,0,Geo,Claymore
-Navia,3.4,0,0,0,Geo,Claymore
-Navia,3.5,0,0,0,Geo,Claymore
-Navia,3.6,0,0,0,Geo,Claymore
-Navia,3.7,0,0,0,Geo,Claymore
-Navia,3.8,0,0,0,Geo,Claymore
-Navia,4.0,0,0,0,Geo,Claymore
-Navia,4.1,0,0,0,Geo,Claymore
-Navia,4.2,0,0,0,Geo,Claymore
-Navia,4.3,1,0,1,Geo,Claymore
-Navia,4.4,0,1,1,Geo,Claymore
-Navia,4.5,0,2,1,Geo,Claymore
-Navia,4.6,0,3,1,Geo,Claymore
-Navia,4.7,0,4,1,Geo,Claymore
-Navia,4.8,1,0,1,Geo,Claymore
-Navia,5.0,0,1,1,Geo,Claymore
-Navia,5.1,0,2,1,Geo,Claymore
-Navia,5.2,0,3,1,Geo,Claymore
-Navia,5.3,0,4,1,Geo,Claymore
-Navia,5.4,0,5,1,Geo,Claymore
-Navia,5.5,0,6,1,Geo,Claymore
-Navia,5.6,1,0,1,Geo,Claymore
-Navia,5.7,0,1,1,Geo,Claymore
-Navia,5.8,0,2,1,Geo,Claymore
-Navia,Luna I,0,3,1,Geo,Claymore
-Navia,Luna II,0,4,1,Geo,Claymore
-Navia,Luna III,0,5,1,Geo,Claymore
-Navia,Luna IV,0,6,1,Geo,Claymore
-Navia,Luna V,0,7,1,Geo,Claymore
-Xianyun,1.0,0,0,0,Anemo,Catalyst
-Xianyun,1.1,0,0,0,Anemo,Catalyst
-Xianyun,1.2,0,0,0,Anemo,Catalyst
-Xianyun,1.3,0,0,0,Anemo,Catalyst
-Xianyun,1.4,0,0,0,Anemo,Catalyst
-Xianyun,1.5,0,0,0,Anemo,Catalyst
-Xianyun,1.6,0,0,0,Anemo,Catalyst
-Xianyun,2.0,0,0,0,Anemo,Catalyst
-Xianyun,2.1,0,0,0,Anemo,Catalyst
-Xianyun,2.2,0,0,0,Anemo,Catalyst
-Xianyun,2.3,0,0,0,Anemo,Catalyst
-Xianyun,2.4,0,0,0,Anemo,Catalyst
-Xianyun,2.5,0,0,0,Anemo,Catalyst
-Xianyun,2.6,0,0,0,Anemo,Catalyst
-Xianyun,2.7,0,0,0,Anemo,Catalyst
-Xianyun,2.8,0,0,0,Anemo,Catalyst
-Xianyun,3.0,0,0,0,Anemo,Catalyst
-Xianyun,3.1,0,0,0,Anemo,Catalyst
-Xianyun,3.2,0,0,0,Anemo,Catalyst
-Xianyun,3.3,0,0,0,Anemo,Catalyst
-Xianyun,3.4,0,0,0,Anemo,Catalyst
-Xianyun,3.5,0,0,0,Anemo,Catalyst
-Xianyun,3.6,0,0,0,Anemo,Catalyst
-Xianyun,3.7,0,0,0,Anemo,Catalyst
-Xianyun,3.8,0,0,0,Anemo,Catalyst
-Xianyun,4.0,0,0,0,Anemo,Catalyst
-Xianyun,4.1,0,0,0,Anemo,Catalyst
-Xianyun,4.2,0,0,0,Anemo,Catalyst
-Xianyun,4.3,0,0,0,Anemo,Catalyst
-Xianyun,4.4,1,0,1,Anemo,Catalyst
-Xianyun,4.5,0,1,1,Anemo,Catalyst
-Xianyun,4.6,0,2,1,Anemo,Catalyst
-Xianyun,4.7,0,3,1,Anemo,Catalyst
-Xianyun,4.8,0,4,1,Anemo,Catalyst
-Xianyun,5.0,0,5,1,Anemo,Catalyst
-Xianyun,5.1,0,6,1,Anemo,Catalyst
-Xianyun,5.2,0,7,1,Anemo,Catalyst
-Xianyun,5.3,0,8,1,Anemo,Catalyst
-Xianyun,5.4,0,9,1,Anemo,Catalyst
-Xianyun,5.5,1,0,1,Anemo,Catalyst
-Xianyun,5.6,0,1,1,Anemo,Catalyst
-Xianyun,5.7,0,2,1,Anemo,Catalyst
-Xianyun,5.8,0,3,1,Anemo,Catalyst
-Xianyun,Luna I,0,4,1,Anemo,Catalyst
-Xianyun,Luna II,0,5,1,Anemo,Catalyst
-Xianyun,Luna III,0,6,1,Anemo,Catalyst
-Xianyun,Luna IV,0,7,1,Anemo,Catalyst
-Xianyun,Luna V,0,8,1,Anemo,Catalyst
-Chiori,1.0,0,0,0,Geo,Sword
-Chiori,1.1,0,0,0,Geo,Sword
-Chiori,1.2,0,0,0,Geo,Sword
-Chiori,1.3,0,0,0,Geo,Sword
-Chiori,1.4,0,0,0,Geo,Sword
-Chiori,1.5,0,0,0,Geo,Sword
-Chiori,1.6,0,0,0,Geo,Sword
-Chiori,2.0,0,0,0,Geo,Sword
-Chiori,2.1,0,0,0,Geo,Sword
-Chiori,2.2,0,0,0,Geo,Sword
-Chiori,2.3,0,0,0,Geo,Sword
-Chiori,2.4,0,0,0,Geo,Sword
-Chiori,2.5,0,0,0,Geo,Sword
-Chiori,2.6,0,0,0,Geo,Sword
-Chiori,2.7,0,0,0,Geo,Sword
-Chiori,2.8,0,0,0,Geo,Sword
-Chiori,3.0,0,0,0,Geo,Sword
-Chiori,3.1,0,0,0,Geo,Sword
-Chiori,3.2,0,0,0,Geo,Sword
-Chiori,3.3,0,0,0,Geo,Sword
-Chiori,3.4,0,0,0,Geo,Sword
-Chiori,3.5,0,0,0,Geo,Sword
-Chiori,3.6,0,0,0,Geo,Sword
-Chiori,3.7,0,0,0,Geo,Sword
-Chiori,3.8,0,0,0,Geo,Sword
-Chiori,4.0,0,0,0,Geo,Sword
-Chiori,4.1,0,0,0,Geo,Sword
-Chiori,4.2,0,0,0,Geo,Sword
-Chiori,4.3,0,0,0,Geo,Sword
-Chiori,4.4,0,0,0,Geo,Sword
-Chiori,4.5,1,0,1,Geo,Sword
-Chiori,4.6,0,1,1,Geo,Sword
-Chiori,4.7,0,2,1,Geo,Sword
-Chiori,4.8,0,3,1,Geo,Sword
-Chiori,5.0,0,4,1,Geo,Sword
-Chiori,5.1,1,0,1,Geo,Sword
-Chiori,5.2,0,1,1,Geo,Sword
-Chiori,5.3,0,2,1,Geo,Sword
-Chiori,5.4,0,3,1,Geo,Sword
-Chiori,5.5,0,4,1,Geo,Sword
-Chiori,5.6,C,0,1,Geo,Sword
-Chiori,5.7,0,1,1,Geo,Sword
-Chiori,5.8,0,2,1,Geo,Sword
-Chiori,Luna I,0,3,1,Geo,Sword
-Chiori,Luna II,0,4,1,Geo,Sword
-Chiori,Luna III,0,5,1,Geo,Sword
-Chiori,Luna IV,0,6,1,Geo,Sword
-Chiori,Luna V,0,7,1,Geo,Sword
-Arlecchino,1.0,0,0,0,Pyro,Polearm
-Arlecchino,1.1,0,0,0,Pyro,Polearm
-Arlecchino,1.2,0,0,0,Pyro,Polearm
-Arlecchino,1.3,0,0,0,Pyro,Polearm
-Arlecchino,1.4,0,0,0,Pyro,Polearm
-Arlecchino,1.5,0,0,0,Pyro,Polearm
-Arlecchino,1.6,0,0,0,Pyro,Polearm
-Arlecchino,2.0,0,0,0,Pyro,Polearm
-Arlecchino,2.1,0,0,0,Pyro,Polearm
-Arlecchino,2.2,0,0,0,Pyro,Polearm
-Arlecchino,2.3,0,0,0,Pyro,Polearm
-Arlecchino,2.4,0,0,0,Pyro,Polearm
-Arlecchino,2.5,0,0,0,Pyro,Polearm
-Arlecchino,2.6,0,0,0,Pyro,Polearm
-Arlecchino,2.7,0,0,0,Pyro,Polearm
-Arlecchino,2.8,0,0,0,Pyro,Polearm
-Arlecchino,3.0,0,0,0,Pyro,Polearm
-Arlecchino,3.1,0,0,0,Pyro,Polearm
-Arlecchino,3.2,0,0,0,Pyro,Polearm
-Arlecchino,3.3,0,0,0,Pyro,Polearm
-Arlecchino,3.4,0,0,0,Pyro,Polearm
-Arlecchino,3.5,0,0,0,Pyro,Polearm
-Arlecchino,3.6,0,0,0,Pyro,Polearm
-Arlecchino,3.7,0,0,0,Pyro,Polearm
-Arlecchino,3.8,0,0,0,Pyro,Polearm
-Arlecchino,4.0,0,0,0,Pyro,Polearm
-Arlecchino,4.1,0,0,0,Pyro,Polearm
-Arlecchino,4.2,0,0,0,Pyro,Polearm
-Arlecchino,4.3,0,0,0,Pyro,Polearm
-Arlecchino,4.4,0,0,0,Pyro,Polearm
-Arlecchino,4.5,0,0,0,Pyro,Polearm
-Arlecchino,4.6,1,0,1,Pyro,Polearm
-Arlecchino,4.7,0,1,1,Pyro,Polearm
-Arlecchino,4.8,0,2,1,Pyro,Polearm
-Arlecchino,5.0,0,3,1,Pyro,Polearm
-Arlecchino,5.1,0,4,1,Pyro,Polearm
-Arlecchino,5.2,0,5,1,Pyro,Polearm
-Arlecchino,5.3,1,0,1,Pyro,Polearm
-Arlecchino,5.4,0,1,1,Pyro,Polearm
-Arlecchino,5.5,0,2,1,Pyro,Polearm
-Arlecchino,5.6,0,3,1,Pyro,Polearm
-Arlecchino,5.7,0,4,1,Pyro,Polearm
-Arlecchino,5.8,0,5,1,Pyro,Polearm
-Arlecchino,Luna I,0,6,1,Pyro,Polearm
-Arlecchino,Luna II,1,0,1,Pyro,Polearm
-Arlecchino,Luna III,0,1,1,Pyro,Polearm
-Arlecchino,Luna IV,0,2,1,Pyro,Polearm
-Arlecchino,Luna V,0,3,1,Pyro,Polearm
-Clorinde,1.0,0,0,0,Electro,Sword
-Clorinde,1.1,0,0,0,Electro,Sword
-Clorinde,1.2,0,0,0,Electro,Sword
-Clorinde,1.3,0,0,0,Electro,Sword
-Clorinde,1.4,0,0,0,Electro,Sword
-Clorinde,1.5,0,0,0,Electro,Sword
-Clorinde,1.6,0,0,0,Electro,Sword
-Clorinde,2.0,0,0,0,Electro,Sword
-Clorinde,2.1,0,0,0,Electro,Sword
-Clorinde,2.2,0,0,0,Electro,Sword
-Clorinde,2.3,0,0,0,Electro,Sword
-Clorinde,2.4,0,0,0,Electro,Sword
-Clorinde,2.5,0,0,0,Electro,Sword
-Clorinde,2.6,0,0,0,Electro,Sword
-Clorinde,2.7,0,0,0,Electro,Sword
-Clorinde,2.8,0,0,0,Electro,Sword
-Clorinde,3.0,0,0,0,Electro,Sword
-Clorinde,3.1,0,0,0,Electro,Sword
-Clorinde,3.2,0,0,0,Electro,Sword
-Clorinde,3.3,0,0,0,Electro,Sword
-Clorinde,3.4,0,0,0,Electro,Sword
-Clorinde,3.5,0,0,0,Electro,Sword
-Clorinde,3.6,0,0,0,Electro,Sword
-Clorinde,3.7,0,0,0,Electro,Sword
-Clorinde,3.8,0,0,0,Electro,Sword
-Clorinde,4.0,0,0,0,Electro,Sword
-Clorinde,4.1,0,0,0,Electro,Sword
-Clorinde,4.2,0,0,0,Electro,Sword
-Clorinde,4.3,0,0,0,Electro,Sword
-Clorinde,4.4,0,0,0,Electro,Sword
-Clorinde,4.5,0,0,0,Electro,Sword
-Clorinde,4.6,0,0,0,Electro,Sword
-Clorinde,4.7,1,0,1,Electro,Sword
-Clorinde,4.8,0,1,1,Electro,Sword
-Clorinde,5.0,0,2,1,Electro,Sword
-Clorinde,5.1,0,3,1,Electro,Sword
-Clorinde,5.2,0,4,1,Electro,Sword
-Clorinde,5.3,1,0,1,Electro,Sword
-Clorinde,5.4,0,1,1,Electro,Sword
-Clorinde,5.5,0,2,1,Electro,Sword
-Clorinde,5.6,0,3,1,Electro,Sword
-Clorinde,5.7,0,4,1,Electro,Sword
-Clorinde,5.8,0,5,1,Electro,Sword
-Clorinde,Luna I,0,6,1,Electro,Sword
-Clorinde,Luna II,0,7,1,Electro,Sword
-Clorinde,Luna III,0,8,1,Electro,Sword
-Clorinde,Luna IV,0,9,1,Electro,Sword
-Clorinde,Luna V,0,10,1,Electro,Sword
-Sigewinne,1.0,0,0,0,Hydro,Bow
-Sigewinne,1.1,0,0,0,Hydro,Bow
-Sigewinne,1.2,0,0,0,Hydro,Bow
-Sigewinne,1.3,0,0,0,Hydro,Bow
-Sigewinne,1.4,0,0,0,Hydro,Bow
-Sigewinne,1.5,0,0,0,Hydro,Bow
-Sigewinne,1.6,0,0,0,Hydro,Bow
-Sigewinne,2.0,0,0,0,Hydro,Bow
-Sigewinne,2.1,0,0,0,Hydro,Bow
-Sigewinne,2.2,0,0,0,Hydro,Bow
-Sigewinne,2.3,0,0,0,Hydro,Bow
-Sigewinne,2.4,0,0,0,Hydro,Bow
-Sigewinne,2.5,0,0,0,Hydro,Bow
-Sigewinne,2.6,0,0,0,Hydro,Bow
-Sigewinne,2.7,0,0,0,Hydro,Bow
-Sigewinne,2.8,0,0,0,Hydro,Bow
-Sigewinne,3.0,0,0,0,Hydro,Bow
-Sigewinne,3.1,0,0,0,Hydro,Bow
-Sigewinne,3.2,0,0,0,Hydro,Bow
-Sigewinne,3.3,0,0,0,Hydro,Bow
-Sigewinne,3.4,0,0,0,Hydro,Bow
-Sigewinne,3.5,0,0,0,Hydro,Bow
-Sigewinne,3.6,0,0,0,Hydro,Bow
-Sigewinne,3.7,0,0,0,Hydro,Bow
-Sigewinne,3.8,0,0,0,Hydro,Bow
-Sigewinne,4.0,0,0,0,Hydro,Bow
-Sigewinne,4.1,0,0,0,Hydro,Bow
-Sigewinne,4.2,0,0,0,Hydro,Bow
-Sigewinne,4.3,0,0,0,Hydro,Bow
-Sigewinne,4.4,0,0,0,Hydro,Bow
-Sigewinne,4.5,0,0,0,Hydro,Bow
-Sigewinne,4.6,0,0,0,Hydro,Bow
-Sigewinne,4.7,1,0,1,Hydro,Bow
-Sigewinne,4.8,0,1,1,Hydro,Bow
-Sigewinne,5.0,0,2,1,Hydro,Bow
-Sigewinne,5.1,0,3,1,Hydro,Bow
-Sigewinne,5.2,0,4,1,Hydro,Bow
-Sigewinne,5.3,0,5,1,Hydro,Bow
-Sigewinne,5.4,1,0,1,Hydro,Bow
-Sigewinne,5.5,0,1,1,Hydro,Bow
-Sigewinne,5.6,0,2,1,Hydro,Bow
-Sigewinne,5.7,0,3,1,Hydro,Bow
-Sigewinne,5.8,0,4,1,Hydro,Bow
-Sigewinne,Luna I,0,5,1,Hydro,Bow
-Sigewinne,Luna II,0,6,1,Hydro,Bow
-Sigewinne,Luna III,0,7,1,Hydro,Bow
-Sigewinne,Luna IV,0,8,1,Hydro,Bow
-Sigewinne,Luna V,0,9,1,Hydro,Bow
-Emilie,1.0,0,0,0,Dendro,Polearm
-Emilie,1.1,0,0,0,Dendro,Polearm
-Emilie,1.2,0,0,0,Dendro,Polearm
-Emilie,1.3,0,0,0,Dendro,Polearm
-Emilie,1.4,0,0,0,Dendro,Polearm
-Emilie,1.5,0,0,0,Dendro,Polearm
-Emilie,1.6,0,0,0,Dendro,Polearm
-Emilie,2.0,0,0,0,Dendro,Polearm
-Emilie,2.1,0,0,0,Dendro,Polearm
-Emilie,2.2,0,0,0,Dendro,Polearm
-Emilie,2.3,0,0,0,Dendro,Polearm
-Emilie,2.4,0,0,0,Dendro,Polearm
-Emilie,2.5,0,0,0,Dendro,Polearm
-Emilie,2.6,0,0,0,Dendro,Polearm
-Emilie,2.7,0,0,0,Dendro,Polearm
-Emilie,2.8,0,0,0,Dendro,Polearm
-Emilie,3.0,0,0,0,Dendro,Polearm
-Emilie,3.1,0,0,0,Dendro,Polearm
-Emilie,3.2,0,0,0,Dendro,Polearm
-Emilie,3.3,0,0,0,Dendro,Polearm
-Emilie,3.4,0,0,0,Dendro,Polearm
-Emilie,3.5,0,0,0,Dendro,Polearm
-Emilie,3.6,0,0,0,Dendro,Polearm
-Emilie,3.7,0,0,0,Dendro,Polearm
-Emilie,3.8,0,0,0,Dendro,Polearm
-Emilie,4.0,0,0,0,Dendro,Polearm
-Emilie,4.1,0,0,0,Dendro,Polearm
-Emilie,4.2,0,0,0,Dendro,Polearm
-Emilie,4.3,0,0,0,Dendro,Polearm
-Emilie,4.4,0,0,0,Dendro,Polearm
-Emilie,4.5,0,0,0,Dendro,Polearm
-Emilie,4.6,0,0,0,Dendro,Polearm
-Emilie,4.7,0,0,0,Dendro,Polearm
-Emilie,4.8,1,0,1,Dendro,Polearm
-Emilie,5.0,0,1,1,Dendro,Polearm
-Emilie,5.1,0,2,1,Dendro,Polearm
-Emilie,5.2,0,3,1,Dendro,Polearm
-Emilie,5.3,0,4,1,Dendro,Polearm
-Emilie,5.4,0,5,1,Dendro,Polearm
-Emilie,5.5,0,6,1,Dendro,Polearm
-Emilie,5.6,0,7,1,Dendro,Polearm
-Emilie,5.7,1,0,1,Dendro,Polearm
-Emilie,5.8,0,1,1,Dendro,Polearm
-Emilie,Luna I,0,2,1,Dendro,Polearm
-Emilie,Luna II,0,3,1,Dendro,Polearm
-Emilie,Luna III,0,4,1,Dendro,Polearm
-Emilie,Luna IV,0,5,1,Dendro,Polearm
-Emilie,Luna V,0,6,1,Dendro,Polearm
-Mualani,1.0,0,0,0,Hydro,Catalyst
-Mualani,1.1,0,0,0,Hydro,Catalyst
-Mualani,1.2,0,0,0,Hydro,Catalyst
-Mualani,1.3,0,0,0,Hydro,Catalyst
-Mualani,1.4,0,0,0,Hydro,Catalyst
-Mualani,1.5,0,0,0,Hydro,Catalyst
-Mualani,1.6,0,0,0,Hydro,Catalyst
-Mualani,2.0,0,0,0,Hydro,Catalyst
-Mualani,2.1,0,0,0,Hydro,Catalyst
-Mualani,2.2,0,0,0,Hydro,Catalyst
-Mualani,2.3,0,0,0,Hydro,Catalyst
-Mualani,2.4,0,0,0,Hydro,Catalyst
-Mualani,2.5,0,0,0,Hydro,Catalyst
-Mualani,2.6,0,0,0,Hydro,Catalyst
-Mualani,2.7,0,0,0,Hydro,Catalyst
-Mualani,2.8,0,0,0,Hydro,Catalyst
-Mualani,3.0,0,0,0,Hydro,Catalyst
-Mualani,3.1,0,0,0,Hydro,Catalyst
-Mualani,3.2,0,0,0,Hydro,Catalyst
-Mualani,3.3,0,0,0,Hydro,Catalyst
-Mualani,3.4,0,0,0,Hydro,Catalyst
-Mualani,3.5,0,0,0,Hydro,Catalyst
-Mualani,3.6,0,0,0,Hydro,Catalyst
-Mualani,3.7,0,0,0,Hydro,Catalyst
-Mualani,3.8,0,0,0,Hydro,Catalyst
-Mualani,4.0,0,0,0,Hydro,Catalyst
-Mualani,4.1,0,0,0,Hydro,Catalyst
-Mualani,4.2,0,0,0,Hydro,Catalyst
-Mualani,4.3,0,0,0,Hydro,Catalyst
-Mualani,4.4,0,0,0,Hydro,Catalyst
-Mualani,4.5,0,0,0,Hydro,Catalyst
-Mualani,4.6,0,0,0,Hydro,Catalyst
-Mualani,4.7,0,0,0,Hydro,Catalyst
-Mualani,4.8,0,0,0,Hydro,Catalyst
-Mualani,5.0,1,0,1,Hydro,Catalyst
-Mualani,5.1,0,1,1,Hydro,Catalyst
-Mualani,5.2,0,2,1,Hydro,Catalyst
-Mualani,5.3,0,3,1,Hydro,Catalyst
-Mualani,5.4,0,4,1,Hydro,Catalyst
-Mualani,5.5,0,5,1,Hydro,Catalyst
-Mualani,5.6,0,6,1,Hydro,Catalyst
-Mualani,5.7,0,7,1,Hydro,Catalyst
-Mualani,5.8,1,0,1,Hydro,Catalyst
-Mualani,Luna I,0,1,1,Hydro,Catalyst
-Mualani,Luna II,0,2,1,Hydro,Catalyst
-Mualani,Luna III,0,3,1,Hydro,Catalyst
-Mualani,Luna IV,0,4,1,Hydro,Catalyst
-Mualani,Luna V,0,5,1,Hydro,Catalyst
-Kinich,1.0,0,0,0,Dendro,Claymore
-Kinich,1.1,0,0,0,Dendro,Claymore
-Kinich,1.2,0,0,0,Dendro,Claymore
-Kinich,1.3,0,0,0,Dendro,Claymore
-Kinich,1.4,0,0,0,Dendro,Claymore
-Kinich,1.5,0,0,0,Dendro,Claymore
-Kinich,1.6,0,0,0,Dendro,Claymore
-Kinich,2.0,0,0,0,Dendro,Claymore
-Kinich,2.1,0,0,0,Dendro,Claymore
-Kinich,2.2,0,0,0,Dendro,Claymore
-Kinich,2.3,0,0,0,Dendro,Claymore
-Kinich,2.4,0,0,0,Dendro,Claymore
-Kinich,2.5,0,0,0,Dendro,Claymore
-Kinich,2.6,0,0,0,Dendro,Claymore
-Kinich,2.7,0,0,0,Dendro,Claymore
-Kinich,2.8,0,0,0,Dendro,Claymore
-Kinich,3.0,0,0,0,Dendro,Claymore
-Kinich,3.1,0,0,0,Dendro,Claymore
-Kinich,3.2,0,0,0,Dendro,Claymore
-Kinich,3.3,0,0,0,Dendro,Claymore
-Kinich,3.4,0,0,0,Dendro,Claymore
-Kinich,3.5,0,0,0,Dendro,Claymore
-Kinich,3.6,0,0,0,Dendro,Claymore
-Kinich,3.7,0,0,0,Dendro,Claymore
-Kinich,3.8,0,0,0,Dendro,Claymore
-Kinich,4.0,0,0,0,Dendro,Claymore
-Kinich,4.1,0,0,0,Dendro,Claymore
-Kinich,4.2,0,0,0,Dendro,Claymore
-Kinich,4.3,0,0,0,Dendro,Claymore
-Kinich,4.4,0,0,0,Dendro,Claymore
-Kinich,4.5,0,0,0,Dendro,Claymore
-Kinich,4.6,0,0,0,Dendro,Claymore
-Kinich,4.7,0,0,0,Dendro,Claymore
-Kinich,4.8,0,0,0,Dendro,Claymore
-Kinich,5.0,1,0,1,Dendro,Claymore
-Kinich,5.1,0,1,1,Dendro,Claymore
-Kinich,5.2,0,2,1,Dendro,Claymore
-Kinich,5.3,0,3,1,Dendro,Claymore
-Kinich,5.4,0,4,1,Dendro,Claymore
-Kinich,5.5,0,5,1,Dendro,Claymore
-Kinich,5.6,1,0,1,Dendro,Claymore
-Kinich,5.7,0,1,1,Dendro,Claymore
-Kinich,5.8,0,2,1,Dendro,Claymore
-Kinich,Luna I,0,3,1,Dendro,Claymore
-Kinich,Luna II,0,4,1,Dendro,Claymore
-Kinich,Luna III,0,5,1,Dendro,Claymore
-Kinich,Luna IV,0,6,1,Dendro,Claymore
-Kinich,Luna V,0,7,1,Dendro,Claymore
-Xilonen,1.0,0,0,0,Geo,Sword
-Xilonen,1.1,0,0,0,Geo,Sword
-Xilonen,1.2,0,0,0,Geo,Sword
-Xilonen,1.3,0,0,0,Geo,Sword
-Xilonen,1.4,0,0,0,Geo,Sword
-Xilonen,1.5,0,0,0,Geo,Sword
-Xilonen,1.6,0,0,0,Geo,Sword
-Xilonen,2.0,0,0,0,Geo,Sword
-Xilonen,2.1,0,0,0,Geo,Sword
-Xilonen,2.2,0,0,0,Geo,Sword
-Xilonen,2.3,0,0,0,Geo,Sword
-Xilonen,2.4,0,0,0,Geo,Sword
-Xilonen,2.5,0,0,0,Geo,Sword
-Xilonen,2.6,0,0,0,Geo,Sword
-Xilonen,2.7,0,0,0,Geo,Sword
-Xilonen,2.8,0,0,0,Geo,Sword
-Xilonen,3.0,0,0,0,Geo,Sword
-Xilonen,3.1,0,0,0,Geo,Sword
-Xilonen,3.2,0,0,0,Geo,Sword
-Xilonen,3.3,0,0,0,Geo,Sword
-Xilonen,3.4,0,0,0,Geo,Sword
-Xilonen,3.5,0,0,0,Geo,Sword
-Xilonen,3.6,0,0,0,Geo,Sword
-Xilonen,3.7,0,0,0,Geo,Sword
-Xilonen,3.8,0,0,0,Geo,Sword
-Xilonen,4.0,0,0,0,Geo,Sword
-Xilonen,4.1,0,0,0,Geo,Sword
-Xilonen,4.2,0,0,0,Geo,Sword
-Xilonen,4.3,0,0,0,Geo,Sword
-Xilonen,4.4,0,0,0,Geo,Sword
-Xilonen,4.5,0,0,0,Geo,Sword
-Xilonen,4.6,0,0,0,Geo,Sword
-Xilonen,4.7,0,0,0,Geo,Sword
-Xilonen,4.8,0,0,0,Geo,Sword
-Xilonen,5.0,0,0,0,Geo,Sword
-Xilonen,5.1,1,0,1,Geo,Sword
-Xilonen,5.2,0,1,1,Geo,Sword
-Xilonen,5.3,0,2,1,Geo,Sword
-Xilonen,5.4,0,3,1,Geo,Sword
-Xilonen,5.5,1,0,1,Geo,Sword
-Xilonen,5.6,0,1,1,Geo,Sword
-Xilonen,5.7,0,2,1,Geo,Sword
-Xilonen,5.8,0,3,1,Geo,Sword
-Xilonen,Luna I,0,4,1,Geo,Sword
-Xilonen,Luna II,0,5,1,Geo,Sword
-Xilonen,Luna III,1,0,1,Geo,Sword
-Xilonen,Luna IV,0,1,1,Geo,Sword
-Xilonen,Luna V,0,2,1,Geo,Sword
-Chasca,1.0,0,0,0,Anemo,Bow
-Chasca,1.1,0,0,0,Anemo,Bow
-Chasca,1.2,0,0,0,Anemo,Bow
-Chasca,1.3,0,0,0,Anemo,Bow
-Chasca,1.4,0,0,0,Anemo,Bow
-Chasca,1.5,0,0,0,Anemo,Bow
-Chasca,1.6,0,0,0,Anemo,Bow
-Chasca,2.0,0,0,0,Anemo,Bow
-Chasca,2.1,0,0,0,Anemo,Bow
-Chasca,2.2,0,0,0,Anemo,Bow
-Chasca,2.3,0,0,0,Anemo,Bow
-Chasca,2.4,0,0,0,Anemo,Bow
-Chasca,2.5,0,0,0,Anemo,Bow
-Chasca,2.6,0,0,0,Anemo,Bow
-Chasca,2.7,0,0,0,Anemo,Bow
-Chasca,2.8,0,0,0,Anemo,Bow
-Chasca,3.0,0,0,0,Anemo,Bow
-Chasca,3.1,0,0,0,Anemo,Bow
-Chasca,3.2,0,0,0,Anemo,Bow
-Chasca,3.3,0,0,0,Anemo,Bow
-Chasca,3.4,0,0,0,Anemo,Bow
-Chasca,3.5,0,0,0,Anemo,Bow
-Chasca,3.6,0,0,0,Anemo,Bow
-Chasca,3.7,0,0,0,Anemo,Bow
-Chasca,3.8,0,0,0,Anemo,Bow
-Chasca,4.0,0,0,0,Anemo,Bow
-Chasca,4.1,0,0,0,Anemo,Bow
-Chasca,4.2,0,0,0,Anemo,Bow
-Chasca,4.3,0,0,0,Anemo,Bow
-Chasca,4.4,0,0,0,Anemo,Bow
-Chasca,4.5,0,0,0,Anemo,Bow
-Chasca,4.6,0,0,0,Anemo,Bow
-Chasca,4.7,0,0,0,Anemo,Bow
-Chasca,4.8,0,0,0,Anemo,Bow
-Chasca,5.0,0,0,0,Anemo,Bow
-Chasca,5.1,0,0,0,Anemo,Bow
-Chasca,5.2,1,0,1,Anemo,Bow
-Chasca,5.3,0,1,1,Anemo,Bow
-Chasca,5.4,0,2,1,Anemo,Bow
-Chasca,5.5,0,3,1,Anemo,Bow
-Chasca,5.6,0,4,1,Anemo,Bow
-Chasca,5.7,0,5,1,Anemo,Bow
-Chasca,5.8,1,0,1,Anemo,Bow
-Chasca,Luna I,0,1,1,Anemo,Bow
-Chasca,Luna II,0,2,1,Anemo,Bow
-Chasca,Luna III,0,3,1,Anemo,Bow
-Chasca,Luna IV,0,4,1,Anemo,Bow
-Chasca,Luna V,0,5,1,Anemo,Bow
-Mavuika,1.0,0,0,0,Pyro,Claymore
-Mavuika,1.1,0,0,0,Pyro,Claymore
-Mavuika,1.2,0,0,0,Pyro,Claymore
-Mavuika,1.3,0,0,0,Pyro,Claymore
-Mavuika,1.4,0,0,0,Pyro,Claymore
-Mavuika,1.5,0,0,0,Pyro,Claymore
-Mavuika,1.6,0,0,0,Pyro,Claymore
-Mavuika,2.0,0,0,0,Pyro,Claymore
-Mavuika,2.1,0,0,0,Pyro,Claymore
-Mavuika,2.2,0,0,0,Pyro,Claymore
-Mavuika,2.3,0,0,0,Pyro,Claymore
-Mavuika,2.4,0,0,0,Pyro,Claymore
-Mavuika,2.5,0,0,0,Pyro,Claymore
-Mavuika,2.6,0,0,0,Pyro,Claymore
-Mavuika,2.7,0,0,0,Pyro,Claymore
-Mavuika,2.8,0,0,0,Pyro,Claymore
-Mavuika,3.0,0,0,0,Pyro,Claymore
-Mavuika,3.1,0,0,0,Pyro,Claymore
-Mavuika,3.2,0,0,0,Pyro,Claymore
-Mavuika,3.3,0,0,0,Pyro,Claymore
-Mavuika,3.4,0,0,0,Pyro,Claymore
-Mavuika,3.5,0,0,0,Pyro,Claymore
-Mavuika,3.6,0,0,0,Pyro,Claymore
-Mavuika,3.7,0,0,0,Pyro,Claymore
-Mavuika,3.8,0,0,0,Pyro,Claymore
-Mavuika,4.0,0,0,0,Pyro,Claymore
-Mavuika,4.1,0,0,0,Pyro,Claymore
-Mavuika,4.2,0,0,0,Pyro,Claymore
-Mavuika,4.3,0,0,0,Pyro,Claymore
-Mavuika,4.4,0,0,0,Pyro,Claymore
-Mavuika,4.5,0,0,0,Pyro,Claymore
-Mavuika,4.6,0,0,0,Pyro,Claymore
-Mavuika,4.7,0,0,0,Pyro,Claymore
-Mavuika,4.8,0,0,0,Pyro,Claymore
-Mavuika,5.0,0,0,0,Pyro,Claymore
-Mavuika,5.1,0,0,0,Pyro,Claymore
-Mavuika,5.2,0,0,0,Pyro,Claymore
-Mavuika,5.3,1,0,1,Pyro,Claymore
-Mavuika,5.4,0,1,1,Pyro,Claymore
-Mavuika,5.5,0,2,1,Pyro,Claymore
-Mavuika,5.6,0,3,1,Pyro,Claymore
-Mavuika,5.7,1,0,1,Pyro,Claymore
-Mavuika,5.8,0,1,1,Pyro,Claymore
-Mavuika,Luna I,0,2,1,Pyro,Claymore
-Mavuika,Luna II,0,3,1,Pyro,Claymore
-Mavuika,Luna III,0,4,1,Pyro,Claymore
-Mavuika,Luna IV,0,5,1,Pyro,Claymore
-Mavuika,Luna V,0,6,1,Pyro,Claymore
-Citlali,1.0,0,0,0,Cryo,Catalyst
-Citlali,1.1,0,0,0,Cryo,Catalyst
-Citlali,1.2,0,0,0,Cryo,Catalyst
-Citlali,1.3,0,0,0,Cryo,Catalyst
-Citlali,1.4,0,0,0,Cryo,Catalyst
-Citlali,1.5,0,0,0,Cryo,Catalyst
-Citlali,1.6,0,0,0,Cryo,Catalyst
-Citlali,2.0,0,0,0,Cryo,Catalyst
-Citlali,2.1,0,0,0,Cryo,Catalyst
-Citlali,2.2,0,0,0,Cryo,Catalyst
-Citlali,2.3,0,0,0,Cryo,Catalyst
-Citlali,2.4,0,0,0,Cryo,Catalyst
-Citlali,2.5,0,0,0,Cryo,Catalyst
-Citlali,2.6,0,0,0,Cryo,Catalyst
-Citlali,2.7,0,0,0,Cryo,Catalyst
-Citlali,2.8,0,0,0,Cryo,Catalyst
-Citlali,3.0,0,0,0,Cryo,Catalyst
-Citlali,3.1,0,0,0,Cryo,Catalyst
-Citlali,3.2,0,0,0,Cryo,Catalyst
-Citlali,3.3,0,0,0,Cryo,Catalyst
-Citlali,3.4,0,0,0,Cryo,Catalyst
-Citlali,3.5,0,0,0,Cryo,Catalyst
-Citlali,3.6,0,0,0,Cryo,Catalyst
-Citlali,3.7,0,0,0,Cryo,Catalyst
-Citlali,3.8,0,0,0,Cryo,Catalyst
-Citlali,4.0,0,0,0,Cryo,Catalyst
-Citlali,4.1,0,0,0,Cryo,Catalyst
-Citlali,4.2,0,0,0,Cryo,Catalyst
-Citlali,4.3,0,0,0,Cryo,Catalyst
-Citlali,4.4,0,0,0,Cryo,Catalyst
-Citlali,4.5,0,0,0,Cryo,Catalyst
-Citlali,4.6,0,0,0,Cryo,Catalyst
-Citlali,4.7,0,0,0,Cryo,Catalyst
-Citlali,4.8,0,0,0,Cryo,Catalyst
-Citlali,5.0,0,0,0,Cryo,Catalyst
-Citlali,5.1,0,0,0,Cryo,Catalyst
-Citlali,5.2,0,0,0,Cryo,Catalyst
-Citlali,5.3,1,0,1,Cryo,Catalyst
-Citlali,5.4,0,1,1,Cryo,Catalyst
-Citlali,5.5,0,2,1,Cryo,Catalyst
-Citlali,5.6,0,3,1,Cryo,Catalyst
-Citlali,5.7,0,4,1,Cryo,Catalyst
-Citlali,5.8,1,0,1,Cryo,Catalyst
-Citlali,Luna I,0,1,1,Cryo,Catalyst
-Citlali,Luna II,0,2,1,Cryo,Catalyst
-Citlali,Luna III,0,3,1,Cryo,Catalyst
-Citlali,Luna IV,0,4,1,Cryo,Catalyst
-Citlali,Luna V,0,5,1,Cryo,Catalyst
-Varesa,1.0,0,0,0,Electro,Catalyst
-Varesa,1.1,0,0,0,Electro,Catalyst
-Varesa,1.2,0,0,0,Electro,Catalyst
-Varesa,1.3,0,0,0,Electro,Catalyst
-Varesa,1.4,0,0,0,Electro,Catalyst
-Varesa,1.5,0,0,0,Electro,Catalyst
-Varesa,1.6,0,0,0,Electro,Catalyst
-Varesa,2.0,0,0,0,Electro,Catalyst
-Varesa,2.1,0,0,0,Electro,Catalyst
-Varesa,2.2,0,0,0,Electro,Catalyst
-Varesa,2.3,0,0,0,Electro,Catalyst
-Varesa,2.4,0,0,0,Electro,Catalyst
-Varesa,2.5,0,0,0,Electro,Catalyst
-Varesa,2.6,0,0,0,Electro,Catalyst
-Varesa,2.7,0,0,0,Electro,Catalyst
-Varesa,2.8,0,0,0,Electro,Catalyst
-Varesa,3.0,0,0,0,Electro,Catalyst
-Varesa,3.1,0,0,0,Electro,Catalyst
-Varesa,3.2,0,0,0,Electro,Catalyst
-Varesa,3.3,0,0,0,Electro,Catalyst
-Varesa,3.4,0,0,0,Electro,Catalyst
-Varesa,3.5,0,0,0,Electro,Catalyst
-Varesa,3.6,0,0,0,Electro,Catalyst
-Varesa,3.7,0,0,0,Electro,Catalyst
-Varesa,3.8,0,0,0,Electro,Catalyst
-Varesa,4.0,0,0,0,Electro,Catalyst
-Varesa,4.1,0,0,0,Electro,Catalyst
-Varesa,4.2,0,0,0,Electro,Catalyst
-Varesa,4.3,0,0,0,Electro,Catalyst
-Varesa,4.4,0,0,0,Electro,Catalyst
-Varesa,4.5,0,0,0,Electro,Catalyst
-Varesa,4.6,0,0,0,Electro,Catalyst
-Varesa,4.7,0,0,0,Electro,Catalyst
-Varesa,4.8,0,0,0,Electro,Catalyst
-Varesa,5.0,0,0,0,Electro,Catalyst
-Varesa,5.1,0,0,0,Electro,Catalyst
-Varesa,5.2,0,0,0,Electro,Catalyst
-Varesa,5.3,0,0,0,Electro,Catalyst
-Varesa,5.4,0,0,0,Electro,Catalyst
-Varesa,5.5,1,0,1,Electro,Catalyst
-Varesa,5.6,0,1,1,Electro,Catalyst
-Varesa,5.7,0,2,1,Electro,Catalyst
-Varesa,5.8,0,3,1,Electro,Catalyst
-Varesa,Luna I,0,4,1,Electro,Catalyst
-Varesa,Luna II,0,5,1,Electro,Catalyst
-Varesa,Luna III,1,0,1,Electro,Catalyst
-Varesa,Luna IV,0,1,1,Electro,Catalyst
-Varesa,Luna V,0,2,1,Electro,Catalyst
-Escoffier,1.0,0,0,0,Cryo,Polearm
-Escoffier,1.1,0,0,0,Cryo,Polearm
-Escoffier,1.2,0,0,0,Cryo,Polearm
-Escoffier,1.3,0,0,0,Cryo,Polearm
-Escoffier,1.4,0,0,0,Cryo,Polearm
-Escoffier,1.5,0,0,0,Cryo,Polearm
-Escoffier,1.6,0,0,0,Cryo,Polearm
-Escoffier,2.0,0,0,0,Cryo,Polearm
-Escoffier,2.1,0,0,0,Cryo,Polearm
-Escoffier,2.2,0,0,0,Cryo,Polearm
-Escoffier,2.3,0,0,0,Cryo,Polearm
-Escoffier,2.4,0,0,0,Cryo,Polearm
-Escoffier,2.5,0,0,0,Cryo,Polearm
-Escoffier,2.6,0,0,0,Cryo,Polearm
-Escoffier,2.7,0,0,0,Cryo,Polearm
-Escoffier,2.8,0,0,0,Cryo,Polearm
-Escoffier,3.0,0,0,0,Cryo,Polearm
-Escoffier,3.1,0,0,0,Cryo,Polearm
-Escoffier,3.2,0,0,0,Cryo,Polearm
-Escoffier,3.3,0,0,0,Cryo,Polearm
-Escoffier,3.4,0,0,0,Cryo,Polearm
-Escoffier,3.5,0,0,0,Cryo,Polearm
-Escoffier,3.6,0,0,0,Cryo,Polearm
-Escoffier,3.7,0,0,0,Cryo,Polearm
-Escoffier,3.8,0,0,0,Cryo,Polearm
-Escoffier,4.0,0,0,0,Cryo,Polearm
-Escoffier,4.1,0,0,0,Cryo,Polearm
-Escoffier,4.2,0,0,0,Cryo,Polearm
-Escoffier,4.3,0,0,0,Cryo,Polearm
-Escoffier,4.4,0,0,0,Cryo,Polearm
-Escoffier,4.5,0,0,0,Cryo,Polearm
-Escoffier,4.6,0,0,0,Cryo,Polearm
-Escoffier,4.7,0,0,0,Cryo,Polearm
-Escoffier,4.8,0,0,0,Cryo,Polearm
-Escoffier,5.0,0,0,0,Cryo,Polearm
-Escoffier,5.1,0,0,0,Cryo,Polearm
-Escoffier,5.2,0,0,0,Cryo,Polearm
-Escoffier,5.3,0,0,0,Cryo,Polearm
-Escoffier,5.4,0,0,0,Cryo,Polearm
-Escoffier,5.5,0,0,0,Cryo,Polearm
-Escoffier,5.6,1,0,1,Cryo,Polearm
-Escoffier,5.7,0,1,1,Cryo,Polearm
-Escoffier,5.8,0,2,1,Cryo,Polearm
-Escoffier,Luna I,0,3,1,Cryo,Polearm
-Escoffier,Luna II,0,4,1,Cryo,Polearm
-Escoffier,Luna III,0,5,1,Cryo,Polearm
-Escoffier,Luna IV,0,6,1,Cryo,Polearm
-Escoffier,Luna V,1,0,1,Cryo,Polearm
-Skirk,1.0,0,0,0,Cryo,Sword
-Skirk,1.1,0,0,0,Cryo,Sword
-Skirk,1.2,0,0,0,Cryo,Sword
-Skirk,1.3,0,0,0,Cryo,Sword
-Skirk,1.4,0,0,0,Cryo,Sword
-Skirk,1.5,0,0,0,Cryo,Sword
-Skirk,1.6,0,0,0,Cryo,Sword
-Skirk,2.0,0,0,0,Cryo,Sword
-Skirk,2.1,0,0,0,Cryo,Sword
-Skirk,2.2,0,0,0,Cryo,Sword
-Skirk,2.3,0,0,0,Cryo,Sword
-Skirk,2.4,0,0,0,Cryo,Sword
-Skirk,2.5,0,0,0,Cryo,Sword
-Skirk,2.6,0,0,0,Cryo,Sword
-Skirk,2.7,0,0,0,Cryo,Sword
-Skirk,2.8,0,0,0,Cryo,Sword
-Skirk,3.0,0,0,0,Cryo,Sword
-Skirk,3.1,0,0,0,Cryo,Sword
-Skirk,3.2,0,0,0,Cryo,Sword
-Skirk,3.3,0,0,0,Cryo,Sword
-Skirk,3.4,0,0,0,Cryo,Sword
-Skirk,3.5,0,0,0,Cryo,Sword
-Skirk,3.6,0,0,0,Cryo,Sword
-Skirk,3.7,0,0,0,Cryo,Sword
-Skirk,3.8,0,0,0,Cryo,Sword
-Skirk,4.0,0,0,0,Cryo,Sword
-Skirk,4.1,0,0,0,Cryo,Sword
-Skirk,4.2,0,0,0,Cryo,Sword
-Skirk,4.3,0,0,0,Cryo,Sword
-Skirk,4.4,0,0,0,Cryo,Sword
-Skirk,4.5,0,0,0,Cryo,Sword
-Skirk,4.6,0,0,0,Cryo,Sword
-Skirk,4.7,0,0,0,Cryo,Sword
-Skirk,4.8,0,0,0,Cryo,Sword
-Skirk,5.0,0,0,0,Cryo,Sword
-Skirk,5.1,0,0,0,Cryo,Sword
-Skirk,5.2,0,0,0,Cryo,Sword
-Skirk,5.3,0,0,0,Cryo,Sword
-Skirk,5.4,0,0,0,Cryo,Sword
-Skirk,5.5,0,0,0,Cryo,Sword
-Skirk,5.6,0,0,0,Cryo,Sword
-Skirk,5.7,1,0,1,Cryo,Sword
-Skirk,5.8,0,1,1,Cryo,Sword
-Skirk,Luna I,0,2,1,Cryo,Sword
-Skirk,Luna II,0,3,1,Cryo,Sword
-Skirk,Luna III,0,4,1,Cryo,Sword
-Skirk,Luna IV,0,5,1,Cryo,Sword
-Skirk,Luna V,1,0,1,Cryo,Sword
-Ineffa,1.0,0,0,0,Electro,Polearm
-Ineffa,1.1,0,0,0,Electro,Polearm
-Ineffa,1.2,0,0,0,Electro,Polearm
-Ineffa,1.3,0,0,0,Electro,Polearm
-Ineffa,1.4,0,0,0,Electro,Polearm
-Ineffa,1.5,0,0,0,Electro,Polearm
-Ineffa,1.6,0,0,0,Electro,Polearm
-Ineffa,2.0,0,0,0,Electro,Polearm
-Ineffa,2.1,0,0,0,Electro,Polearm
-Ineffa,2.2,0,0,0,Electro,Polearm
-Ineffa,2.3,0,0,0,Electro,Polearm
-Ineffa,2.4,0,0,0,Electro,Polearm
-Ineffa,2.5,0,0,0,Electro,Polearm
-Ineffa,2.6,0,0,0,Electro,Polearm
-Ineffa,2.7,0,0,0,Electro,Polearm
-Ineffa,2.8,0,0,0,Electro,Polearm
-Ineffa,3.0,0,0,0,Electro,Polearm
-Ineffa,3.1,0,0,0,Electro,Polearm
-Ineffa,3.2,0,0,0,Electro,Polearm
-Ineffa,3.3,0,0,0,Electro,Polearm
-Ineffa,3.4,0,0,0,Electro,Polearm
-Ineffa,3.5,0,0,0,Electro,Polearm
-Ineffa,3.6,0,0,0,Electro,Polearm
-Ineffa,3.7,0,0,0,Electro,Polearm
-Ineffa,3.8,0,0,0,Electro,Polearm
-Ineffa,4.0,0,0,0,Electro,Polearm
-Ineffa,4.1,0,0,0,Electro,Polearm
-Ineffa,4.2,0,0,0,Electro,Polearm
-Ineffa,4.3,0,0,0,Electro,Polearm
-Ineffa,4.4,0,0,0,Electro,Polearm
-Ineffa,4.5,0,0,0,Electro,Polearm
-Ineffa,4.6,0,0,0,Electro,Polearm
-Ineffa,4.7,0,0,0,Electro,Polearm
-Ineffa,4.8,0,0,0,Electro,Polearm
-Ineffa,5.0,0,0,0,Electro,Polearm
-Ineffa,5.1,0,0,0,Electro,Polearm
-Ineffa,5.2,0,0,0,Electro,Polearm
-Ineffa,5.3,0,0,0,Electro,Polearm
-Ineffa,5.4,0,0,0,Electro,Polearm
-Ineffa,5.5,0,0,0,Electro,Polearm
-Ineffa,5.6,0,0,0,Electro,Polearm
-Ineffa,5.7,0,0,0,Electro,Polearm
-Ineffa,5.8,1,0,1,Electro,Polearm
-Ineffa,Luna I,0,1,1,Electro,Polearm
-Ineffa,Luna II,0,2,1,Electro,Polearm
-Ineffa,Luna III,0,3,1,Electro,Polearm
-Ineffa,Luna IV,1,0,1,Electro,Polearm
-Ineffa,Luna V,0,1,1,Electro,Polearm
-Lauma,1.0,0,0,0,Dendro,Catalyst
-Lauma,1.1,0,0,0,Dendro,Catalyst
-Lauma,1.2,0,0,0,Dendro,Catalyst
-Lauma,1.3,0,0,0,Dendro,Catalyst
-Lauma,1.4,0,0,0,Dendro,Catalyst
-Lauma,1.5,0,0,0,Dendro,Catalyst
-Lauma,1.6,0,0,0,Dendro,Catalyst
-Lauma,2.0,0,0,0,Dendro,Catalyst
-Lauma,2.1,0,0,0,Dendro,Catalyst
-Lauma,2.2,0,0,0,Dendro,Catalyst
-Lauma,2.3,0,0,0,Dendro,Catalyst
-Lauma,2.4,0,0,0,Dendro,Catalyst
-Lauma,2.5,0,0,0,Dendro,Catalyst
-Lauma,2.6,0,0,0,Dendro,Catalyst
-Lauma,2.7,0,0,0,Dendro,Catalyst
-Lauma,2.8,0,0,0,Dendro,Catalyst
-Lauma,3.0,0,0,0,Dendro,Catalyst
-Lauma,3.1,0,0,0,Dendro,Catalyst
-Lauma,3.2,0,0,0,Dendro,Catalyst
-Lauma,3.3,0,0,0,Dendro,Catalyst
-Lauma,3.4,0,0,0,Dendro,Catalyst
-Lauma,3.5,0,0,0,Dendro,Catalyst
-Lauma,3.6,0,0,0,Dendro,Catalyst
-Lauma,3.7,0,0,0,Dendro,Catalyst
-Lauma,3.8,0,0,0,Dendro,Catalyst
-Lauma,4.0,0,0,0,Dendro,Catalyst
-Lauma,4.1,0,0,0,Dendro,Catalyst
-Lauma,4.2,0,0,0,Dendro,Catalyst
-Lauma,4.3,0,0,0,Dendro,Catalyst
-Lauma,4.4,0,0,0,Dendro,Catalyst
-Lauma,4.5,0,0,0,Dendro,Catalyst
-Lauma,4.6,0,0,0,Dendro,Catalyst
-Lauma,4.7,0,0,0,Dendro,Catalyst
-Lauma,4.8,0,0,0,Dendro,Catalyst
-Lauma,5.0,0,0,0,Dendro,Catalyst
-Lauma,5.1,0,0,0,Dendro,Catalyst
-Lauma,5.2,0,0,0,Dendro,Catalyst
-Lauma,5.3,0,0,0,Dendro,Catalyst
-Lauma,5.4,0,0,0,Dendro,Catalyst
-Lauma,5.5,0,0,0,Dendro,Catalyst
-Lauma,5.6,0,0,0,Dendro,Catalyst
-Lauma,5.7,0,0,0,Dendro,Catalyst
-Lauma,5.8,0,0,0,Dendro,Catalyst
-Lauma,Luna I,1,0,1,Dendro,Catalyst
-Lauma,Luna II,0,1,1,Dendro,Catalyst
-Lauma,Luna III,0,2,1,Dendro,Catalyst
-Lauma,Luna IV,0,3,1,Dendro,Catalyst
-Lauma,Luna V,0,4,1,Dendro,Catalyst
-Flins,1.0,0,0,0,Electro,Polearm
-Flins,1.1,0,0,0,Electro,Polearm
-Flins,1.2,0,0,0,Electro,Polearm
-Flins,1.3,0,0,0,Electro,Polearm
-Flins,1.4,0,0,0,Electro,Polearm
-Flins,1.5,0,0,0,Electro,Polearm
-Flins,1.6,0,0,0,Electro,Polearm
-Flins,2.0,0,0,0,Electro,Polearm
-Flins,2.1,0,0,0,Electro,Polearm
-Flins,2.2,0,0,0,Electro,Polearm
-Flins,2.3,0,0,0,Electro,Polearm
-Flins,2.4,0,0,0,Electro,Polearm
-Flins,2.5,0,0,0,Electro,Polearm
-Flins,2.6,0,0,0,Electro,Polearm
-Flins,2.7,0,0,0,Electro,Polearm
-Flins,2.8,0,0,0,Electro,Polearm
-Flins,3.0,0,0,0,Electro,Polearm
-Flins,3.1,0,0,0,Electro,Polearm
-Flins,3.2,0,0,0,Electro,Polearm
-Flins,3.3,0,0,0,Electro,Polearm
-Flins,3.4,0,0,0,Electro,Polearm
-Flins,3.5,0,0,0,Electro,Polearm
-Flins,3.6,0,0,0,Electro,Polearm
-Flins,3.7,0,0,0,Electro,Polearm
-Flins,3.8,0,0,0,Electro,Polearm
-Flins,4.0,0,0,0,Electro,Polearm
-Flins,4.1,0,0,0,Electro,Polearm
-Flins,4.2,0,0,0,Electro,Polearm
-Flins,4.3,0,0,0,Electro,Polearm
-Flins,4.4,0,0,0,Electro,Polearm
-Flins,4.5,0,0,0,Electro,Polearm
-Flins,4.6,0,0,0,Electro,Polearm
-Flins,4.7,0,0,0,Electro,Polearm
-Flins,4.8,0,0,0,Electro,Polearm
-Flins,5.0,0,0,0,Electro,Polearm
-Flins,5.1,0,0,0,Electro,Polearm
-Flins,5.2,0,0,0,Electro,Polearm
-Flins,5.3,0,0,0,Electro,Polearm
-Flins,5.4,0,0,0,Electro,Polearm
-Flins,5.5,0,0,0,Electro,Polearm
-Flins,5.6,0,0,0,Electro,Polearm
-Flins,5.7,0,0,0,Electro,Polearm
-Flins,5.8,0,0,0,Electro,Polearm
-Flins,Luna I,1,0,1,Electro,Polearm
-Flins,Luna II,0,1,1,Electro,Polearm
-Flins,Luna III,0,2,1,Electro,Polearm
-Flins,Luna IV,0,3,1,Electro,Polearm
-Flins,Luna V,1,0,1,Electro,Polearm
-Nefer,1.0,0,0,0,Dendro,Catalyst
-Nefer,1.1,0,0,0,Dendro,Catalyst
-Nefer,1.2,0,0,0,Dendro,Catalyst
-Nefer,1.3,0,0,0,Dendro,Catalyst
-Nefer,1.4,0,0,0,Dendro,Catalyst
-Nefer,1.5,0,0,0,Dendro,Catalyst
-Nefer,1.6,0,0,0,Dendro,Catalyst
-Nefer,2.0,0,0,0,Dendro,Catalyst
-Nefer,2.1,0,0,0,Dendro,Catalyst
-Nefer,2.2,0,0,0,Dendro,Catalyst
-Nefer,2.3,0,0,0,Dendro,Catalyst
-Nefer,2.4,0,0,0,Dendro,Catalyst
-Nefer,2.5,0,0,0,Dendro,Catalyst
-Nefer,2.6,0,0,0,Dendro,Catalyst
-Nefer,2.7,0,0,0,Dendro,Catalyst
-Nefer,2.8,0,0,0,Dendro,Catalyst
-Nefer,3.0,0,0,0,Dendro,Catalyst
-Nefer,3.1,0,0,0,Dendro,Catalyst
-Nefer,3.2,0,0,0,Dendro,Catalyst
-Nefer,3.3,0,0,0,Dendro,Catalyst
-Nefer,3.4,0,0,0,Dendro,Catalyst
-Nefer,3.5,0,0,0,Dendro,Catalyst
-Nefer,3.6,0,0,0,Dendro,Catalyst
-Nefer,3.7,0,0,0,Dendro,Catalyst
-Nefer,3.8,0,0,0,Dendro,Catalyst
-Nefer,4.0,0,0,0,Dendro,Catalyst
-Nefer,4.1,0,0,0,Dendro,Catalyst
-Nefer,4.2,0,0,0,Dendro,Catalyst
-Nefer,4.3,0,0,0,Dendro,Catalyst
-Nefer,4.4,0,0,0,Dendro,Catalyst
-Nefer,4.5,0,0,0,Dendro,Catalyst
-Nefer,4.6,0,0,0,Dendro,Catalyst
-Nefer,4.7,0,0,0,Dendro,Catalyst
-Nefer,4.8,0,0,0,Dendro,Catalyst
-Nefer,5.0,0,0,0,Dendro,Catalyst
-Nefer,5.1,0,0,0,Dendro,Catalyst
-Nefer,5.2,0,0,0,Dendro,Catalyst
-Nefer,5.3,0,0,0,Dendro,Catalyst
-Nefer,5.4,0,0,0,Dendro,Catalyst
-Nefer,5.5,0,0,0,Dendro,Catalyst
-Nefer,5.6,0,0,0,Dendro,Catalyst
-Nefer,5.7,0,0,0,Dendro,Catalyst
-Nefer,5.8,0,0,0,Dendro,Catalyst
-Nefer,Luna I,0,0,0,Dendro,Catalyst
-Nefer,Luna II,1,0,1,Dendro,Catalyst
-Nefer,Luna III,0,1,1,Dendro,Catalyst
-Nefer,Luna IV,0,2,1,Dendro,Catalyst
-Nefer,Luna V,0,3,1,Dendro,Catalyst
-Durin,1.0,0,0,0,Pyro,Sword
-Durin,1.1,0,0,0,Pyro,Sword
-Durin,1.2,0,0,0,Pyro,Sword
-Durin,1.3,0,0,0,Pyro,Sword
-Durin,1.4,0,0,0,Pyro,Sword
-Durin,1.5,0,0,0,Pyro,Sword
-Durin,1.6,0,0,0,Pyro,Sword
-Durin,2.0,0,0,0,Pyro,Sword
-Durin,2.1,0,0,0,Pyro,Sword
-Durin,2.2,0,0,0,Pyro,Sword
-Durin,2.3,0,0,0,Pyro,Sword
-Durin,2.4,0,0,0,Pyro,Sword
-Durin,2.5,0,0,0,Pyro,Sword
-Durin,2.6,0,0,0,Pyro,Sword
-Durin,2.7,0,0,0,Pyro,Sword
-Durin,2.8,0,0,0,Pyro,Sword
-Durin,3.0,0,0,0,Pyro,Sword
-Durin,3.1,0,0,0,Pyro,Sword
-Durin,3.2,0,0,0,Pyro,Sword
-Durin,3.3,0,0,0,Pyro,Sword
-Durin,3.4,0,0,0,Pyro,Sword
-Durin,3.5,0,0,0,Pyro,Sword
-Durin,3.6,0,0,0,Pyro,Sword
-Durin,3.7,0,0,0,Pyro,Sword
-Durin,3.8,0,0,0,Pyro,Sword
-Durin,4.0,0,0,0,Pyro,Sword
-Durin,4.1,0,0,0,Pyro,Sword
-Durin,4.2,0,0,0,Pyro,Sword
-Durin,4.3,0,0,0,Pyro,Sword
-Durin,4.4,0,0,0,Pyro,Sword
-Durin,4.5,0,0,0,Pyro,Sword
-Durin,4.6,0,0,0,Pyro,Sword
-Durin,4.7,0,0,0,Pyro,Sword
-Durin,4.8,0,0,0,Pyro,Sword
-Durin,5.0,0,0,0,Pyro,Sword
-Durin,5.1,0,0,0,Pyro,Sword
-Durin,5.2,0,0,0,Pyro,Sword
-Durin,5.3,0,0,0,Pyro,Sword
-Durin,5.4,0,0,0,Pyro,Sword
-Durin,5.5,0,0,0,Pyro,Sword
-Durin,5.6,0,0,0,Pyro,Sword
-Durin,5.7,0,0,0,Pyro,Sword
-Durin,5.8,0,0,0,Pyro,Sword
-Durin,Luna I,0,0,0,Pyro,Sword
-Durin,Luna II,0,0,0,Pyro,Sword
-Durin,Luna III,1,0,1,Pyro,Sword
-Durin,Luna IV,0,1,1,Pyro,Sword
-Durin,Luna V,0,2,1,Pyro,Sword
-Columbina,1.0,0,0,0,Hydro,Catalyst
-Columbina,1.1,0,0,0,Hydro,Catalyst
-Columbina,1.2,0,0,0,Hydro,Catalyst
-Columbina,1.3,0,0,0,Hydro,Catalyst
-Columbina,1.4,0,0,0,Hydro,Catalyst
-Columbina,1.5,0,0,0,Hydro,Catalyst
-Columbina,1.6,0,0,0,Hydro,Catalyst
-Columbina,2.0,0,0,0,Hydro,Catalyst
-Columbina,2.1,0,0,0,Hydro,Catalyst
-Columbina,2.2,0,0,0,Hydro,Catalyst
-Columbina,2.3,0,0,0,Hydro,Catalyst
-Columbina,2.4,0,0,0,Hydro,Catalyst
-Columbina,2.5,0,0,0,Hydro,Catalyst
-Columbina,2.6,0,0,0,Hydro,Catalyst
-Columbina,2.7,0,0,0,Hydro,Catalyst
-Columbina,2.8,0,0,0,Hydro,Catalyst
-Columbina,3.0,0,0,0,Hydro,Catalyst
-Columbina,3.1,0,0,0,Hydro,Catalyst
-Columbina,3.2,0,0,0,Hydro,Catalyst
-Columbina,3.3,0,0,0,Hydro,Catalyst
-Columbina,3.4,0,0,0,Hydro,Catalyst
-Columbina,3.5,0,0,0,Hydro,Catalyst
-Columbina,3.6,0,0,0,Hydro,Catalyst
-Columbina,3.7,0,0,0,Hydro,Catalyst
-Columbina,3.8,0,0,0,Hydro,Catalyst
-Columbina,4.0,0,0,0,Hydro,Catalyst
-Columbina,4.1,0,0,0,Hydro,Catalyst
-Columbina,4.2,0,0,0,Hydro,Catalyst
-Columbina,4.3,0,0,0,Hydro,Catalyst
-Columbina,4.4,0,0,0,Hydro,Catalyst
-Columbina,4.5,0,0,0,Hydro,Catalyst
-Columbina,4.6,0,0,0,Hydro,Catalyst
-Columbina,4.7,0,0,0,Hydro,Catalyst
-Columbina,4.8,0,0,0,Hydro,Catalyst
-Columbina,5.0,0,0,0,Hydro,Catalyst
-Columbina,5.1,0,0,0,Hydro,Catalyst
-Columbina,5.2,0,0,0,Hydro,Catalyst
-Columbina,5.3,0,0,0,Hydro,Catalyst
-Columbina,5.4,0,0,0,Hydro,Catalyst
-Columbina,5.5,0,0,0,Hydro,Catalyst
-Columbina,5.6,0,0,0,Hydro,Catalyst
-Columbina,5.7,0,0,0,Hydro,Catalyst
-Columbina,5.8,0,0,0,Hydro,Catalyst
-Columbina,Luna I,0,0,0,Hydro,Catalyst
-Columbina,Luna II,0,0,0,Hydro,Catalyst
-Columbina,Luna III,0,0,0,Hydro,Catalyst
-Columbina,Luna IV,1,0,1,Hydro,Catalyst
-Columbina,Luna V,0,1,1,Hydro,Catalyst
-Zibai,1.0,0,0,0,Geo,Sword
-Zibai,1.1,0,0,0,Geo,Sword
-Zibai,1.2,0,0,0,Geo,Sword
-Zibai,1.3,0,0,0,Geo,Sword
-Zibai,1.4,0,0,0,Geo,Sword
-Zibai,1.5,0,0,0,Geo,Sword
-Zibai,1.6,0,0,0,Geo,Sword
-Zibai,2.0,0,0,0,Geo,Sword
-Zibai,2.1,0,0,0,Geo,Sword
-Zibai,2.2,0,0,0,Geo,Sword
-Zibai,2.3,0,0,0,Geo,Sword
-Zibai,2.4,0,0,0,Geo,Sword
-Zibai,2.5,0,0,0,Geo,Sword
-Zibai,2.6,0,0,0,Geo,Sword
-Zibai,2.7,0,0,0,Geo,Sword
-Zibai,2.8,0,0,0,Geo,Sword
-Zibai,3.0,0,0,0,Geo,Sword
-Zibai,3.1,0,0,0,Geo,Sword
-Zibai,3.2,0,0,0,Geo,Sword
-Zibai,3.3,0,0,0,Geo,Sword
-Zibai,3.4,0,0,0,Geo,Sword
-Zibai,3.5,0,0,0,Geo,Sword
-Zibai,3.6,0,0,0,Geo,Sword
-Zibai,3.7,0,0,0,Geo,Sword
-Zibai,3.8,0,0,0,Geo,Sword
-Zibai,4.0,0,0,0,Geo,Sword
-Zibai,4.1,0,0,0,Geo,Sword
-Zibai,4.2,0,0,0,Geo,Sword
-Zibai,4.3,0,0,0,Geo,Sword
-Zibai,4.4,0,0,0,Geo,Sword
-Zibai,4.5,0,0,0,Geo,Sword
-Zibai,4.6,0,0,0,Geo,Sword
-Zibai,4.7,0,0,0,Geo,Sword
-Zibai,4.8,0,0,0,Geo,Sword
-Zibai,5.0,0,0,0,Geo,Sword
-Zibai,5.1,0,0,0,Geo,Sword
-Zibai,5.2,0,0,0,Geo,Sword
-Zibai,5.3,0,0,0,Geo,Sword
-Zibai,5.4,0,0,0,Geo,Sword
-Zibai,5.5,0,0,0,Geo,Sword
-Zibai,5.6,0,0,0,Geo,Sword
-Zibai,5.7,0,0,0,Geo,Sword
-Zibai,5.8,0,0,0,Geo,Sword
-Zibai,Luna I,0,0,0,Geo,Sword
-Zibai,Luna II,0,0,0,Geo,Sword
-Zibai,Luna III,0,0,0,Geo,Sword
-Zibai,Luna IV,1,0,1,Geo,Sword
-Zibai,Luna V,0,1,1,Geo,Sword
-Varka,1.0,0,0,0,Anemo,Claymore
-Varka,1.1,0,0,0,Anemo,Claymore
-Varka,1.2,0,0,0,Anemo,Claymore
-Varka,1.3,0,0,0,Anemo,Claymore
-Varka,1.4,0,0,0,Anemo,Claymore
-Varka,1.5,0,0,0,Anemo,Claymore
-Varka,1.6,0,0,0,Anemo,Claymore
-Varka,2.0,0,0,0,Anemo,Claymore
-Varka,2.1,0,0,0,Anemo,Claymore
-Varka,2.2,0,0,0,Anemo,Claymore
-Varka,2.3,0,0,0,Anemo,Claymore
-Varka,2.4,0,0,0,Anemo,Claymore
-Varka,2.5,0,0,0,Anemo,Claymore
-Varka,2.6,0,0,0,Anemo,Claymore
-Varka,2.7,0,0,0,Anemo,Claymore
-Varka,2.8,0,0,0,Anemo,Claymore
-Varka,3.0,0,0,0,Anemo,Claymore
-Varka,3.1,0,0,0,Anemo,Claymore
-Varka,3.2,0,0,0,Anemo,Claymore
-Varka,3.3,0,0,0,Anemo,Claymore
-Varka,3.4,0,0,0,Anemo,Claymore
-Varka,3.5,0,0,0,Anemo,Claymore
-Varka,3.6,0,0,0,Anemo,Claymore
-Varka,3.7,0,0,0,Anemo,Claymore
-Varka,3.8,0,0,0,Anemo,Claymore
-Varka,4.0,0,0,0,Anemo,Claymore
-Varka,4.1,0,0,0,Anemo,Claymore
-Varka,4.2,0,0,0,Anemo,Claymore
-Varka,4.3,0,0,0,Anemo,Claymore
-Varka,4.4,0,0,0,Anemo,Claymore
-Varka,4.5,0,0,0,Anemo,Claymore
-Varka,4.6,0,0,0,Anemo,Claymore
-Varka,4.7,0,0,0,Anemo,Claymore
-Varka,4.8,0,0,0,Anemo,Claymore
-Varka,5.0,0,0,0,Anemo,Claymore
-Varka,5.1,0,0,0,Anemo,Claymore
-Varka,5.2,0,0,0,Anemo,Claymore
-Varka,5.3,0,0,0,Anemo,Claymore
-Varka,5.4,0,0,0,Anemo,Claymore
-Varka,5.5,0,0,0,Anemo,Claymore
-Varka,5.6,0,0,0,Anemo,Claymore
-Varka,5.7,0,0,0,Anemo,Claymore
-Varka,5.8,0,0,0,Anemo,Claymore
-Varka,Luna I,0,0,0,Anemo,Claymore
-Varka,Luna II,0,0,0,Anemo,Claymore
-Varka,Luna III,0,0,0,Anemo,Claymore
-Varka,Luna IV,0,0,0,Anemo,Claymore
-Varka,Luna V,1,0,1,Anemo,Claymore
+Name,Patch,Ran,Time_since_ran,Element,Weapon
+Venti,1.0,1,0,Anemo,Bow
+Venti,1.1,0,1,Anemo,Bow
+Venti,1.2,0,2,Anemo,Bow
+Venti,1.3,0,3,Anemo,Bow
+Venti,1.4,1,0,Anemo,Bow
+Venti,1.5,0,1,Anemo,Bow
+Venti,1.6,0,2,Anemo,Bow
+Venti,2.0,0,3,Anemo,Bow
+Venti,2.1,0,4,Anemo,Bow
+Venti,2.2,0,5,Anemo,Bow
+Venti,2.3,0,6,Anemo,Bow
+Venti,2.4,0,7,Anemo,Bow
+Venti,2.5,0,8,Anemo,Bow
+Venti,2.6,1,0,Anemo,Bow
+Venti,2.7,0,1,Anemo,Bow
+Venti,2.8,0,2,Anemo,Bow
+Venti,3.0,0,3,Anemo,Bow
+Venti,3.1,1,0,Anemo,Bow
+Venti,3.2,0,1,Anemo,Bow
+Venti,3.3,0,2,Anemo,Bow
+Venti,3.4,0,3,Anemo,Bow
+Venti,3.5,0,4,Anemo,Bow
+Venti,3.6,0,5,Anemo,Bow
+Venti,3.7,0,6,Anemo,Bow
+Venti,3.8,0,7,Anemo,Bow
+Venti,4.0,0,8,Anemo,Bow
+Venti,4.1,1,0,Anemo,Bow
+Venti,4.2,0,1,Anemo,Bow
+Venti,4.3,0,2,Anemo,Bow
+Venti,4.4,0,3,Anemo,Bow
+Venti,4.5,0,4,Anemo,Bow
+Venti,4.6,0,5,Anemo,Bow
+Venti,4.7,0,6,Anemo,Bow
+Venti,4.8,0,7,Anemo,Bow
+Venti,5.0,0,8,Anemo,Bow
+Venti,5.1,0,9,Anemo,Bow
+Venti,5.2,0,10,Anemo,Bow
+Venti,5.3,0,11,Anemo,Bow
+Venti,5.4,0,12,Anemo,Bow
+Venti,5.5,1,0,Anemo,Bow
+Venti,5.6,0,1,Anemo,Bow
+Venti,5.7,0,2,Anemo,Bow
+Venti,5.8,0,3,Anemo,Bow
+Venti,Luna I,0,4,Anemo,Bow
+Venti,Luna II,0,5,Anemo,Bow
+Venti,Luna III,1,0,Anemo,Bow
+Venti,Luna IV,0,1,Anemo,Bow
+Venti,Luna V,0,2,Anemo,Bow
+Venti,Luna VI,0,3,Anemo,Bow
+Klee,1.0,1,0,Pyro,Catalyst
+Klee,1.1,0,1,Pyro,Catalyst
+Klee,1.2,0,2,Pyro,Catalyst
+Klee,1.3,0,3,Pyro,Catalyst
+Klee,1.4,0,4,Pyro,Catalyst
+Klee,1.5,0,5,Pyro,Catalyst
+Klee,1.6,1,0,Pyro,Catalyst
+Klee,2.0,0,1,Pyro,Catalyst
+Klee,2.1,0,2,Pyro,Catalyst
+Klee,2.2,0,3,Pyro,Catalyst
+Klee,2.3,0,4,Pyro,Catalyst
+Klee,2.4,0,5,Pyro,Catalyst
+Klee,2.5,0,6,Pyro,Catalyst
+Klee,2.6,0,7,Pyro,Catalyst
+Klee,2.7,0,8,Pyro,Catalyst
+Klee,2.8,1,0,Pyro,Catalyst
+Klee,3.0,0,1,Pyro,Catalyst
+Klee,3.1,0,2,Pyro,Catalyst
+Klee,3.2,0,3,Pyro,Catalyst
+Klee,3.3,0,4,Pyro,Catalyst
+Klee,3.4,0,5,Pyro,Catalyst
+Klee,3.5,0,6,Pyro,Catalyst
+Klee,3.6,0,7,Pyro,Catalyst
+Klee,3.7,0,8,Pyro,Catalyst
+Klee,3.8,1,0,Pyro,Catalyst
+Klee,4.0,0,1,Pyro,Catalyst
+Klee,4.1,0,2,Pyro,Catalyst
+Klee,4.2,0,3,Pyro,Catalyst
+Klee,4.3,0,4,Pyro,Catalyst
+Klee,4.4,0,5,Pyro,Catalyst
+Klee,4.5,C,0,Pyro,Catalyst
+Klee,4.6,0,1,Pyro,Catalyst
+Klee,4.7,0,2,Pyro,Catalyst
+Klee,4.8,0,3,Pyro,Catalyst
+Klee,5.0,0,4,Pyro,Catalyst
+Klee,5.1,0,5,Pyro,Catalyst
+Klee,5.2,0,6,Pyro,Catalyst
+Klee,5.3,0,7,Pyro,Catalyst
+Klee,5.4,0,8,Pyro,Catalyst
+Klee,5.5,0,9,Pyro,Catalyst
+Klee,5.6,0,10,Pyro,Catalyst
+Klee,5.7,0,11,Pyro,Catalyst
+Klee,5.8,0,12,Pyro,Catalyst
+Klee,Luna I,0,13,Pyro,Catalyst
+Klee,Luna II,0,14,Pyro,Catalyst
+Klee,Luna III,0,15,Pyro,Catalyst
+Klee,Luna IV,0,16,Pyro,Catalyst
+Klee,Luna V,C,0,Pyro,Catalyst
+Klee,Luna VI,0,1,Pyro,Catalyst
+Tartaglia,1.1,1,0,Hydro,Bow
+Tartaglia,1.2,0,1,Hydro,Bow
+Tartaglia,1.3,0,2,Hydro,Bow
+Tartaglia,1.4,1,0,Hydro,Bow
+Tartaglia,1.5,0,1,Hydro,Bow
+Tartaglia,1.6,0,2,Hydro,Bow
+Tartaglia,2.0,0,3,Hydro,Bow
+Tartaglia,2.1,0,4,Hydro,Bow
+Tartaglia,2.2,1,0,Hydro,Bow
+Tartaglia,2.3,0,1,Hydro,Bow
+Tartaglia,2.4,0,2,Hydro,Bow
+Tartaglia,2.5,0,3,Hydro,Bow
+Tartaglia,2.6,0,4,Hydro,Bow
+Tartaglia,2.7,0,5,Hydro,Bow
+Tartaglia,2.8,0,6,Hydro,Bow
+Tartaglia,3.0,0,7,Hydro,Bow
+Tartaglia,3.1,0,8,Hydro,Bow
+Tartaglia,3.2,1,0,Hydro,Bow
+Tartaglia,3.3,0,1,Hydro,Bow
+Tartaglia,3.4,0,2,Hydro,Bow
+Tartaglia,3.5,0,3,Hydro,Bow
+Tartaglia,3.6,0,4,Hydro,Bow
+Tartaglia,3.7,0,5,Hydro,Bow
+Tartaglia,3.8,0,6,Hydro,Bow
+Tartaglia,4.0,1,0,Hydro,Bow
+Tartaglia,4.1,0,1,Hydro,Bow
+Tartaglia,4.2,0,2,Hydro,Bow
+Tartaglia,4.3,0,3,Hydro,Bow
+Tartaglia,4.4,0,4,Hydro,Bow
+Tartaglia,4.5,0,5,Hydro,Bow
+Tartaglia,4.6,0,6,Hydro,Bow
+Tartaglia,4.7,0,7,Hydro,Bow
+Tartaglia,4.8,0,8,Hydro,Bow
+Tartaglia,5.0,0,9,Hydro,Bow
+Tartaglia,5.1,0,10,Hydro,Bow
+Tartaglia,5.2,0,11,Hydro,Bow
+Tartaglia,5.3,C,0,Hydro,Bow
+Tartaglia,5.4,0,1,Hydro,Bow
+Tartaglia,5.5,0,2,Hydro,Bow
+Tartaglia,5.6,0,3,Hydro,Bow
+Tartaglia,5.7,0,4,Hydro,Bow
+Tartaglia,5.8,0,5,Hydro,Bow
+Tartaglia,Luna I,0,6,Hydro,Bow
+Tartaglia,Luna II,0,7,Hydro,Bow
+Tartaglia,Luna III,0,8,Hydro,Bow
+Tartaglia,Luna IV,0,9,Hydro,Bow
+Tartaglia,Luna V,0,10,Hydro,Bow
+Tartaglia,Luna VI,0,11,Hydro,Bow
+Zhongli,1.1,1,0,Geo,Polearm
+Zhongli,1.2,0,1,Geo,Polearm
+Zhongli,1.3,0,2,Geo,Polearm
+Zhongli,1.4,0,3,Geo,Polearm
+Zhongli,1.5,1,0,Geo,Polearm
+Zhongli,1.6,0,1,Geo,Polearm
+Zhongli,2.0,0,2,Geo,Polearm
+Zhongli,2.1,0,3,Geo,Polearm
+Zhongli,2.2,0,4,Geo,Polearm
+Zhongli,2.3,0,5,Geo,Polearm
+Zhongli,2.4,1,0,Geo,Polearm
+Zhongli,2.5,0,1,Geo,Polearm
+Zhongli,2.6,0,2,Geo,Polearm
+Zhongli,2.7,0,3,Geo,Polearm
+Zhongli,2.8,0,4,Geo,Polearm
+Zhongli,3.0,1,0,Geo,Polearm
+Zhongli,3.1,0,1,Geo,Polearm
+Zhongli,3.2,0,2,Geo,Polearm
+Zhongli,3.3,0,3,Geo,Polearm
+Zhongli,3.4,0,4,Geo,Polearm
+Zhongli,3.5,0,5,Geo,Polearm
+Zhongli,3.6,0,6,Geo,Polearm
+Zhongli,3.7,0,7,Geo,Polearm
+Zhongli,3.8,0,8,Geo,Polearm
+Zhongli,4.0,1,0,Geo,Polearm
+Zhongli,4.1,0,1,Geo,Polearm
+Zhongli,4.2,0,2,Geo,Polearm
+Zhongli,4.3,0,3,Geo,Polearm
+Zhongli,4.4,0,4,Geo,Polearm
+Zhongli,4.5,0,5,Geo,Polearm
+Zhongli,4.6,0,6,Geo,Polearm
+Zhongli,4.7,0,7,Geo,Polearm
+Zhongli,4.8,0,8,Geo,Polearm
+Zhongli,5.0,0,9,Geo,Polearm
+Zhongli,5.1,0,10,Geo,Polearm
+Zhongli,5.2,1,0,Geo,Polearm
+Zhongli,5.3,0,1,Geo,Polearm
+Zhongli,5.4,0,2,Geo,Polearm
+Zhongli,5.5,0,3,Geo,Polearm
+Zhongli,5.6,0,4,Geo,Polearm
+Zhongli,5.7,0,5,Geo,Polearm
+Zhongli,5.8,0,6,Geo,Polearm
+Zhongli,Luna I,0,7,Geo,Polearm
+Zhongli,Luna II,1,0,Geo,Polearm
+Zhongli,Luna III,0,1,Geo,Polearm
+Zhongli,Luna IV,0,2,Geo,Polearm
+Zhongli,Luna V,0,3,Geo,Polearm
+Zhongli,Luna VI,0,4,Geo,Polearm
+Albedo,1.2,1,0,Geo,Sword
+Albedo,1.3,0,1,Geo,Sword
+Albedo,1.4,0,2,Geo,Sword
+Albedo,1.5,0,3,Geo,Sword
+Albedo,1.6,0,4,Geo,Sword
+Albedo,2.0,0,5,Geo,Sword
+Albedo,2.1,0,6,Geo,Sword
+Albedo,2.2,0,7,Geo,Sword
+Albedo,2.3,1,0,Geo,Sword
+Albedo,2.4,0,1,Geo,Sword
+Albedo,2.5,0,2,Geo,Sword
+Albedo,2.6,0,3,Geo,Sword
+Albedo,2.7,0,4,Geo,Sword
+Albedo,2.8,0,5,Geo,Sword
+Albedo,3.0,0,6,Geo,Sword
+Albedo,3.1,1,0,Geo,Sword
+Albedo,3.2,0,1,Geo,Sword
+Albedo,3.3,0,2,Geo,Sword
+Albedo,3.4,0,3,Geo,Sword
+Albedo,3.5,0,4,Geo,Sword
+Albedo,3.6,0,5,Geo,Sword
+Albedo,3.7,0,6,Geo,Sword
+Albedo,3.8,0,7,Geo,Sword
+Albedo,4.0,0,8,Geo,Sword
+Albedo,4.1,0,9,Geo,Sword
+Albedo,4.2,0,10,Geo,Sword
+Albedo,4.3,0,11,Geo,Sword
+Albedo,4.4,0,12,Geo,Sword
+Albedo,4.5,C,0,Geo,Sword
+Albedo,4.6,0,1,Geo,Sword
+Albedo,4.7,0,2,Geo,Sword
+Albedo,4.8,0,3,Geo,Sword
+Albedo,5.0,0,4,Geo,Sword
+Albedo,5.1,0,5,Geo,Sword
+Albedo,5.2,0,6,Geo,Sword
+Albedo,5.3,0,7,Geo,Sword
+Albedo,5.4,0,8,Geo,Sword
+Albedo,5.5,0,9,Geo,Sword
+Albedo,5.6,0,10,Geo,Sword
+Albedo,5.7,0,11,Geo,Sword
+Albedo,5.8,0,12,Geo,Sword
+Albedo,Luna I,0,13,Geo,Sword
+Albedo,Luna II,0,14,Geo,Sword
+Albedo,Luna III,0,15,Geo,Sword
+Albedo,Luna IV,0,16,Geo,Sword
+Albedo,Luna V,C,0,Geo,Sword
+Albedo,Luna VI,0,1,Geo,Sword
+Ganyu,1.2,1,0,Cryo,Bow
+Ganyu,1.3,0,1,Cryo,Bow
+Ganyu,1.4,0,2,Cryo,Bow
+Ganyu,1.5,0,3,Cryo,Bow
+Ganyu,1.6,0,4,Cryo,Bow
+Ganyu,2.0,0,5,Cryo,Bow
+Ganyu,2.1,0,6,Cryo,Bow
+Ganyu,2.2,0,7,Cryo,Bow
+Ganyu,2.3,0,8,Cryo,Bow
+Ganyu,2.4,1,0,Cryo,Bow
+Ganyu,2.5,0,1,Cryo,Bow
+Ganyu,2.6,0,2,Cryo,Bow
+Ganyu,2.7,0,3,Cryo,Bow
+Ganyu,2.8,0,4,Cryo,Bow
+Ganyu,3.0,1,0,Cryo,Bow
+Ganyu,3.1,0,1,Cryo,Bow
+Ganyu,3.2,0,2,Cryo,Bow
+Ganyu,3.3,0,3,Cryo,Bow
+Ganyu,3.4,0,4,Cryo,Bow
+Ganyu,3.5,0,5,Cryo,Bow
+Ganyu,3.6,1,0,Cryo,Bow
+Ganyu,3.7,0,1,Cryo,Bow
+Ganyu,3.8,0,2,Cryo,Bow
+Ganyu,4.0,0,3,Cryo,Bow
+Ganyu,4.1,0,4,Cryo,Bow
+Ganyu,4.2,0,5,Cryo,Bow
+Ganyu,4.3,0,6,Cryo,Bow
+Ganyu,4.4,0,7,Cryo,Bow
+Ganyu,4.5,0,8,Cryo,Bow
+Ganyu,4.6,0,9,Cryo,Bow
+Ganyu,4.7,0,10,Cryo,Bow
+Ganyu,4.8,0,11,Cryo,Bow
+Ganyu,5.0,0,12,Cryo,Bow
+Ganyu,5.1,0,13,Cryo,Bow
+Ganyu,5.2,0,14,Cryo,Bow
+Ganyu,5.3,C,0,Cryo,Bow
+Ganyu,5.4,0,1,Cryo,Bow
+Ganyu,5.5,0,2,Cryo,Bow
+Ganyu,5.6,0,3,Cryo,Bow
+Ganyu,5.7,0,4,Cryo,Bow
+Ganyu,5.8,0,5,Cryo,Bow
+Ganyu,Luna I,0,6,Cryo,Bow
+Ganyu,Luna II,0,7,Cryo,Bow
+Ganyu,Luna III,0,8,Cryo,Bow
+Ganyu,Luna IV,0,9,Cryo,Bow
+Ganyu,Luna V,0,10,Cryo,Bow
+Ganyu,Luna VI,0,11,Cryo,Bow
+Xiao,1.3,1,0,Anemo,Polearm
+Xiao,1.4,0,1,Anemo,Polearm
+Xiao,1.5,0,2,Anemo,Polearm
+Xiao,1.6,0,3,Anemo,Polearm
+Xiao,2.0,0,4,Anemo,Polearm
+Xiao,2.1,0,5,Anemo,Polearm
+Xiao,2.2,0,6,Anemo,Polearm
+Xiao,2.3,0,7,Anemo,Polearm
+Xiao,2.4,1,0,Anemo,Polearm
+Xiao,2.5,0,1,Anemo,Polearm
+Xiao,2.6,0,2,Anemo,Polearm
+Xiao,2.7,1,0,Anemo,Polearm
+Xiao,2.8,0,1,Anemo,Polearm
+Xiao,3.0,0,2,Anemo,Polearm
+Xiao,3.1,0,3,Anemo,Polearm
+Xiao,3.2,0,4,Anemo,Polearm
+Xiao,3.3,0,5,Anemo,Polearm
+Xiao,3.4,1,0,Anemo,Polearm
+Xiao,3.5,0,1,Anemo,Polearm
+Xiao,3.6,0,2,Anemo,Polearm
+Xiao,3.7,0,3,Anemo,Polearm
+Xiao,3.8,0,4,Anemo,Polearm
+Xiao,4.0,0,5,Anemo,Polearm
+Xiao,4.1,0,6,Anemo,Polearm
+Xiao,4.2,0,7,Anemo,Polearm
+Xiao,4.3,0,8,Anemo,Polearm
+Xiao,4.4,1,0,Anemo,Polearm
+Xiao,4.5,0,1,Anemo,Polearm
+Xiao,4.6,0,2,Anemo,Polearm
+Xiao,4.7,0,3,Anemo,Polearm
+Xiao,4.8,0,4,Anemo,Polearm
+Xiao,5.0,0,5,Anemo,Polearm
+Xiao,5.1,0,6,Anemo,Polearm
+Xiao,5.2,0,7,Anemo,Polearm
+Xiao,5.3,C,0,Anemo,Polearm
+Xiao,5.4,0,1,Anemo,Polearm
+Xiao,5.5,0,2,Anemo,Polearm
+Xiao,5.6,0,3,Anemo,Polearm
+Xiao,5.7,0,4,Anemo,Polearm
+Xiao,5.8,0,5,Anemo,Polearm
+Xiao,Luna I,0,6,Anemo,Polearm
+Xiao,Luna II,0,7,Anemo,Polearm
+Xiao,Luna III,0,8,Anemo,Polearm
+Xiao,Luna IV,0,9,Anemo,Polearm
+Xiao,Luna V,0,10,Anemo,Polearm
+Xiao,Luna VI,0,11,Anemo,Polearm
+Hu Tao,1.3,1,0,Pyro,Polearm
+Hu Tao,1.4,0,1,Pyro,Polearm
+Hu Tao,1.5,0,2,Pyro,Polearm
+Hu Tao,1.6,0,3,Pyro,Polearm
+Hu Tao,2.0,0,4,Pyro,Polearm
+Hu Tao,2.1,0,5,Pyro,Polearm
+Hu Tao,2.2,1,0,Pyro,Polearm
+Hu Tao,2.3,0,1,Pyro,Polearm
+Hu Tao,2.4,0,2,Pyro,Polearm
+Hu Tao,2.5,0,3,Pyro,Polearm
+Hu Tao,2.6,0,4,Pyro,Polearm
+Hu Tao,2.7,0,5,Pyro,Polearm
+Hu Tao,2.8,0,6,Pyro,Polearm
+Hu Tao,3.0,0,7,Pyro,Polearm
+Hu Tao,3.1,0,8,Pyro,Polearm
+Hu Tao,3.2,0,9,Pyro,Polearm
+Hu Tao,3.3,0,10,Pyro,Polearm
+Hu Tao,3.4,1,0,Pyro,Polearm
+Hu Tao,3.5,0,1,Pyro,Polearm
+Hu Tao,3.6,0,2,Pyro,Polearm
+Hu Tao,3.7,0,3,Pyro,Polearm
+Hu Tao,3.8,0,4,Pyro,Polearm
+Hu Tao,4.0,0,5,Pyro,Polearm
+Hu Tao,4.1,1,0,Pyro,Polearm
+Hu Tao,4.2,0,1,Pyro,Polearm
+Hu Tao,4.3,0,2,Pyro,Polearm
+Hu Tao,4.4,0,3,Pyro,Polearm
+Hu Tao,4.5,0,4,Pyro,Polearm
+Hu Tao,4.6,0,5,Pyro,Polearm
+Hu Tao,4.7,0,6,Pyro,Polearm
+Hu Tao,4.8,0,7,Pyro,Polearm
+Hu Tao,5.0,0,8,Pyro,Polearm
+Hu Tao,5.1,1,0,Pyro,Polearm
+Hu Tao,5.2,0,1,Pyro,Polearm
+Hu Tao,5.3,0,2,Pyro,Polearm
+Hu Tao,5.4,0,3,Pyro,Polearm
+Hu Tao,5.5,0,4,Pyro,Polearm
+Hu Tao,5.6,0,5,Pyro,Polearm
+Hu Tao,5.7,0,6,Pyro,Polearm
+Hu Tao,5.8,0,7,Pyro,Polearm
+Hu Tao,Luna I,0,8,Pyro,Polearm
+Hu Tao,Luna II,0,9,Pyro,Polearm
+Hu Tao,Luna III,0,10,Pyro,Polearm
+Hu Tao,Luna IV,0,11,Pyro,Polearm
+Hu Tao,Luna V,0,12,Pyro,Polearm
+Hu Tao,Luna VI,0,13,Pyro,Polearm
+Eula,1.5,1,0,Cryo,Claymore
+Eula,1.6,0,1,Cryo,Claymore
+Eula,2.0,0,2,Cryo,Claymore
+Eula,2.1,0,3,Cryo,Claymore
+Eula,2.2,0,4,Cryo,Claymore
+Eula,2.3,1,0,Cryo,Claymore
+Eula,2.4,0,1,Cryo,Claymore
+Eula,2.5,0,2,Cryo,Claymore
+Eula,2.6,0,3,Cryo,Claymore
+Eula,2.7,0,4,Cryo,Claymore
+Eula,2.8,0,5,Cryo,Claymore
+Eula,3.0,0,6,Cryo,Claymore
+Eula,3.1,0,7,Cryo,Claymore
+Eula,3.2,0,8,Cryo,Claymore
+Eula,3.3,0,9,Cryo,Claymore
+Eula,3.4,0,10,Cryo,Claymore
+Eula,3.5,0,11,Cryo,Claymore
+Eula,3.6,0,12,Cryo,Claymore
+Eula,3.7,0,13,Cryo,Claymore
+Eula,3.8,1,0,Cryo,Claymore
+Eula,4.0,0,1,Cryo,Claymore
+Eula,4.1,0,2,Cryo,Claymore
+Eula,4.2,0,3,Cryo,Claymore
+Eula,4.3,0,4,Cryo,Claymore
+Eula,4.4,0,5,Cryo,Claymore
+Eula,4.5,C,0,Cryo,Claymore
+Eula,4.6,0,1,Cryo,Claymore
+Eula,4.7,0,2,Cryo,Claymore
+Eula,4.8,0,3,Cryo,Claymore
+Eula,5.0,0,4,Cryo,Claymore
+Eula,5.1,0,5,Cryo,Claymore
+Eula,5.2,0,6,Cryo,Claymore
+Eula,5.3,0,7,Cryo,Claymore
+Eula,5.4,0,8,Cryo,Claymore
+Eula,5.5,0,9,Cryo,Claymore
+Eula,5.6,0,10,Cryo,Claymore
+Eula,5.7,0,11,Cryo,Claymore
+Eula,5.8,0,12,Cryo,Claymore
+Eula,Luna I,0,13,Cryo,Claymore
+Eula,Luna II,0,14,Cryo,Claymore
+Eula,Luna III,0,15,Cryo,Claymore
+Eula,Luna IV,0,16,Cryo,Claymore
+Eula,Luna V,C,0,Cryo,Claymore
+Eula,Luna VI,0,1,Cryo,Claymore
+Kaedehara Kazuha,1.6,1,0,Anemo,Sword
+Kaedehara Kazuha,2.0,0,1,Anemo,Sword
+Kaedehara Kazuha,2.1,0,2,Anemo,Sword
+Kaedehara Kazuha,2.2,0,3,Anemo,Sword
+Kaedehara Kazuha,2.3,0,4,Anemo,Sword
+Kaedehara Kazuha,2.4,0,5,Anemo,Sword
+Kaedehara Kazuha,2.5,0,6,Anemo,Sword
+Kaedehara Kazuha,2.6,0,7,Anemo,Sword
+Kaedehara Kazuha,2.7,0,8,Anemo,Sword
+Kaedehara Kazuha,2.8,1,0,Anemo,Sword
+Kaedehara Kazuha,3.0,0,1,Anemo,Sword
+Kaedehara Kazuha,3.1,0,2,Anemo,Sword
+Kaedehara Kazuha,3.2,0,3,Anemo,Sword
+Kaedehara Kazuha,3.3,0,4,Anemo,Sword
+Kaedehara Kazuha,3.4,0,5,Anemo,Sword
+Kaedehara Kazuha,3.5,0,6,Anemo,Sword
+Kaedehara Kazuha,3.6,0,7,Anemo,Sword
+Kaedehara Kazuha,3.7,1,0,Anemo,Sword
+Kaedehara Kazuha,3.8,0,1,Anemo,Sword
+Kaedehara Kazuha,4.0,0,2,Anemo,Sword
+Kaedehara Kazuha,4.1,0,3,Anemo,Sword
+Kaedehara Kazuha,4.2,0,4,Anemo,Sword
+Kaedehara Kazuha,4.3,0,5,Anemo,Sword
+Kaedehara Kazuha,4.4,0,6,Anemo,Sword
+Kaedehara Kazuha,4.5,1,0,Anemo,Sword
+Kaedehara Kazuha,4.6,0,1,Anemo,Sword
+Kaedehara Kazuha,4.7,0,2,Anemo,Sword
+Kaedehara Kazuha,4.8,0,3,Anemo,Sword
+Kaedehara Kazuha,5.0,1,0,Anemo,Sword
+Kaedehara Kazuha,5.1,0,1,Anemo,Sword
+Kaedehara Kazuha,5.2,0,2,Anemo,Sword
+Kaedehara Kazuha,5.3,0,3,Anemo,Sword
+Kaedehara Kazuha,5.4,0,4,Anemo,Sword
+Kaedehara Kazuha,5.5,0,5,Anemo,Sword
+Kaedehara Kazuha,5.6,C,0,Anemo,Sword
+Kaedehara Kazuha,5.7,0,1,Anemo,Sword
+Kaedehara Kazuha,5.8,0,2,Anemo,Sword
+Kaedehara Kazuha,Luna I,0,3,Anemo,Sword
+Kaedehara Kazuha,Luna II,0,4,Anemo,Sword
+Kaedehara Kazuha,Luna III,0,5,Anemo,Sword
+Kaedehara Kazuha,Luna IV,0,6,Anemo,Sword
+Kaedehara Kazuha,Luna V,0,7,Anemo,Sword
+Kaedehara Kazuha,Luna VI,0,8,Anemo,Sword
+Kamisato Ayaka,2.0,1,0,Cryo,Sword
+Kamisato Ayaka,2.1,0,1,Cryo,Sword
+Kamisato Ayaka,2.2,0,2,Cryo,Sword
+Kamisato Ayaka,2.3,0,3,Cryo,Sword
+Kamisato Ayaka,2.4,0,4,Cryo,Sword
+Kamisato Ayaka,2.5,0,5,Cryo,Sword
+Kamisato Ayaka,2.6,1,0,Cryo,Sword
+Kamisato Ayaka,2.7,0,1,Cryo,Sword
+Kamisato Ayaka,2.8,0,2,Cryo,Sword
+Kamisato Ayaka,3.0,0,3,Cryo,Sword
+Kamisato Ayaka,3.1,0,4,Cryo,Sword
+Kamisato Ayaka,3.2,0,5,Cryo,Sword
+Kamisato Ayaka,3.3,0,6,Cryo,Sword
+Kamisato Ayaka,3.4,0,7,Cryo,Sword
+Kamisato Ayaka,3.5,1,0,Cryo,Sword
+Kamisato Ayaka,3.6,0,1,Cryo,Sword
+Kamisato Ayaka,3.7,0,2,Cryo,Sword
+Kamisato Ayaka,3.8,0,3,Cryo,Sword
+Kamisato Ayaka,4.0,0,4,Cryo,Sword
+Kamisato Ayaka,4.1,0,5,Cryo,Sword
+Kamisato Ayaka,4.2,0,6,Cryo,Sword
+Kamisato Ayaka,4.3,1,0,Cryo,Sword
+Kamisato Ayaka,4.4,0,1,Cryo,Sword
+Kamisato Ayaka,4.5,0,2,Cryo,Sword
+Kamisato Ayaka,4.6,0,3,Cryo,Sword
+Kamisato Ayaka,4.7,0,4,Cryo,Sword
+Kamisato Ayaka,4.8,0,5,Cryo,Sword
+Kamisato Ayaka,5.0,0,6,Cryo,Sword
+Kamisato Ayaka,5.1,0,7,Cryo,Sword
+Kamisato Ayaka,5.2,0,8,Cryo,Sword
+Kamisato Ayaka,5.3,0,9,Cryo,Sword
+Kamisato Ayaka,5.4,0,10,Cryo,Sword
+Kamisato Ayaka,5.5,0,11,Cryo,Sword
+Kamisato Ayaka,5.6,C,0,Cryo,Sword
+Kamisato Ayaka,5.7,0,1,Cryo,Sword
+Kamisato Ayaka,5.8,0,2,Cryo,Sword
+Kamisato Ayaka,Luna I,0,3,Cryo,Sword
+Kamisato Ayaka,Luna II,0,4,Cryo,Sword
+Kamisato Ayaka,Luna III,0,5,Cryo,Sword
+Kamisato Ayaka,Luna IV,0,6,Cryo,Sword
+Kamisato Ayaka,Luna V,0,7,Cryo,Sword
+Kamisato Ayaka,Luna VI,0,8,Cryo,Sword
+Yoimiya,2.0,1,0,Pyro,Bow
+Yoimiya,2.1,0,1,Pyro,Bow
+Yoimiya,2.2,0,2,Pyro,Bow
+Yoimiya,2.3,0,3,Pyro,Bow
+Yoimiya,2.4,0,4,Pyro,Bow
+Yoimiya,2.5,0,5,Pyro,Bow
+Yoimiya,2.6,0,6,Pyro,Bow
+Yoimiya,2.7,0,7,Pyro,Bow
+Yoimiya,2.8,1,0,Pyro,Bow
+Yoimiya,3.0,0,1,Pyro,Bow
+Yoimiya,3.1,0,2,Pyro,Bow
+Yoimiya,3.2,1,0,Pyro,Bow
+Yoimiya,3.3,0,1,Pyro,Bow
+Yoimiya,3.4,0,2,Pyro,Bow
+Yoimiya,3.5,0,3,Pyro,Bow
+Yoimiya,3.6,0,4,Pyro,Bow
+Yoimiya,3.7,1,0,Pyro,Bow
+Yoimiya,3.8,0,1,Pyro,Bow
+Yoimiya,4.0,0,2,Pyro,Bow
+Yoimiya,4.1,0,3,Pyro,Bow
+Yoimiya,4.2,0,4,Pyro,Bow
+Yoimiya,4.3,1,0,Pyro,Bow
+Yoimiya,4.4,0,1,Pyro,Bow
+Yoimiya,4.5,0,2,Pyro,Bow
+Yoimiya,4.6,0,3,Pyro,Bow
+Yoimiya,4.7,0,4,Pyro,Bow
+Yoimiya,4.8,0,5,Pyro,Bow
+Yoimiya,5.0,0,6,Pyro,Bow
+Yoimiya,5.1,0,7,Pyro,Bow
+Yoimiya,5.2,0,8,Pyro,Bow
+Yoimiya,5.3,0,9,Pyro,Bow
+Yoimiya,5.4,0,10,Pyro,Bow
+Yoimiya,5.5,0,11,Pyro,Bow
+Yoimiya,5.6,C,0,Pyro,Bow
+Yoimiya,5.7,0,1,Pyro,Bow
+Yoimiya,5.8,0,2,Pyro,Bow
+Yoimiya,Luna I,0,3,Pyro,Bow
+Yoimiya,Luna II,0,4,Pyro,Bow
+Yoimiya,Luna III,0,5,Pyro,Bow
+Yoimiya,Luna IV,0,6,Pyro,Bow
+Yoimiya,Luna V,0,7,Pyro,Bow
+Yoimiya,Luna VI,0,8,Pyro,Bow
+Raiden Shogun,2.1,1,0,Electro,Polearm
+Raiden Shogun,2.2,0,1,Electro,Polearm
+Raiden Shogun,2.3,0,2,Electro,Polearm
+Raiden Shogun,2.4,0,3,Electro,Polearm
+Raiden Shogun,2.5,1,0,Electro,Polearm
+Raiden Shogun,2.6,0,1,Electro,Polearm
+Raiden Shogun,2.7,0,2,Electro,Polearm
+Raiden Shogun,2.8,0,3,Electro,Polearm
+Raiden Shogun,3.0,0,4,Electro,Polearm
+Raiden Shogun,3.1,0,5,Electro,Polearm
+Raiden Shogun,3.2,0,6,Electro,Polearm
+Raiden Shogun,3.3,1,0,Electro,Polearm
+Raiden Shogun,3.4,0,1,Electro,Polearm
+Raiden Shogun,3.5,0,2,Electro,Polearm
+Raiden Shogun,3.6,0,3,Electro,Polearm
+Raiden Shogun,3.7,0,4,Electro,Polearm
+Raiden Shogun,3.8,0,5,Electro,Polearm
+Raiden Shogun,4.0,0,6,Electro,Polearm
+Raiden Shogun,4.1,0,7,Electro,Polearm
+Raiden Shogun,4.2,0,8,Electro,Polearm
+Raiden Shogun,4.3,1,0,Electro,Polearm
+Raiden Shogun,4.4,0,1,Electro,Polearm
+Raiden Shogun,4.5,0,2,Electro,Polearm
+Raiden Shogun,4.6,0,3,Electro,Polearm
+Raiden Shogun,4.7,0,4,Electro,Polearm
+Raiden Shogun,4.8,0,5,Electro,Polearm
+Raiden Shogun,5.0,1,0,Electro,Polearm
+Raiden Shogun,5.1,0,1,Electro,Polearm
+Raiden Shogun,5.2,0,2,Electro,Polearm
+Raiden Shogun,5.3,0,3,Electro,Polearm
+Raiden Shogun,5.4,0,4,Electro,Polearm
+Raiden Shogun,5.5,0,5,Electro,Polearm
+Raiden Shogun,5.6,1,0,Electro,Polearm
+Raiden Shogun,5.7,0,1,Electro,Polearm
+Raiden Shogun,5.8,0,2,Electro,Polearm
+Raiden Shogun,Luna I,0,3,Electro,Polearm
+Raiden Shogun,Luna II,0,4,Electro,Polearm
+Raiden Shogun,Luna III,0,5,Electro,Polearm
+Raiden Shogun,Luna IV,0,6,Electro,Polearm
+Raiden Shogun,Luna V,0,7,Electro,Polearm
+Raiden Shogun,Luna VI,0,8,Electro,Polearm
+Sangonomiya Kokomi,2.1,1,0,Hydro,Catalyst
+Sangonomiya Kokomi,2.2,0,1,Hydro,Catalyst
+Sangonomiya Kokomi,2.3,0,2,Hydro,Catalyst
+Sangonomiya Kokomi,2.4,0,3,Hydro,Catalyst
+Sangonomiya Kokomi,2.5,1,0,Hydro,Catalyst
+Sangonomiya Kokomi,2.6,0,1,Hydro,Catalyst
+Sangonomiya Kokomi,2.7,0,2,Hydro,Catalyst
+Sangonomiya Kokomi,2.8,0,3,Hydro,Catalyst
+Sangonomiya Kokomi,3.0,1,0,Hydro,Catalyst
+Sangonomiya Kokomi,3.1,0,1,Hydro,Catalyst
+Sangonomiya Kokomi,3.2,0,2,Hydro,Catalyst
+Sangonomiya Kokomi,3.3,0,3,Hydro,Catalyst
+Sangonomiya Kokomi,3.4,0,4,Hydro,Catalyst
+Sangonomiya Kokomi,3.5,0,5,Hydro,Catalyst
+Sangonomiya Kokomi,3.6,0,6,Hydro,Catalyst
+Sangonomiya Kokomi,3.7,0,7,Hydro,Catalyst
+Sangonomiya Kokomi,3.8,1,0,Hydro,Catalyst
+Sangonomiya Kokomi,4.0,0,1,Hydro,Catalyst
+Sangonomiya Kokomi,4.1,0,2,Hydro,Catalyst
+Sangonomiya Kokomi,4.2,0,3,Hydro,Catalyst
+Sangonomiya Kokomi,4.3,0,4,Hydro,Catalyst
+Sangonomiya Kokomi,4.4,0,5,Hydro,Catalyst
+Sangonomiya Kokomi,4.5,0,6,Hydro,Catalyst
+Sangonomiya Kokomi,4.6,0,7,Hydro,Catalyst
+Sangonomiya Kokomi,4.7,0,8,Hydro,Catalyst
+Sangonomiya Kokomi,4.8,0,9,Hydro,Catalyst
+Sangonomiya Kokomi,5.0,0,10,Hydro,Catalyst
+Sangonomiya Kokomi,5.1,0,11,Hydro,Catalyst
+Sangonomiya Kokomi,5.2,0,12,Hydro,Catalyst
+Sangonomiya Kokomi,5.3,0,13,Hydro,Catalyst
+Sangonomiya Kokomi,5.4,0,14,Hydro,Catalyst
+Sangonomiya Kokomi,5.5,0,15,Hydro,Catalyst
+Sangonomiya Kokomi,5.6,C,0,Hydro,Catalyst
+Sangonomiya Kokomi,5.7,0,1,Hydro,Catalyst
+Sangonomiya Kokomi,5.8,0,2,Hydro,Catalyst
+Sangonomiya Kokomi,Luna I,0,3,Hydro,Catalyst
+Sangonomiya Kokomi,Luna II,0,4,Hydro,Catalyst
+Sangonomiya Kokomi,Luna III,0,5,Hydro,Catalyst
+Sangonomiya Kokomi,Luna IV,0,6,Hydro,Catalyst
+Sangonomiya Kokomi,Luna V,0,7,Hydro,Catalyst
+Sangonomiya Kokomi,Luna VI,0,8,Hydro,Catalyst
+Arataki Itto,2.3,1,0,Geo,Claymore
+Arataki Itto,2.4,0,1,Geo,Claymore
+Arataki Itto,2.5,0,2,Geo,Claymore
+Arataki Itto,2.6,0,3,Geo,Claymore
+Arataki Itto,2.7,1,0,Geo,Claymore
+Arataki Itto,2.8,0,1,Geo,Claymore
+Arataki Itto,3.0,0,2,Geo,Claymore
+Arataki Itto,3.1,0,3,Geo,Claymore
+Arataki Itto,3.2,0,4,Geo,Claymore
+Arataki Itto,3.3,1,0,Geo,Claymore
+Arataki Itto,3.4,0,1,Geo,Claymore
+Arataki Itto,3.5,0,2,Geo,Claymore
+Arataki Itto,3.6,0,3,Geo,Claymore
+Arataki Itto,3.7,0,4,Geo,Claymore
+Arataki Itto,3.8,0,5,Geo,Claymore
+Arataki Itto,4.0,0,6,Geo,Claymore
+Arataki Itto,4.1,0,7,Geo,Claymore
+Arataki Itto,4.2,0,8,Geo,Claymore
+Arataki Itto,4.3,0,9,Geo,Claymore
+Arataki Itto,4.4,0,10,Geo,Claymore
+Arataki Itto,4.5,1,0,Geo,Claymore
+Arataki Itto,4.6,0,1,Geo,Claymore
+Arataki Itto,4.7,0,2,Geo,Claymore
+Arataki Itto,4.8,0,3,Geo,Claymore
+Arataki Itto,5.0,0,4,Geo,Claymore
+Arataki Itto,5.1,0,5,Geo,Claymore
+Arataki Itto,5.2,0,6,Geo,Claymore
+Arataki Itto,5.3,0,7,Geo,Claymore
+Arataki Itto,5.4,0,8,Geo,Claymore
+Arataki Itto,5.5,0,9,Geo,Claymore
+Arataki Itto,5.6,C,0,Geo,Claymore
+Arataki Itto,5.7,0,1,Geo,Claymore
+Arataki Itto,5.8,0,2,Geo,Claymore
+Arataki Itto,Luna I,0,3,Geo,Claymore
+Arataki Itto,Luna II,0,4,Geo,Claymore
+Arataki Itto,Luna III,0,5,Geo,Claymore
+Arataki Itto,Luna IV,0,6,Geo,Claymore
+Arataki Itto,Luna V,0,7,Geo,Claymore
+Arataki Itto,Luna VI,0,8,Geo,Claymore
+Shenhe,2.4,1,0,Cryo,Polearm
+Shenhe,2.5,0,1,Cryo,Polearm
+Shenhe,2.6,0,2,Cryo,Polearm
+Shenhe,2.7,0,3,Cryo,Polearm
+Shenhe,2.8,0,4,Cryo,Polearm
+Shenhe,3.0,0,5,Cryo,Polearm
+Shenhe,3.1,0,6,Cryo,Polearm
+Shenhe,3.2,0,7,Cryo,Polearm
+Shenhe,3.3,0,8,Cryo,Polearm
+Shenhe,3.4,0,9,Cryo,Polearm
+Shenhe,3.5,1,0,Cryo,Polearm
+Shenhe,3.6,0,1,Cryo,Polearm
+Shenhe,3.7,0,2,Cryo,Polearm
+Shenhe,3.8,0,3,Cryo,Polearm
+Shenhe,4.0,0,4,Cryo,Polearm
+Shenhe,4.1,0,5,Cryo,Polearm
+Shenhe,4.2,0,6,Cryo,Polearm
+Shenhe,4.3,0,7,Cryo,Polearm
+Shenhe,4.4,0,8,Cryo,Polearm
+Shenhe,4.5,0,9,Cryo,Polearm
+Shenhe,4.6,0,10,Cryo,Polearm
+Shenhe,4.7,0,11,Cryo,Polearm
+Shenhe,4.8,0,12,Cryo,Polearm
+Shenhe,5.0,0,13,Cryo,Polearm
+Shenhe,5.1,0,14,Cryo,Polearm
+Shenhe,5.2,0,15,Cryo,Polearm
+Shenhe,5.3,C,0,Cryo,Polearm
+Shenhe,5.4,0,1,Cryo,Polearm
+Shenhe,5.5,0,2,Cryo,Polearm
+Shenhe,5.6,0,3,Cryo,Polearm
+Shenhe,5.7,1,0,Cryo,Polearm
+Shenhe,5.8,0,1,Cryo,Polearm
+Shenhe,Luna I,0,2,Cryo,Polearm
+Shenhe,Luna II,0,3,Cryo,Polearm
+Shenhe,Luna III,0,4,Cryo,Polearm
+Shenhe,Luna IV,0,5,Cryo,Polearm
+Shenhe,Luna V,0,6,Cryo,Polearm
+Shenhe,Luna VI,0,7,Cryo,Polearm
+Yae Miko,2.5,1,0,Electro,Catalyst
+Yae Miko,2.6,0,1,Electro,Catalyst
+Yae Miko,2.7,0,2,Electro,Catalyst
+Yae Miko,2.8,0,3,Electro,Catalyst
+Yae Miko,3.0,0,4,Electro,Catalyst
+Yae Miko,3.1,0,5,Electro,Catalyst
+Yae Miko,3.2,1,0,Electro,Catalyst
+Yae Miko,3.3,0,1,Electro,Catalyst
+Yae Miko,3.4,0,2,Electro,Catalyst
+Yae Miko,3.5,0,3,Electro,Catalyst
+Yae Miko,3.6,0,4,Electro,Catalyst
+Yae Miko,3.7,1,0,Electro,Catalyst
+Yae Miko,3.8,0,1,Electro,Catalyst
+Yae Miko,4.0,0,2,Electro,Catalyst
+Yae Miko,4.1,0,3,Electro,Catalyst
+Yae Miko,4.2,0,4,Electro,Catalyst
+Yae Miko,4.3,0,5,Electro,Catalyst
+Yae Miko,4.4,1,0,Electro,Catalyst
+Yae Miko,4.5,0,1,Electro,Catalyst
+Yae Miko,4.6,0,2,Electro,Catalyst
+Yae Miko,4.7,0,3,Electro,Catalyst
+Yae Miko,4.8,0,4,Electro,Catalyst
+Yae Miko,5.0,0,5,Electro,Catalyst
+Yae Miko,5.1,0,6,Electro,Catalyst
+Yae Miko,5.2,0,7,Electro,Catalyst
+Yae Miko,5.3,0,8,Electro,Catalyst
+Yae Miko,5.4,0,9,Electro,Catalyst
+Yae Miko,5.5,0,10,Electro,Catalyst
+Yae Miko,5.6,C,0,Electro,Catalyst
+Yae Miko,5.7,0,1,Electro,Catalyst
+Yae Miko,5.8,0,2,Electro,Catalyst
+Yae Miko,Luna I,0,3,Electro,Catalyst
+Yae Miko,Luna II,0,4,Electro,Catalyst
+Yae Miko,Luna III,0,5,Electro,Catalyst
+Yae Miko,Luna IV,0,6,Electro,Catalyst
+Yae Miko,Luna V,0,7,Electro,Catalyst
+Yae Miko,Luna VI,0,8,Electro,Catalyst
+Kamisato Ayato,2.6,1,0,Hydro,Sword
+Kamisato Ayato,2.7,0,1,Hydro,Sword
+Kamisato Ayato,2.8,0,2,Hydro,Sword
+Kamisato Ayato,3.0,0,3,Hydro,Sword
+Kamisato Ayato,3.1,0,4,Hydro,Sword
+Kamisato Ayato,3.2,0,5,Hydro,Sword
+Kamisato Ayato,3.3,1,0,Hydro,Sword
+Kamisato Ayato,3.4,0,1,Hydro,Sword
+Kamisato Ayato,3.5,0,2,Hydro,Sword
+Kamisato Ayato,3.6,0,3,Hydro,Sword
+Kamisato Ayato,3.7,0,4,Hydro,Sword
+Kamisato Ayato,3.8,0,5,Hydro,Sword
+Kamisato Ayato,4.0,0,6,Hydro,Sword
+Kamisato Ayato,4.1,0,7,Hydro,Sword
+Kamisato Ayato,4.2,1,0,Hydro,Sword
+Kamisato Ayato,4.3,0,1,Hydro,Sword
+Kamisato Ayato,4.4,0,2,Hydro,Sword
+Kamisato Ayato,4.5,0,3,Hydro,Sword
+Kamisato Ayato,4.6,0,4,Hydro,Sword
+Kamisato Ayato,4.7,0,5,Hydro,Sword
+Kamisato Ayato,4.8,0,6,Hydro,Sword
+Kamisato Ayato,5.0,0,7,Hydro,Sword
+Kamisato Ayato,5.1,0,8,Hydro,Sword
+Kamisato Ayato,5.2,0,9,Hydro,Sword
+Kamisato Ayato,5.3,0,10,Hydro,Sword
+Kamisato Ayato,5.4,0,11,Hydro,Sword
+Kamisato Ayato,5.5,0,12,Hydro,Sword
+Kamisato Ayato,5.6,C,0,Hydro,Sword
+Kamisato Ayato,5.7,0,1,Hydro,Sword
+Kamisato Ayato,5.8,0,2,Hydro,Sword
+Kamisato Ayato,Luna I,0,3,Hydro,Sword
+Kamisato Ayato,Luna II,0,4,Hydro,Sword
+Kamisato Ayato,Luna III,0,5,Hydro,Sword
+Kamisato Ayato,Luna IV,0,6,Hydro,Sword
+Kamisato Ayato,Luna V,0,7,Hydro,Sword
+Kamisato Ayato,Luna VI,0,8,Hydro,Sword
+Yelan,2.7,1,0,Hydro,Bow
+Yelan,2.8,0,1,Hydro,Bow
+Yelan,3.0,0,2,Hydro,Bow
+Yelan,3.1,0,3,Hydro,Bow
+Yelan,3.2,0,4,Hydro,Bow
+Yelan,3.3,0,5,Hydro,Bow
+Yelan,3.4,1,0,Hydro,Bow
+Yelan,3.5,0,1,Hydro,Bow
+Yelan,3.6,0,2,Hydro,Bow
+Yelan,3.7,0,3,Hydro,Bow
+Yelan,3.8,0,4,Hydro,Bow
+Yelan,4.0,1,0,Hydro,Bow
+Yelan,4.1,0,1,Hydro,Bow
+Yelan,4.2,0,2,Hydro,Bow
+Yelan,4.3,0,3,Hydro,Bow
+Yelan,4.4,0,4,Hydro,Bow
+Yelan,4.5,0,5,Hydro,Bow
+Yelan,4.6,0,6,Hydro,Bow
+Yelan,4.7,0,7,Hydro,Bow
+Yelan,4.8,1,0,Hydro,Bow
+Yelan,5.0,0,1,Hydro,Bow
+Yelan,5.1,0,2,Hydro,Bow
+Yelan,5.2,0,3,Hydro,Bow
+Yelan,5.3,0,4,Hydro,Bow
+Yelan,5.4,0,5,Hydro,Bow
+Yelan,5.5,0,6,Hydro,Bow
+Yelan,5.6,0,7,Hydro,Bow
+Yelan,5.7,0,8,Hydro,Bow
+Yelan,5.8,0,9,Hydro,Bow
+Yelan,Luna I,1,0,Hydro,Bow
+Yelan,Luna II,0,1,Hydro,Bow
+Yelan,Luna III,0,2,Hydro,Bow
+Yelan,Luna IV,0,3,Hydro,Bow
+Yelan,Luna V,0,4,Hydro,Bow
+Yelan,Luna VI,0,5,Hydro,Bow
+Cyno,3.1,1,0,Electro,Polearm
+Cyno,3.2,0,1,Electro,Polearm
+Cyno,3.3,0,2,Electro,Polearm
+Cyno,3.4,0,3,Electro,Polearm
+Cyno,3.5,1,0,Electro,Polearm
+Cyno,3.6,0,1,Electro,Polearm
+Cyno,3.7,0,2,Electro,Polearm
+Cyno,3.8,0,3,Electro,Polearm
+Cyno,4.0,0,4,Electro,Polearm
+Cyno,4.1,0,5,Electro,Polearm
+Cyno,4.2,1,0,Electro,Polearm
+Cyno,4.3,0,1,Electro,Polearm
+Cyno,4.4,0,2,Electro,Polearm
+Cyno,4.5,0,3,Electro,Polearm
+Cyno,4.6,0,4,Electro,Polearm
+Cyno,4.7,0,5,Electro,Polearm
+Cyno,4.8,0,6,Electro,Polearm
+Cyno,5.0,0,7,Electro,Polearm
+Cyno,5.1,0,8,Electro,Polearm
+Cyno,5.2,0,9,Electro,Polearm
+Cyno,5.3,0,10,Electro,Polearm
+Cyno,5.4,0,11,Electro,Polearm
+Cyno,5.5,0,12,Electro,Polearm
+Cyno,5.6,0,13,Electro,Polearm
+Cyno,5.7,0,14,Electro,Polearm
+Cyno,5.8,0,15,Electro,Polearm
+Cyno,Luna I,C,0,Electro,Polearm
+Cyno,Luna II,0,1,Electro,Polearm
+Cyno,Luna III,0,2,Electro,Polearm
+Cyno,Luna IV,0,3,Electro,Polearm
+Cyno,Luna V,0,4,Electro,Polearm
+Cyno,Luna VI,0,5,Electro,Polearm
+Nilou,3.1,1,0,Hydro,Sword
+Nilou,3.2,0,1,Hydro,Sword
+Nilou,3.3,0,2,Hydro,Sword
+Nilou,3.4,0,3,Hydro,Sword
+Nilou,3.5,0,4,Hydro,Sword
+Nilou,3.6,1,0,Hydro,Sword
+Nilou,3.7,0,1,Hydro,Sword
+Nilou,3.8,0,2,Hydro,Sword
+Nilou,4.0,0,3,Hydro,Sword
+Nilou,4.1,0,4,Hydro,Sword
+Nilou,4.2,0,5,Hydro,Sword
+Nilou,4.3,0,6,Hydro,Sword
+Nilou,4.4,0,7,Hydro,Sword
+Nilou,4.5,0,8,Hydro,Sword
+Nilou,4.6,0,9,Hydro,Sword
+Nilou,4.7,0,10,Hydro,Sword
+Nilou,4.8,1,0,Hydro,Sword
+Nilou,5.0,0,1,Hydro,Sword
+Nilou,5.1,0,2,Hydro,Sword
+Nilou,5.2,0,3,Hydro,Sword
+Nilou,5.3,0,4,Hydro,Sword
+Nilou,5.4,0,5,Hydro,Sword
+Nilou,5.5,0,6,Hydro,Sword
+Nilou,5.6,0,7,Hydro,Sword
+Nilou,5.7,0,8,Hydro,Sword
+Nilou,5.8,0,9,Hydro,Sword
+Nilou,Luna I,C,0,Hydro,Sword
+Nilou,Luna II,0,1,Hydro,Sword
+Nilou,Luna III,0,2,Hydro,Sword
+Nilou,Luna IV,0,3,Hydro,Sword
+Nilou,Luna V,0,4,Hydro,Sword
+Nilou,Luna VI,0,5,Hydro,Sword
+Nahida,3.2,1,0,Dendro,Catalyst
+Nahida,3.3,0,1,Dendro,Catalyst
+Nahida,3.4,0,2,Dendro,Catalyst
+Nahida,3.5,0,3,Dendro,Catalyst
+Nahida,3.6,1,0,Dendro,Catalyst
+Nahida,3.7,0,1,Dendro,Catalyst
+Nahida,3.8,0,2,Dendro,Catalyst
+Nahida,4.0,0,3,Dendro,Catalyst
+Nahida,4.1,0,4,Dendro,Catalyst
+Nahida,4.2,0,5,Dendro,Catalyst
+Nahida,4.3,0,6,Dendro,Catalyst
+Nahida,4.4,1,0,Dendro,Catalyst
+Nahida,4.5,0,1,Dendro,Catalyst
+Nahida,4.6,0,2,Dendro,Catalyst
+Nahida,4.7,0,3,Dendro,Catalyst
+Nahida,4.8,0,4,Dendro,Catalyst
+Nahida,5.0,0,5,Dendro,Catalyst
+Nahida,5.1,1,0,Dendro,Catalyst
+Nahida,5.2,0,1,Dendro,Catalyst
+Nahida,5.3,0,2,Dendro,Catalyst
+Nahida,5.4,0,3,Dendro,Catalyst
+Nahida,5.5,0,4,Dendro,Catalyst
+Nahida,5.6,0,5,Dendro,Catalyst
+Nahida,5.7,0,6,Dendro,Catalyst
+Nahida,5.8,0,7,Dendro,Catalyst
+Nahida,Luna I,1,0,Dendro,Catalyst
+Nahida,Luna II,0,1,Dendro,Catalyst
+Nahida,Luna III,0,2,Dendro,Catalyst
+Nahida,Luna IV,0,3,Dendro,Catalyst
+Nahida,Luna V,0,4,Dendro,Catalyst
+Nahida,Luna VI,0,5,Dendro,Catalyst
+Wanderer,3.3,1,0,Anemo,Catalyst
+Wanderer,3.4,0,1,Anemo,Catalyst
+Wanderer,3.5,0,2,Anemo,Catalyst
+Wanderer,3.6,0,3,Anemo,Catalyst
+Wanderer,3.7,0,4,Anemo,Catalyst
+Wanderer,3.8,1,0,Anemo,Catalyst
+Wanderer,4.0,0,1,Anemo,Catalyst
+Wanderer,4.1,0,2,Anemo,Catalyst
+Wanderer,4.2,0,3,Anemo,Catalyst
+Wanderer,4.3,0,4,Anemo,Catalyst
+Wanderer,4.4,0,5,Anemo,Catalyst
+Wanderer,4.5,0,6,Anemo,Catalyst
+Wanderer,4.6,1,0,Anemo,Catalyst
+Wanderer,4.7,0,1,Anemo,Catalyst
+Wanderer,4.8,0,2,Anemo,Catalyst
+Wanderer,5.0,0,3,Anemo,Catalyst
+Wanderer,5.1,0,4,Anemo,Catalyst
+Wanderer,5.2,0,5,Anemo,Catalyst
+Wanderer,5.3,0,6,Anemo,Catalyst
+Wanderer,5.4,0,7,Anemo,Catalyst
+Wanderer,5.5,0,8,Anemo,Catalyst
+Wanderer,5.6,0,9,Anemo,Catalyst
+Wanderer,5.7,0,10,Anemo,Catalyst
+Wanderer,5.8,0,11,Anemo,Catalyst
+Wanderer,Luna I,C,0,Anemo,Catalyst
+Wanderer,Luna II,0,1,Anemo,Catalyst
+Wanderer,Luna III,0,2,Anemo,Catalyst
+Wanderer,Luna IV,0,3,Anemo,Catalyst
+Wanderer,Luna V,0,4,Anemo,Catalyst
+Wanderer,Luna VI,0,5,Anemo,Catalyst
+Alhaitham,3.4,1,0,Dendro,Sword
+Alhaitham,3.5,0,1,Dendro,Sword
+Alhaitham,3.6,0,2,Dendro,Sword
+Alhaitham,3.7,1,0,Dendro,Sword
+Alhaitham,3.8,0,1,Dendro,Sword
+Alhaitham,4.0,0,2,Dendro,Sword
+Alhaitham,4.1,0,3,Dendro,Sword
+Alhaitham,4.2,0,4,Dendro,Sword
+Alhaitham,4.3,0,5,Dendro,Sword
+Alhaitham,4.4,0,6,Dendro,Sword
+Alhaitham,4.5,0,7,Dendro,Sword
+Alhaitham,4.6,0,8,Dendro,Sword
+Alhaitham,4.7,1,0,Dendro,Sword
+Alhaitham,4.8,0,1,Dendro,Sword
+Alhaitham,5.0,0,2,Dendro,Sword
+Alhaitham,5.1,0,3,Dendro,Sword
+Alhaitham,5.2,0,4,Dendro,Sword
+Alhaitham,5.3,0,5,Dendro,Sword
+Alhaitham,5.4,0,6,Dendro,Sword
+Alhaitham,5.5,0,7,Dendro,Sword
+Alhaitham,5.6,0,8,Dendro,Sword
+Alhaitham,5.7,0,9,Dendro,Sword
+Alhaitham,5.8,0,10,Dendro,Sword
+Alhaitham,Luna I,C,0,Dendro,Sword
+Alhaitham,Luna II,0,1,Dendro,Sword
+Alhaitham,Luna III,0,2,Dendro,Sword
+Alhaitham,Luna IV,0,3,Dendro,Sword
+Alhaitham,Luna V,0,4,Dendro,Sword
+Alhaitham,Luna VI,0,5,Dendro,Sword
+Baizhu,3.6,1,0,Dendro,Catalyst
+Baizhu,3.7,0,1,Dendro,Catalyst
+Baizhu,3.8,0,2,Dendro,Catalyst
+Baizhu,4.0,0,3,Dendro,Catalyst
+Baizhu,4.1,0,4,Dendro,Catalyst
+Baizhu,4.2,1,0,Dendro,Catalyst
+Baizhu,4.3,0,1,Dendro,Catalyst
+Baizhu,4.4,0,2,Dendro,Catalyst
+Baizhu,4.5,0,3,Dendro,Catalyst
+Baizhu,4.6,1,0,Dendro,Catalyst
+Baizhu,4.7,0,1,Dendro,Catalyst
+Baizhu,4.8,0,2,Dendro,Catalyst
+Baizhu,5.0,0,3,Dendro,Catalyst
+Baizhu,5.1,0,4,Dendro,Catalyst
+Baizhu,5.2,0,5,Dendro,Catalyst
+Baizhu,5.3,C,0,Dendro,Catalyst
+Baizhu,5.4,0,1,Dendro,Catalyst
+Baizhu,5.5,0,2,Dendro,Catalyst
+Baizhu,5.6,0,3,Dendro,Catalyst
+Baizhu,5.7,0,4,Dendro,Catalyst
+Baizhu,5.8,0,5,Dendro,Catalyst
+Baizhu,Luna I,0,6,Dendro,Catalyst
+Baizhu,Luna II,0,7,Dendro,Catalyst
+Baizhu,Luna III,0,8,Dendro,Catalyst
+Baizhu,Luna IV,0,9,Dendro,Catalyst
+Baizhu,Luna V,0,10,Dendro,Catalyst
+Baizhu,Luna VI,0,11,Dendro,Catalyst
+Lyney,4.0,1,0,Pyro,Bow
+Lyney,4.1,0,1,Pyro,Bow
+Lyney,4.2,0,2,Pyro,Bow
+Lyney,4.3,0,3,Pyro,Bow
+Lyney,4.4,0,4,Pyro,Bow
+Lyney,4.5,0,5,Pyro,Bow
+Lyney,4.6,1,0,Pyro,Bow
+Lyney,4.7,0,1,Pyro,Bow
+Lyney,4.8,0,2,Pyro,Bow
+Lyney,5.0,0,3,Pyro,Bow
+Lyney,5.1,0,4,Pyro,Bow
+Lyney,5.2,1,0,Pyro,Bow
+Lyney,5.3,0,1,Pyro,Bow
+Lyney,5.4,0,2,Pyro,Bow
+Lyney,5.5,0,3,Pyro,Bow
+Lyney,5.6,0,4,Pyro,Bow
+Lyney,5.7,0,5,Pyro,Bow
+Lyney,5.8,0,6,Pyro,Bow
+Lyney,Luna I,0,7,Pyro,Bow
+Lyney,Luna II,0,8,Pyro,Bow
+Lyney,Luna III,0,9,Pyro,Bow
+Lyney,Luna IV,0,10,Pyro,Bow
+Lyney,Luna V,0,11,Pyro,Bow
+Lyney,Luna VI,0,12,Pyro,Bow
+Neuvillette,4.1,1,0,Hydro,Catalyst
+Neuvillette,4.2,0,1,Hydro,Catalyst
+Neuvillette,4.3,0,2,Hydro,Catalyst
+Neuvillette,4.4,0,3,Hydro,Catalyst
+Neuvillette,4.5,1,0,Hydro,Catalyst
+Neuvillette,4.6,0,1,Hydro,Catalyst
+Neuvillette,4.7,0,2,Hydro,Catalyst
+Neuvillette,4.8,0,3,Hydro,Catalyst
+Neuvillette,5.0,0,4,Hydro,Catalyst
+Neuvillette,5.1,0,5,Hydro,Catalyst
+Neuvillette,5.2,1,0,Hydro,Catalyst
+Neuvillette,5.3,0,1,Hydro,Catalyst
+Neuvillette,5.4,0,2,Hydro,Catalyst
+Neuvillette,5.5,0,3,Hydro,Catalyst
+Neuvillette,5.6,0,4,Hydro,Catalyst
+Neuvillette,5.7,0,5,Hydro,Catalyst
+Neuvillette,5.8,0,6,Hydro,Catalyst
+Neuvillette,Luna I,0,7,Hydro,Catalyst
+Neuvillette,Luna II,0,8,Hydro,Catalyst
+Neuvillette,Luna III,0,9,Hydro,Catalyst
+Neuvillette,Luna IV,1,0,Hydro,Catalyst
+Neuvillette,Luna V,0,1,Hydro,Catalyst
+Neuvillette,Luna VI,0,2,Hydro,Catalyst
+Wriothesley,4.1,1,0,Cryo,Catalyst
+Wriothesley,4.2,0,1,Cryo,Catalyst
+Wriothesley,4.3,0,2,Cryo,Catalyst
+Wriothesley,4.4,0,3,Cryo,Catalyst
+Wriothesley,4.5,0,4,Cryo,Catalyst
+Wriothesley,4.6,0,5,Cryo,Catalyst
+Wriothesley,4.7,0,6,Cryo,Catalyst
+Wriothesley,4.8,0,7,Cryo,Catalyst
+Wriothesley,5.0,0,8,Cryo,Catalyst
+Wriothesley,5.1,0,9,Cryo,Catalyst
+Wriothesley,5.2,0,10,Cryo,Catalyst
+Wriothesley,5.3,0,11,Cryo,Catalyst
+Wriothesley,5.4,1,0,Cryo,Catalyst
+Wriothesley,5.5,0,1,Cryo,Catalyst
+Wriothesley,5.6,0,2,Cryo,Catalyst
+Wriothesley,5.7,0,3,Cryo,Catalyst
+Wriothesley,5.8,0,4,Cryo,Catalyst
+Wriothesley,Luna I,0,5,Cryo,Catalyst
+Wriothesley,Luna II,0,6,Cryo,Catalyst
+Wriothesley,Luna III,0,7,Cryo,Catalyst
+Wriothesley,Luna IV,0,8,Cryo,Catalyst
+Wriothesley,Luna V,0,9,Cryo,Catalyst
+Wriothesley,Luna VI,0,10,Cryo,Catalyst
+Furina,4.2,1,0,Hydro,Sword
+Furina,4.3,0,1,Hydro,Sword
+Furina,4.4,0,2,Hydro,Sword
+Furina,4.5,0,3,Hydro,Sword
+Furina,4.6,0,4,Hydro,Sword
+Furina,4.7,1,0,Hydro,Sword
+Furina,4.8,0,1,Hydro,Sword
+Furina,5.0,0,2,Hydro,Sword
+Furina,5.1,0,3,Hydro,Sword
+Furina,5.2,0,4,Hydro,Sword
+Furina,5.3,0,5,Hydro,Sword
+Furina,5.4,1,0,Hydro,Sword
+Furina,5.5,0,1,Hydro,Sword
+Furina,5.6,0,2,Hydro,Sword
+Furina,5.7,0,3,Hydro,Sword
+Furina,5.8,0,4,Hydro,Sword
+Furina,Luna I,0,5,Hydro,Sword
+Furina,Luna II,1,0,Hydro,Sword
+Furina,Luna III,0,1,Hydro,Sword
+Furina,Luna IV,0,2,Hydro,Sword
+Furina,Luna V,0,3,Hydro,Sword
+Furina,Luna VI,0,4,Hydro,Sword
+Navia,4.3,1,0,Geo,Claymore
+Navia,4.4,0,1,Geo,Claymore
+Navia,4.5,0,2,Geo,Claymore
+Navia,4.6,0,3,Geo,Claymore
+Navia,4.7,0,4,Geo,Claymore
+Navia,4.8,1,0,Geo,Claymore
+Navia,5.0,0,1,Geo,Claymore
+Navia,5.1,0,2,Geo,Claymore
+Navia,5.2,0,3,Geo,Claymore
+Navia,5.3,0,4,Geo,Claymore
+Navia,5.4,0,5,Geo,Claymore
+Navia,5.5,0,6,Geo,Claymore
+Navia,5.6,1,0,Geo,Claymore
+Navia,5.7,0,1,Geo,Claymore
+Navia,5.8,0,2,Geo,Claymore
+Navia,Luna I,0,3,Geo,Claymore
+Navia,Luna II,0,4,Geo,Claymore
+Navia,Luna III,0,5,Geo,Claymore
+Navia,Luna IV,0,6,Geo,Claymore
+Navia,Luna V,0,7,Geo,Claymore
+Navia,Luna VI,0,8,Geo,Claymore
+Xianyun,4.4,1,0,Anemo,Catalyst
+Xianyun,4.5,0,1,Anemo,Catalyst
+Xianyun,4.6,0,2,Anemo,Catalyst
+Xianyun,4.7,0,3,Anemo,Catalyst
+Xianyun,4.8,0,4,Anemo,Catalyst
+Xianyun,5.0,0,5,Anemo,Catalyst
+Xianyun,5.1,0,6,Anemo,Catalyst
+Xianyun,5.2,0,7,Anemo,Catalyst
+Xianyun,5.3,0,8,Anemo,Catalyst
+Xianyun,5.4,0,9,Anemo,Catalyst
+Xianyun,5.5,1,0,Anemo,Catalyst
+Xianyun,5.6,0,1,Anemo,Catalyst
+Xianyun,5.7,0,2,Anemo,Catalyst
+Xianyun,5.8,0,3,Anemo,Catalyst
+Xianyun,Luna I,0,4,Anemo,Catalyst
+Xianyun,Luna II,0,5,Anemo,Catalyst
+Xianyun,Luna III,0,6,Anemo,Catalyst
+Xianyun,Luna IV,0,7,Anemo,Catalyst
+Xianyun,Luna V,0,8,Anemo,Catalyst
+Xianyun,Luna VI,0,9,Anemo,Catalyst
+Chiori,4.5,1,0,Geo,Sword
+Chiori,4.6,0,1,Geo,Sword
+Chiori,4.7,0,2,Geo,Sword
+Chiori,4.8,0,3,Geo,Sword
+Chiori,5.0,0,4,Geo,Sword
+Chiori,5.1,1,0,Geo,Sword
+Chiori,5.2,0,1,Geo,Sword
+Chiori,5.3,0,2,Geo,Sword
+Chiori,5.4,0,3,Geo,Sword
+Chiori,5.5,0,4,Geo,Sword
+Chiori,5.6,C,0,Geo,Sword
+Chiori,5.7,0,1,Geo,Sword
+Chiori,5.8,0,2,Geo,Sword
+Chiori,Luna I,0,3,Geo,Sword
+Chiori,Luna II,0,4,Geo,Sword
+Chiori,Luna III,0,5,Geo,Sword
+Chiori,Luna IV,0,6,Geo,Sword
+Chiori,Luna V,0,7,Geo,Sword
+Chiori,Luna VI,0,8,Geo,Sword
+Arlecchino,4.6,1,0,Pyro,Polearm
+Arlecchino,4.7,0,1,Pyro,Polearm
+Arlecchino,4.8,0,2,Pyro,Polearm
+Arlecchino,5.0,0,3,Pyro,Polearm
+Arlecchino,5.1,0,4,Pyro,Polearm
+Arlecchino,5.2,0,5,Pyro,Polearm
+Arlecchino,5.3,1,0,Pyro,Polearm
+Arlecchino,5.4,0,1,Pyro,Polearm
+Arlecchino,5.5,0,2,Pyro,Polearm
+Arlecchino,5.6,0,3,Pyro,Polearm
+Arlecchino,5.7,0,4,Pyro,Polearm
+Arlecchino,5.8,0,5,Pyro,Polearm
+Arlecchino,Luna I,0,6,Pyro,Polearm
+Arlecchino,Luna II,1,0,Pyro,Polearm
+Arlecchino,Luna III,0,1,Pyro,Polearm
+Arlecchino,Luna IV,0,2,Pyro,Polearm
+Arlecchino,Luna V,0,3,Pyro,Polearm
+Arlecchino,Luna VI,0,4,Pyro,Polearm
+Clorinde,4.7,1,0,Electro,Sword
+Clorinde,4.8,0,1,Electro,Sword
+Clorinde,5.0,0,2,Electro,Sword
+Clorinde,5.1,0,3,Electro,Sword
+Clorinde,5.2,0,4,Electro,Sword
+Clorinde,5.3,1,0,Electro,Sword
+Clorinde,5.4,0,1,Electro,Sword
+Clorinde,5.5,0,2,Electro,Sword
+Clorinde,5.6,0,3,Electro,Sword
+Clorinde,5.7,0,4,Electro,Sword
+Clorinde,5.8,0,5,Electro,Sword
+Clorinde,Luna I,0,6,Electro,Sword
+Clorinde,Luna II,0,7,Electro,Sword
+Clorinde,Luna III,0,8,Electro,Sword
+Clorinde,Luna IV,0,9,Electro,Sword
+Clorinde,Luna V,0,10,Electro,Sword
+Clorinde,Luna VI,0,11,Electro,Sword
+Sigewinne,4.7,1,0,Hydro,Bow
+Sigewinne,4.8,0,1,Hydro,Bow
+Sigewinne,5.0,0,2,Hydro,Bow
+Sigewinne,5.1,0,3,Hydro,Bow
+Sigewinne,5.2,0,4,Hydro,Bow
+Sigewinne,5.3,0,5,Hydro,Bow
+Sigewinne,5.4,1,0,Hydro,Bow
+Sigewinne,5.5,0,1,Hydro,Bow
+Sigewinne,5.6,0,2,Hydro,Bow
+Sigewinne,5.7,0,3,Hydro,Bow
+Sigewinne,5.8,0,4,Hydro,Bow
+Sigewinne,Luna I,0,5,Hydro,Bow
+Sigewinne,Luna II,0,6,Hydro,Bow
+Sigewinne,Luna III,0,7,Hydro,Bow
+Sigewinne,Luna IV,0,8,Hydro,Bow
+Sigewinne,Luna V,0,9,Hydro,Bow
+Sigewinne,Luna VI,0,10,Hydro,Bow
+Emilie,4.8,1,0,Dendro,Polearm
+Emilie,5.0,0,1,Dendro,Polearm
+Emilie,5.1,0,2,Dendro,Polearm
+Emilie,5.2,0,3,Dendro,Polearm
+Emilie,5.3,0,4,Dendro,Polearm
+Emilie,5.4,0,5,Dendro,Polearm
+Emilie,5.5,0,6,Dendro,Polearm
+Emilie,5.6,0,7,Dendro,Polearm
+Emilie,5.7,1,0,Dendro,Polearm
+Emilie,5.8,0,1,Dendro,Polearm
+Emilie,Luna I,0,2,Dendro,Polearm
+Emilie,Luna II,0,3,Dendro,Polearm
+Emilie,Luna III,0,4,Dendro,Polearm
+Emilie,Luna IV,0,5,Dendro,Polearm
+Emilie,Luna V,0,6,Dendro,Polearm
+Emilie,Luna VI,0,7,Dendro,Polearm
+Mualani,5.0,1,0,Hydro,Catalyst
+Mualani,5.1,0,1,Hydro,Catalyst
+Mualani,5.2,0,2,Hydro,Catalyst
+Mualani,5.3,0,3,Hydro,Catalyst
+Mualani,5.4,0,4,Hydro,Catalyst
+Mualani,5.5,0,5,Hydro,Catalyst
+Mualani,5.6,0,6,Hydro,Catalyst
+Mualani,5.7,0,7,Hydro,Catalyst
+Mualani,5.8,1,0,Hydro,Catalyst
+Mualani,Luna I,0,1,Hydro,Catalyst
+Mualani,Luna II,0,2,Hydro,Catalyst
+Mualani,Luna III,0,3,Hydro,Catalyst
+Mualani,Luna IV,0,4,Hydro,Catalyst
+Mualani,Luna V,0,5,Hydro,Catalyst
+Mualani,Luna VI,0,6,Hydro,Catalyst
+Kinich,5.0,1,0,Dendro,Claymore
+Kinich,5.1,0,1,Dendro,Claymore
+Kinich,5.2,0,2,Dendro,Claymore
+Kinich,5.3,0,3,Dendro,Claymore
+Kinich,5.4,0,4,Dendro,Claymore
+Kinich,5.5,0,5,Dendro,Claymore
+Kinich,5.6,1,0,Dendro,Claymore
+Kinich,5.7,0,1,Dendro,Claymore
+Kinich,5.8,0,2,Dendro,Claymore
+Kinich,Luna I,0,3,Dendro,Claymore
+Kinich,Luna II,0,4,Dendro,Claymore
+Kinich,Luna III,0,5,Dendro,Claymore
+Kinich,Luna IV,0,6,Dendro,Claymore
+Kinich,Luna V,0,7,Dendro,Claymore
+Kinich,Luna VI,0,8,Dendro,Claymore
+Xilonen,5.1,1,0,Geo,Sword
+Xilonen,5.2,0,1,Geo,Sword
+Xilonen,5.3,0,2,Geo,Sword
+Xilonen,5.4,0,3,Geo,Sword
+Xilonen,5.5,1,0,Geo,Sword
+Xilonen,5.6,0,1,Geo,Sword
+Xilonen,5.7,0,2,Geo,Sword
+Xilonen,5.8,0,3,Geo,Sword
+Xilonen,Luna I,0,4,Geo,Sword
+Xilonen,Luna II,0,5,Geo,Sword
+Xilonen,Luna III,1,0,Geo,Sword
+Xilonen,Luna IV,0,1,Geo,Sword
+Xilonen,Luna V,0,2,Geo,Sword
+Xilonen,Luna VI,0,3,Geo,Sword
+Chasca,5.2,1,0,Anemo,Bow
+Chasca,5.3,0,1,Anemo,Bow
+Chasca,5.4,0,2,Anemo,Bow
+Chasca,5.5,0,3,Anemo,Bow
+Chasca,5.6,0,4,Anemo,Bow
+Chasca,5.7,0,5,Anemo,Bow
+Chasca,5.8,1,0,Anemo,Bow
+Chasca,Luna I,0,1,Anemo,Bow
+Chasca,Luna II,0,2,Anemo,Bow
+Chasca,Luna III,0,3,Anemo,Bow
+Chasca,Luna IV,0,4,Anemo,Bow
+Chasca,Luna V,0,5,Anemo,Bow
+Chasca,Luna VI,1,0,Anemo,Bow
+Mavuika,5.3,1,0,Pyro,Claymore
+Mavuika,5.4,0,1,Pyro,Claymore
+Mavuika,5.5,0,2,Pyro,Claymore
+Mavuika,5.6,0,3,Pyro,Claymore
+Mavuika,5.7,1,0,Pyro,Claymore
+Mavuika,5.8,0,1,Pyro,Claymore
+Mavuika,Luna I,0,2,Pyro,Claymore
+Mavuika,Luna II,0,3,Pyro,Claymore
+Mavuika,Luna III,0,4,Pyro,Claymore
+Mavuika,Luna IV,0,5,Pyro,Claymore
+Mavuika,Luna V,0,6,Pyro,Claymore
+Mavuika,Luna VI,0,7,Pyro,Claymore
+Citlali,5.3,1,0,Cryo,Catalyst
+Citlali,5.4,0,1,Cryo,Catalyst
+Citlali,5.5,0,2,Cryo,Catalyst
+Citlali,5.6,0,3,Cryo,Catalyst
+Citlali,5.7,0,4,Cryo,Catalyst
+Citlali,5.8,1,0,Cryo,Catalyst
+Citlali,Luna I,0,1,Cryo,Catalyst
+Citlali,Luna II,0,2,Cryo,Catalyst
+Citlali,Luna III,0,3,Cryo,Catalyst
+Citlali,Luna IV,0,4,Cryo,Catalyst
+Citlali,Luna V,0,5,Cryo,Catalyst
+Citlali,Luna VI,0,6,Cryo,Catalyst
+Varesa,5.5,1,0,Electro,Catalyst
+Varesa,5.6,0,1,Electro,Catalyst
+Varesa,5.7,0,2,Electro,Catalyst
+Varesa,5.8,0,3,Electro,Catalyst
+Varesa,Luna I,0,4,Electro,Catalyst
+Varesa,Luna II,0,5,Electro,Catalyst
+Varesa,Luna III,1,0,Electro,Catalyst
+Varesa,Luna IV,0,1,Electro,Catalyst
+Varesa,Luna V,0,2,Electro,Catalyst
+Varesa,Luna VI,0,3,Electro,Catalyst
+Escoffier,5.6,1,0,Cryo,Polearm
+Escoffier,5.7,0,1,Cryo,Polearm
+Escoffier,5.8,0,2,Cryo,Polearm
+Escoffier,Luna I,0,3,Cryo,Polearm
+Escoffier,Luna II,0,4,Cryo,Polearm
+Escoffier,Luna III,0,5,Cryo,Polearm
+Escoffier,Luna IV,0,6,Cryo,Polearm
+Escoffier,Luna V,1,0,Cryo,Polearm
+Escoffier,Luna VI,0,1,Cryo,Polearm
+Skirk,5.7,1,0,Cryo,Sword
+Skirk,5.8,0,1,Cryo,Sword
+Skirk,Luna I,0,2,Cryo,Sword
+Skirk,Luna II,0,3,Cryo,Sword
+Skirk,Luna III,0,4,Cryo,Sword
+Skirk,Luna IV,0,5,Cryo,Sword
+Skirk,Luna V,1,0,Cryo,Sword
+Skirk,Luna VI,0,1,Cryo,Sword
+Ineffa,5.8,1,0,Electro,Polearm
+Ineffa,Luna I,0,1,Electro,Polearm
+Ineffa,Luna II,0,2,Electro,Polearm
+Ineffa,Luna III,0,3,Electro,Polearm
+Ineffa,Luna IV,1,0,Electro,Polearm
+Ineffa,Luna V,0,1,Electro,Polearm
+Ineffa,Luna VI,0,2,Electro,Polearm
+Lauma,Luna I,1,0,Dendro,Catalyst
+Lauma,Luna II,0,1,Dendro,Catalyst
+Lauma,Luna III,0,2,Dendro,Catalyst
+Lauma,Luna IV,0,3,Dendro,Catalyst
+Lauma,Luna V,0,4,Dendro,Catalyst
+Lauma,Luna VI,0,5,Dendro,Catalyst
+Flins,Luna I,1,0,Electro,Polearm
+Flins,Luna II,0,1,Electro,Polearm
+Flins,Luna III,0,2,Electro,Polearm
+Flins,Luna IV,0,3,Electro,Polearm
+Flins,Luna V,1,0,Electro,Polearm
+Flins,Luna VI,0,1,Electro,Polearm
+Nefer,Luna II,1,0,Dendro,Catalyst
+Nefer,Luna III,0,1,Dendro,Catalyst
+Nefer,Luna IV,0,2,Dendro,Catalyst
+Nefer,Luna V,0,3,Dendro,Catalyst
+Nefer,Luna VI,0,4,Dendro,Catalyst
+Durin,Luna III,1,0,Pyro,Sword
+Durin,Luna IV,0,1,Pyro,Sword
+Durin,Luna V,0,2,Pyro,Sword
+Durin,Luna VI,0,3,Pyro,Sword
+Columbina,Luna IV,1,0,Hydro,Catalyst
+Columbina,Luna V,0,1,Hydro,Catalyst
+Columbina,Luna VI,0,2,Hydro,Catalyst
+Zibai,Luna IV,1,0,Geo,Sword
+Zibai,Luna V,0,1,Geo,Sword
+Zibai,Luna VI,0,2,Geo,Sword
+Varka,Luna V,1,0,Anemo,Claymore
+Varka,Luna VI,0,1,Anemo,Claymore
+Linnea,Luna VI,1,0,Geo,Bow

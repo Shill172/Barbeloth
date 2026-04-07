@@ -23,7 +23,8 @@ MANUAL_DATA = {
     "Durin": {"element": "Pyro", "weapon": "Sword"},
     "Columbina": {"element": "Hydro", "weapon": "Catalyst"},
     "Zibai": {"element": "Geo", "weapon": "Sword"},
-    "Varka": {"element": "Anemo", "weapon": "Claymore"}
+    "Varka": {"element": "Anemo", "weapon": "Claymore"},
+    "Linnea": {"element": "Geo", "weapon": "Bow"}
 }
 
 def sync_local_data():
