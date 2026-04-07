@@ -9,6 +9,7 @@ DATA_FILE = "resources/data.csv"
 FILTERED_FILE = "resources/filtered_data.csv"
 STANDARD_CHARACTERS = ["Keqing", "Diluc", "Mona", "Qiqi", 
                         "Jean", "Dehya", "Tighnari", "Yumemizuki Mizuki"]
+ARCHONS = ["Venti", "Zhongli", "Raiden Shogun", "Nahida", "Furina", "Mavuika", "Columbina"]
 
 def read_google_doc_for_rerun_info(doc_id, gid):
 
@@ -123,7 +124,7 @@ def parse_banner_history():
                         patch = patch_name
                         break
                 if patch:
-                    ran_in_patch[(name, patch)] = "C"           
+                    ran_in_patch[(name, patch)] = 1
 
     all_patches = list(patch_columns.keys())    
 
@@ -145,20 +146,26 @@ def parse_banner_history():
 
         seen_first_run = False
         time_since_ran = 0
-        has_debuted = 0 
+        total_runs = 0 
+        is_archon = 0 
 
         # All characters get a row for every patch
         for patch in all_patches:
+
+            if name in ARCHONS:
+                is_archon = 1 
+
             if (name, patch) in ran_in_patch:
                 ran = ran_in_patch[(name, patch)]
                 time_since_ran = 0
                 seen_first_run = True
-                rows.append([name, patch, ran, time_since_ran, element, weapon])
+                total_runs = total_runs + 1 
+                rows.append([name, patch, ran, time_since_ran, total_runs, is_archon, element, weapon])
             else:
                 ran = 0
                 if seen_first_run:
                     time_since_ran += 1 
-                    rows.append([name, patch, ran, time_since_ran, element, weapon])
+                    rows.append([name, patch, ran, time_since_ran, total_runs, is_archon, element, weapon,])
                 else:
                     time_since_ran = 0  
 
@@ -166,7 +173,7 @@ def parse_banner_history():
 
     with open("resources/banner_history_long.csv", "w", newline="", encoding="utf-8") as f:
         writer = csv.writer(f)
-        writer.writerow(["Name", "Patch", "Ran", "Time_since_ran", "Element", "Weapon"])
+        writer.writerow(["Name", "Patch", "Ran", "Time_since_ran", "Total_runs", "Is_archon", "Element", "Weapon"])
         writer.writerows(rows)
 
     print(f"Written {len(rows)} rows to banner_history_long.csv")
