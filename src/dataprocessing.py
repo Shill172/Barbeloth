@@ -108,6 +108,8 @@ def parse_banner_history():
                 ran_in_patch[(name, patch)] = 1
 
     # Check for chronicle runs
+
+    chronicles = set()
     for row in reader:
         if row[1] != "★★★★★":
             continue
@@ -125,6 +127,7 @@ def parse_banner_history():
                         break
                 if patch:
                     ran_in_patch[(name, patch)] = 1
+                    chronicles.add((name, patch))
 
     all_patches = list(patch_columns.keys())    
 
@@ -155,17 +158,20 @@ def parse_banner_history():
             if name in ARCHONS:
                 is_archon = 1 
 
+            is_chronicle = 1 if (name, patch) in chronicles else 0 
+
             if (name, patch) in ran_in_patch:
                 ran = ran_in_patch[(name, patch)]
                 time_since_ran = 0
                 seen_first_run = True
                 total_runs = total_runs + 1 
-                rows.append([name, patch, ran, time_since_ran, total_runs, is_archon, element, weapon])
+                
+                rows.append([name, patch, ran, time_since_ran, total_runs, is_archon, is_chronicle, element, weapon])
             else:
                 ran = 0
                 if seen_first_run:
                     time_since_ran += 1 
-                    rows.append([name, patch, ran, time_since_ran, total_runs, is_archon, element, weapon,])
+                    rows.append([name, patch, ran, time_since_ran, total_runs, is_archon, is_chronicle, element, weapon,])
                 else:
                     time_since_ran = 0  
 
@@ -173,7 +179,7 @@ def parse_banner_history():
 
     with open("resources/banner_history_long.csv", "w", newline="", encoding="utf-8") as f:
         writer = csv.writer(f)
-        writer.writerow(["Name", "Patch", "Ran", "Time_since_ran", "Total_runs", "Is_archon", "Element", "Weapon"])
+        writer.writerow(["Name", "Patch", "Ran", "Time_since_ran", "Total_runs", "Is_archon", "Is_chronicle", "Element", "Weapon"])
         writer.writerows(rows)
 
     print(f"Written {len(rows)} rows to banner_history_long.csv")

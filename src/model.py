@@ -27,26 +27,76 @@ def read_banner_history():
    return df 
 
 def prepare_features(df):
-   # Name is an identifier, so don't need it 
-   df = df.drop(columns=["Name"])
 
-   # One hot encode string columns
-   # pd.get_dummies() automatically finds strin columns and expands 
+   df = df.sort_values(["Name", "Patch"]).copy()
+   df = df.reset_index(drop=True)
+
+   # Shift Time_since_ran forward by 1 within each chars history to prevent data leak
+   df["Time_since_ran"] = df.groupby("Name")["Time_since_ran"].shift(1)
+
+   # Chars first row now has no value for Time_since_ran, so fill it
+   df["Time_since_ran"] = df["Time_since_ran"].fillna(999)
+
+   # Same for total_runs 
+   df["Total_runs"] = df.groupby("Name")["Total_runs"].shift(1).fillna(0)
+
+   df = df[df["Is_chronicle"] == 0]
+   df = df[df["Total_runs"] > 0]
+
+   df = df.drop(columns=["Name", "Is_chronicle"])
+
    df = pd.get_dummies(df, columns=["Element", "Weapon"])
 
-   # Seperate features (X) from target (y)
-   # X = things model looks at
-   # y = answer to predict
    X = df.drop(columns="Ran")
    y = df["Ran"]
 
-   return X, y 
+   return X, y
 
+def show_predictions_for_patch(df_original, model, X, patch):
+   # Get the rows for this patch from the original df (which still has Name)
+   patch_mask = X["Patch"] == patch
+   X_patch = X[patch_mask]
+    
+   # Get the corresponding names from the original df using the same index
+   if "Name" in df_original.columns:
+      names = df_original.loc[X_patch.index, "Name"]
+   else:
+      names = X_patch.index
+
+   probs = model.predict_proba(X_patch)[:, 1]  # probability of Ran=1
+   actuals = y[patch_mask]
+
+   results = pd.DataFrame({
+     "Name": names.values,
+     "Actual": actuals.values,
+     "Predicted_prob": probs.round(2),
+     "Predicted": (probs >= 0.5).astype(int)
+   }).sort_values("Predicted_prob", ascending=False)
+
+   print(f"\nPatch {patch} Predictions")
+   print(results.to_string(index=False))
 
 df = read_banner_history()
+df_original = df.copy()
 
 X, y = prepare_features(df)
 
-print(X.shape)        # should have more columns now due to one-hot encoding
-print(X.columns.tolist())  # see all the feature names
-print(y.value_counts())    # how many 1s vs 0s? (ran vs didn't run)
+df_original = df_original.sort_values(["Name", "Patch"]).reset_index(drop=True)
+
+split_patch = 5.0
+
+X_train = X[X["Patch"] < split_patch]
+y_train = y[X["Patch"] < split_patch]
+X_test = X[X["Patch"] >= split_patch]
+y_test = y[X["Patch"] >= split_patch]
+
+print(f"Training rows: {len(X_train)}. Test rows: {len(X_test)}")
+
+model = RandomForestClassifier(n_estimators=100, random_state=42)
+model.fit(X_train, y_train)
+
+y_pred = model.predict(X_test)
+
+print(classification_report(y_test, y_pred))
+
+show_predictions_for_patch(df_original, model, X, patch=5.5)
