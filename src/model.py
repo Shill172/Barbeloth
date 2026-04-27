@@ -40,7 +40,7 @@ def prepare_features(df):
    # Same for total_runs 
    df["Total_runs"] = df.groupby("Name")["Total_runs"].shift(1).fillna(0)
 
-   df = df[df["Is_chronicle"] == 0]
+   chronicle_names = df_original[df_original["Is_chronicle"] == 1]["Name"].unique()
    df = df[df["Total_runs"] > 0]
 
    df = df.drop(columns=["Name", "Is_chronicle"])
@@ -50,9 +50,9 @@ def prepare_features(df):
    X = df.drop(columns="Ran")
    y = df["Ran"]
 
-   return X, y
+   return X, y, chronicle_names
 
-def show_predictions_for_patch(df_original, model, X, patch):
+def show_predictions_for_patch(df_original, model, X, y, chronicle_names, patch):
    # Get the rows for this patch from the original df (which still has Name)
    patch_mask = X["Patch"] == patch
    X_patch = X[patch_mask]
@@ -66,24 +66,29 @@ def show_predictions_for_patch(df_original, model, X, patch):
    probs = model.predict_proba(X_patch)[:, 1]  # probability of Ran=1
    actuals = y[patch_mask]
 
+   # Chronicle characters do not rerun
+   is_chronicle = names.isin(chronicle_names).values
+   probs[is_chronicle] = 0.0
+
    results = pd.DataFrame({
      "Name": names.values,
      "Actual": actuals.values,
      "Predicted_prob": probs.round(2),
-     "Predicted": (probs >= 0.5).astype(int)
+     "Predicted": (probs >= 0.4).astype(int)
    }).sort_values("Predicted_prob", ascending=False)
 
    print(f"\nPatch {patch} Predictions")
    print(results.to_string(index=False))
 
+
 df = read_banner_history()
 df_original = df.copy()
 
-X, y = prepare_features(df)
+X, y, chronicle_names = prepare_features(df)
 
 df_original = df_original.sort_values(["Name", "Patch"]).reset_index(drop=True)
 
-split_patch = 5.0
+split_patch = 6.3
 
 X_train = X[X["Patch"] < split_patch]
 y_train = y[X["Patch"] < split_patch]
@@ -92,11 +97,11 @@ y_test = y[X["Patch"] >= split_patch]
 
 print(f"Training rows: {len(X_train)}. Test rows: {len(X_test)}")
 
-model = RandomForestClassifier(n_estimators=100, random_state=42)
+model = RandomForestClassifier(n_estimators=100, random_state=42, class_weight="balanced")
 model.fit(X_train, y_train)
 
 y_pred = model.predict(X_test)
 
 print(classification_report(y_test, y_pred))
 
-show_predictions_for_patch(df_original, model, X, patch=5.5)
+show_predictions_for_patch(df_original, model, X, y, chronicle_names, patch=6.4)

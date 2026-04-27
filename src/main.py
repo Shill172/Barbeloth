@@ -1,5 +1,6 @@
 from dataprocessing import read_google_doc_for_rerun_info, parse_banner_history
 from apisync import sync_local_data, find_missing_characters
+from model import predict_reruns
 
 def main(): 
     doc_id = "1QLE2W3Suz-UgJCLKWL7FuffZlP5a7QUy"
@@ -17,7 +18,7 @@ def main():
     print("Checking if characters are missing...")
     find_missing_characters()
 
-    print("Done!")
+    predict_reruns()
 
 if __name__ == "__main__":
     main()

@@ -1021,7 +1021,7 @@ Lyney,Luna II,0,8,3,0,0,Pyro,Bow
 Lyney,Luna III,0,9,3,0,0,Pyro,Bow
 Lyney,Luna IV,0,10,3,0,0,Pyro,Bow
 Lyney,Luna V,0,11,3,0,0,Pyro,Bow
-Lyney,Luna VI,0,12,3,0,0,Pyro,Bow
+Lyney,Luna VI,1,0,4,0,1,Pyro,Bow
 Neuvillette,4.1,1,0,1,0,0,Hydro,Catalyst
 Neuvillette,4.2,0,1,1,0,0,Hydro,Catalyst
 Neuvillette,4.3,0,2,1,0,0,Hydro,Catalyst
@@ -1110,7 +1110,7 @@ Navia,Luna II,0,4,3,0,0,Geo,Claymore
 Navia,Luna III,0,5,3,0,0,Geo,Claymore
 Navia,Luna IV,0,6,3,0,0,Geo,Claymore
 Navia,Luna V,0,7,3,0,0,Geo,Claymore
-Navia,Luna VI,0,8,3,0,0,Geo,Claymore
+Navia,Luna VI,1,0,4,0,1,Geo,Claymore
 Xianyun,4.4,1,0,1,0,0,Anemo,Catalyst
 Xianyun,4.5,0,1,1,0,0,Anemo,Catalyst
 Xianyun,4.6,0,2,1,0,0,Anemo,Catalyst
@@ -1184,7 +1184,7 @@ Clorinde,Luna II,0,7,2,0,0,Electro,Sword
 Clorinde,Luna III,0,8,2,0,0,Electro,Sword
 Clorinde,Luna IV,0,9,2,0,0,Electro,Sword
 Clorinde,Luna V,0,10,2,0,0,Electro,Sword
-Clorinde,Luna VI,0,11,2,0,0,Electro,Sword
+Clorinde,Luna VI,1,0,3,0,1,Electro,Sword
 Sigewinne,4.7,1,0,1,0,0,Hydro,Bow
 Sigewinne,4.8,0,1,1,0,0,Hydro,Bow
 Sigewinne,5.0,0,2,1,0,0,Hydro,Bow
@@ -1201,7 +1201,7 @@ Sigewinne,Luna II,0,6,2,0,0,Hydro,Bow
 Sigewinne,Luna III,0,7,2,0,0,Hydro,Bow
 Sigewinne,Luna IV,0,8,2,0,0,Hydro,Bow
 Sigewinne,Luna V,0,9,2,0,0,Hydro,Bow
-Sigewinne,Luna VI,0,10,2,0,0,Hydro,Bow
+Sigewinne,Luna VI,1,0,3,0,1,Hydro,Bow
 Emilie,4.8,1,0,1,0,0,Dendro,Polearm
 Emilie,5.0,0,1,1,0,0,Dendro,Polearm
 Emilie,5.1,0,2,1,0,0,Dendro,Polearm
@@ -1217,7 +1217,7 @@ Emilie,Luna II,0,3,2,0,0,Dendro,Polearm
 Emilie,Luna III,0,4,2,0,0,Dendro,Polearm
 Emilie,Luna IV,0,5,2,0,0,Dendro,Polearm
 Emilie,Luna V,0,6,2,0,0,Dendro,Polearm
-Emilie,Luna VI,0,7,2,0,0,Dendro,Polearm
+Emilie,Luna VI,1,0,3,0,1,Dendro,Polearm
 Mualani,5.0,1,0,1,0,0,Hydro,Catalyst
 Mualani,5.1,0,1,1,0,0,Hydro,Catalyst
 Mualani,5.2,0,2,1,0,0,Hydro,Catalyst
@@ -1338,7 +1338,7 @@ Lauma,Luna II,0,1,1,0,0,Dendro,Catalyst
 Lauma,Luna III,0,2,1,0,0,Dendro,Catalyst
 Lauma,Luna IV,0,3,1,0,0,Dendro,Catalyst
 Lauma,Luna V,0,4,1,0,0,Dendro,Catalyst
-Lauma,Luna VI,0,5,1,0,0,Dendro,Catalyst
+Lauma,Luna VI,1,0,2,0,0,Dendro,Catalyst
 Flins,Luna I,1,0,1,0,0,Electro,Polearm
 Flins,Luna II,0,1,1,0,0,Electro,Polearm
 Flins,Luna III,0,2,1,0,0,Electro,Polearm
@@ -1349,7 +1349,7 @@ Nefer,Luna II,1,0,1,0,0,Dendro,Catalyst
 Nefer,Luna III,0,1,1,0,0,Dendro,Catalyst
 Nefer,Luna IV,0,2,1,0,0,Dendro,Catalyst
 Nefer,Luna V,0,3,1,0,0,Dendro,Catalyst
-Nefer,Luna VI,0,4,1,0,0,Dendro,Catalyst
+Nefer,Luna VI,1,0,2,0,0,Dendro,Catalyst
 Durin,Luna III,1,0,1,0,0,Pyro,Sword
 Durin,Luna IV,0,1,1,0,0,Pyro,Sword
 Durin,Luna V,0,2,1,0,0,Pyro,Sword
