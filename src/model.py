@@ -29,6 +29,8 @@ def read_banner_history():
 
 def prepare_features(df):
 
+   chronicle_names = df[df["Is_chronicle"] == 1]["Name"].unique()
+
    df = df.sort_values(["Name", "Patch"]).copy()
    df = df.reset_index(drop=True)
 
@@ -41,7 +43,6 @@ def prepare_features(df):
    # Same for total_runs 
    df["Total_runs"] = df.groupby("Name")["Total_runs"].shift(1).fillna(0)
 
-   chronicle_names = df_original[df_original["Is_chronicle"] == 1]["Name"].unique()
    df = df[df["Total_runs"] > 0]
 
    df = df.drop(columns=["Name", "Is_chronicle"])
@@ -85,7 +86,47 @@ def show_predictions_for_patch(df_original, model, X, y, chronicle_names, patch)
    print(f"\nPatch {patch} Predictions")
    print(results.to_string(index=False))
 
+def predict_next_patch(df_original, model, chronicle_names, next_patch):
+   this_patch = df_original.sort_values("Patch").groupby("Name").last().reset_index()
 
+   is_chronicle = this_patch["Name"].isin(chronicle_names)
+   this_patch = this_patch[is_chronicle == False]
+
+
+   # Since theres no data for the next patch, we must build the features for it
+   future = this_patch.copy()
+   future["Patch"] = next_patch
+
+   for i in future.index: 
+      if future.loc[i, "Ran"] == 1: 
+         future.loc[i, "Time_since_ran"] = 0
+      else: 
+         future.loc[i, "Time_since_ran"] = future.loc[i, "Time_since_ran"] + 1
+
+   future = future.drop(columns=["Name", "Is_chronicle", "Ran"]) 
+   future = pd.get_dummies(future, columns=["Element", "Weapon"])
+
+   # Aligns the columns to match training data 
+   future = future.reindex(columns=model.feature_names_in_, fill_value=0)
+
+   names = this_patch["Name"].values
+   probs = model.predict_proba(future)[:, 1]
+
+   top4_indices = probs.argsort()[-4:][::-1]
+   predicted = np.zeros(len(probs), dtype=int)
+   predicted[top4_indices] = 1
+
+   results = pd.DataFrame({
+      "Name": names,
+      "Predicted_prob": probs.round(2),
+      "Predicted": predicted
+   }).sort_values("Predicted_prob", ascending=False)
+
+   print(f"\nPredictions for Patch {next_patch}")
+   print(results.to_string(index=False))
+
+
+"""
 df = read_banner_history()
 df_original = df.copy()
 
@@ -93,7 +134,7 @@ X, y, chronicle_names = prepare_features(df)
 
 df_original = df_original.sort_values(["Name", "Patch"]).reset_index(drop=True)
 
-split_patch = 6.2
+split_patch = 6.4
 
 X_train = X[X["Patch"] < split_patch]
 y_train = y[X["Patch"] < split_patch]
@@ -109,4 +150,7 @@ y_pred = model.predict(X_test)
 
 print(classification_report(y_test, y_pred))
 
-show_predictions_for_patch(df_original, model, X, y, chronicle_names, patch=6.3)
+show_predictions_for_patch(df_original, model, X, y, chronicle_names, patch=6.5)
+
+predict_next_patch(df_original, model, chronicle_names, 6.6)
+"""
