@@ -3,6 +3,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier
 from sklearn.metrics import classification_report
 import matplotlib.pyplot as plt
+import numpy as np 
 
 luna_version_map = {
     "Luna I": 6.0,
@@ -70,11 +71,15 @@ def show_predictions_for_patch(df_original, model, X, y, chronicle_names, patch)
    is_chronicle = names.isin(chronicle_names).values
    probs[is_chronicle] = 0.0
 
+   top4_indices = probs.argsort()[-4:][::-1]
+   predicted = np.zeros(len(probs), dtype=int)
+   predicted[top4_indices] = 1
+
    results = pd.DataFrame({
      "Name": names.values,
      "Actual": actuals.values,
      "Predicted_prob": probs.round(2),
-     "Predicted": (probs >= 0.4).astype(int)
+     "Predicted": predicted
    }).sort_values("Predicted_prob", ascending=False)
 
    print(f"\nPatch {patch} Predictions")
@@ -88,7 +93,7 @@ X, y, chronicle_names = prepare_features(df)
 
 df_original = df_original.sort_values(["Name", "Patch"]).reset_index(drop=True)
 
-split_patch = 6.3
+split_patch = 6.2
 
 X_train = X[X["Patch"] < split_patch]
 y_train = y[X["Patch"] < split_patch]
@@ -104,4 +109,4 @@ y_pred = model.predict(X_test)
 
 print(classification_report(y_test, y_pred))
 
-show_predictions_for_patch(df_original, model, X, y, chronicle_names, patch=6.4)
+show_predictions_for_patch(df_original, model, X, y, chronicle_names, patch=6.3)
