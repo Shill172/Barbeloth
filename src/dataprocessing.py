@@ -151,6 +151,8 @@ def parse_banner_history():
         time_since_ran = 0
         total_runs = 0 
         is_archon = 0 
+        patches_since_debut = 0 
+        run_frequency = 0 
 
         # All characters get a row for every patch
         for patch in all_patches:
@@ -165,13 +167,18 @@ def parse_banner_history():
                 time_since_ran = 0
                 seen_first_run = True
                 total_runs = total_runs + 1 
+                patches_since_debut = patches_since_debut + 1 
                 
-                rows.append([name, patch, ran, time_since_ran, total_runs, is_archon, is_chronicle, element, weapon])
+                
+                rows.append([name, patch, ran, time_since_ran, total_runs, patches_since_debut, run_frequency, is_archon, is_chronicle, element, weapon])
+                
+                run_frequency = total_runs / patches_since_debut 
             else:
                 ran = 0
                 if seen_first_run:
                     time_since_ran += 1 
-                    rows.append([name, patch, ran, time_since_ran, total_runs, is_archon, is_chronicle, element, weapon,])
+                    patches_since_debut += 1 
+                    rows.append([name, patch, ran, time_since_ran, total_runs,  patches_since_debut, run_frequency, is_archon, is_chronicle, element, weapon,])
                 else:
                     time_since_ran = 0  
 
@@ -179,7 +186,14 @@ def parse_banner_history():
 
     with open("resources/banner_history_long.csv", "w", newline="", encoding="utf-8") as f:
         writer = csv.writer(f)
-        writer.writerow(["Name", "Patch", "Ran", "Time_since_ran", "Total_runs", "Is_archon", "Is_chronicle", "Element", "Weapon"])
+        writer.writerow(["Name", "Patch", "Ran", "Time_since_ran", "Total_runs", "Patches_since_debut", "Run_frequency", "Is_archon", "Is_chronicle", "Element", "Weapon"])
         writer.writerows(rows)
 
     print(f"Written {len(rows)} rows to banner_history_long.csv")
+
+#read_google_doc_for_rerun_info("1QLE2W3Suz-UgJCLKWL7FuffZlP5a7QUy", "551073839") 
+
+#parse_banner_history() 
+
+#     doc_id = "1QLE2W3Suz-UgJCLKWL7FuffZlP5a7QUy"
+#     gid = "551073839"

@@ -57,7 +57,7 @@ def prepare_features(df):
 def show_predictions_for_patch(df_original, model, X, y, chronicle_names, patch):
    # Get the rows for this patch from the original df (which still has Name)
    patch_mask = X["Patch"] == patch
-   X_patch = X[patch_mask]
+   X_patch = X[patch_mask].drop(columns=["Patch"])
     
    # Get the corresponding names from the original df using the same index
    if "Name" in df_original.columns:
@@ -112,6 +112,11 @@ def predict_next_patch(df_original, model, chronicle_names, next_patch):
    names = this_patch["Name"].values
    probs = model.predict_proba(future)[:, 1]
 
+   # characters don't run before being off banner for 3 versions (6 cycles)
+   for i in range(len(future)): 
+      if future.iloc[i]["Time_since_ran"] <= 3: 
+         probs[i] = 0.0 
+
    top4_indices = probs.argsort()[-4:][::-1]
    predicted = np.zeros(len(probs), dtype=int)
    predicted[top4_indices] = 1
@@ -125,7 +130,6 @@ def predict_next_patch(df_original, model, chronicle_names, next_patch):
    print(f"\nPredictions for Patch {next_patch}")
    print(results.to_string(index=False))
 
-
 """
 df = read_banner_history()
 df_original = df.copy()
@@ -134,11 +138,11 @@ X, y, chronicle_names = prepare_features(df)
 
 df_original = df_original.sort_values(["Name", "Patch"]).reset_index(drop=True)
 
-split_patch = 6.4
+split_patch = 6.0
 
-X_train = X[X["Patch"] < split_patch]
+X_train = X[X["Patch"] < split_patch].drop(columns=["Patch"])
 y_train = y[X["Patch"] < split_patch]
-X_test = X[X["Patch"] >= split_patch]
+X_test = X[X["Patch"] >= split_patch].drop(columns=["Patch"])
 y_test = y[X["Patch"] >= split_patch]
 
 print(f"Training rows: {len(X_train)}. Test rows: {len(X_test)}")
@@ -150,7 +154,6 @@ y_pred = model.predict(X_test)
 
 print(classification_report(y_test, y_pred))
 
-show_predictions_for_patch(df_original, model, X, y, chronicle_names, patch=6.5)
+show_predictions_for_patch(df_original, model, X, y, chronicle_names, patch=6.4)
 
-predict_next_patch(df_original, model, chronicle_names, 6.6)
 """
