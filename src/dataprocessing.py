@@ -4,6 +4,8 @@
 import requests 
 import os
 import csv
+from model import read_banner_history
+import pandas as pd
 
 DATA_FILE = "resources/data.csv"
 FILTERED_FILE = "resources/filtered_data.csv"
@@ -190,6 +192,31 @@ def parse_banner_history():
         writer.writerows(rows)
 
     print(f"Written {len(rows)} rows to banner_history_long.csv")
+
+
+def get_num_rerun_slots_per_patch():
+    df = read_banner_history() 
+
+    all_patches = df["Patch"].copy().unique()
+
+    df = df[df["Is_chronicle"] == 0]
+
+    df = df[(df["Total_runs"] > 1) & (df["Ran"] == 1)] 
+
+    runs_per_patch = df.groupby("Patch")["Ran"].sum().reset_index()
+
+    runs_per_patch.columns = ["Patch", "Rerun_slots"]
+    
+    full_df = pd.DataFrame({"Patch": all_patches})
+
+    final = pd.merge(full_df, runs_per_patch, on="Patch", how="left")
+    final["Rerun_slots"] = final["Rerun_slots"].fillna(0).astype(int)
+
+    final = final.sort_values("Patch").reset_index(drop=True)
+
+    print(final)
+
+get_num_rerun_slots_per_patch()
 
 #read_google_doc_for_rerun_info("1QLE2W3Suz-UgJCLKWL7FuffZlP5a7QUy", "551073839") 
 

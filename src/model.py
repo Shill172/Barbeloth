@@ -27,6 +27,7 @@ def read_banner_history():
 
    return df 
 
+# Will update in the future to get the no of reruns that a patch ha
 def longest_time_is_rerun(): 
    
    df = read_banner_history() 
@@ -35,11 +36,9 @@ def longest_time_is_rerun():
 
    df = df[~df['Name'].isin(chronicle_names)]
 
-   idx = df.groupby('Patch')['Time_since_ran'].idxmax()
+   result = df.groupby("Patch").apply(lambda x : x.nlargest(4, "Time_since_ran")).reset_index()
 
-   result = df.loc[idx, ['Patch', 'Name', 'Time_since_ran']]
-
-   print(result)
+   print(result[["Patch", "Name", "Time_since_ran"]])
 
 
 def prepare_features(df):
