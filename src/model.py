@@ -27,6 +27,21 @@ def read_banner_history():
 
    return df 
 
+def longest_time_is_rerun(): 
+   
+   df = read_banner_history() 
+
+   chronicle_names = df[df["Is_chronicle"] == 1]["Name"].unique()
+
+   df = df[~df['Name'].isin(chronicle_names)]
+
+   idx = df.groupby('Patch')['Time_since_ran'].idxmax()
+
+   result = df.loc[idx, ['Patch', 'Name', 'Time_since_ran']]
+
+   print(result)
+
+
 def prepare_features(df):
 
    chronicle_names = df[df["Is_chronicle"] == 1]["Name"].unique()
@@ -129,6 +144,9 @@ def predict_next_patch(df_original, model, chronicle_names, next_patch):
 
    print(f"\nPredictions for Patch {next_patch}")
    print(results.to_string(index=False))
+
+
+longest_time_is_rerun() 
 
 """
 df = read_banner_history()
