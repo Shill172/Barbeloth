@@ -4,7 +4,6 @@
 import requests 
 import os
 import csv
-from model import read_banner_history
 import pandas as pd
 
 DATA_FILE = "resources/data.csv"
@@ -12,6 +11,23 @@ FILTERED_FILE = "resources/filtered_data.csv"
 STANDARD_CHARACTERS = ["Keqing", "Diluc", "Mona", "Qiqi", 
                         "Jean", "Dehya", "Tighnari", "Yumemizuki Mizuki"]
 ARCHONS = ["Venti", "Zhongli", "Raiden Shogun", "Nahida", "Furina", "Mavuika", "Columbina"]
+
+luna_version_map = {
+    "Luna I": 6.0,
+    "Luna II": 6.1,
+    "Luna III": 6.2,
+    "Luna IV": 6.3,
+    "Luna V": 6.4,
+    "Luna VI": 6.5,
+    "Luna VII": 6.6,
+    "Luna VIII": 6.7
+}
+
+def read_banner_history():
+    df = pd.read_csv("resources/banner_history_long.csv")
+    df["Patch"] = df["Patch"].map(luna_version_map).fillna(df["Patch"])
+    df["Patch"] = df["Patch"].astype(float)
+    return df
 
 def read_google_doc_for_rerun_info(doc_id, gid):
 
@@ -195,7 +211,7 @@ def parse_banner_history():
 
 
 def get_num_rerun_slots_per_patch():
-    df = read_banner_history() 
+    df = read_banner_history()
 
     all_patches = df["Patch"].copy().unique()
 
@@ -216,7 +232,27 @@ def get_num_rerun_slots_per_patch():
 
     print(final)
 
+    return final
+
+def get_banner_runs():
+    df = read_banner_history()
+
+    df = df[df["Is_chronicle"] == 0]
+    df = df[(df["Total_runs"] > 1) & (df["Ran"] == 1)]
+
+    df = df[["Patch", "Name"]]
+
+    df = df.sort_values(by="Patch", ascending=True)
+
+    df.to_csv("resources/banner_runs.csv", index=False)
+
+    return df
+    
+
+
 get_num_rerun_slots_per_patch()
+
+get_banner_runs()
 
 #read_google_doc_for_rerun_info("1QLE2W3Suz-UgJCLKWL7FuffZlP5a7QUy", "551073839") 
 

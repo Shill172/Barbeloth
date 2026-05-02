@@ -4,6 +4,7 @@ from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier
 from sklearn.metrics import classification_report
 import matplotlib.pyplot as plt
 import numpy as np 
+from dataprocessing import get_num_rerun_slots_per_patch, get_banner_runs
 
 luna_version_map = {
     "Luna I": 6.0,
@@ -29,17 +30,52 @@ def read_banner_history():
 
 # Will update in the future to get the no of reruns that a patch ha
 def longest_time_is_rerun(): 
-   
    df = read_banner_history() 
 
-   chronicle_names = df[df["Is_chronicle"] == 1]["Name"].unique()
+   chronicle_entries = df[df["Is_chronicle"] == 1]
+   first_chronicle_patch = chronicle_entries.groupby("Name")["Patch"].min()
+   df["Cutoff_Patch"] = df["Name"].map(first_chronicle_patch).fillna(float('inf'))
+   df = df[df["Patch"] < df["Cutoff_Patch"]].copy()
 
-   df = df[~df['Name'].isin(chronicle_names)]
+   rerun_slots = get_num_rerun_slots_per_patch()
+   
+   all_patches = sorted(df["Patch"].unique())
+   
+   results = []
 
-   result = df.groupby("Patch").apply(lambda x : x.nlargest(4, "Time_since_ran")).reset_index()
+   for _, row in rerun_slots.iterrows(): 
+      current_patch = row["Patch"]
+      n = int(row["Rerun_slots"])
 
-   print(result[["Patch", "Name", "Time_since_ran"]])
+      if n == 0:
+         continue
 
+      # Find the index of the current patch so we can tell how time they have waited
+      # When they actually run
+      try:
+         current_idx = all_patches.index(current_patch)
+         if current_idx == 0: continue 
+         previous_patch = all_patches[current_idx - 1]
+      except ValueError:
+         continue
+
+      prediction_pool = df[df["Patch"] == previous_patch].copy()
+
+      # Dont want debuts 
+      prediction_pool = prediction_pool[prediction_pool["Total_runs"] >= 1]
+
+      # Pick n (num of rerun slots for that patch) top wait times
+      top = prediction_pool.nlargest(n, "Time_since_ran").copy()
+      top["Patch"] = current_patch 
+      
+      results.append(top[["Name", "Patch", "Time_since_ran"]])
+
+   if not results:
+      return pd.DataFrame()
+
+   final = pd.concat(results).reset_index(drop=True)
+   print(final.to_string(index=False))
+   return final
 
 def prepare_features(df):
 
@@ -145,7 +181,42 @@ def predict_next_patch(df_original, model, chronicle_names, next_patch):
    print(results.to_string(index=False))
 
 
-longest_time_is_rerun() 
+def calculate_prediction_accuracy(predicted_df, actual_df, min_patch):
+   # Data types must match
+   predicted_df["Patch"] = predicted_df["Patch"].astype(float)
+   actual_df["Patch"] = actual_df["Patch"].astype(float)
+
+   filtered_predictions = predicted_df[predicted_df["Patch"] > min_patch].copy()
+
+   if filtered_predictions.empty:
+      print(f"No predictions found after patch {min_patch}.")
+      return 0.0
+
+   # Intersection to find where columns match (correct prediction)
+   correct_predictions = pd.merge(
+      filtered_predictions, 
+      actual_df[['Name', 'Patch']], 
+      on=['Name', 'Patch'], 
+      how='inner'
+   )
+
+   if not correct_predictions.empty:
+      print(f"Correct predictions for patch: {min_patch}+:")
+      print(correct_predictions.sort_values("Patch").to_string(index=False))
+   else:
+      print(f"No correct predictions found after patch {min_patch}")
+
+   accuracy = (len(correct_predictions) / len(filtered_predictions)) * 100
+   
+   print(f"\nTotal Predicted: {len(filtered_predictions)}")
+   print(f"Correct Hits: {len(correct_predictions)}")
+   print(f"Accuracy: {accuracy:.2f}%")
+   
+   return accuracy
+
+predicted_df = longest_time_is_rerun()
+actual_df = get_banner_runs()
+calculate_prediction_accuracy(predicted_df, actual_df, min_patch=6.0)
 
 """
 df = read_banner_history()
