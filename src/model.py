@@ -28,13 +28,20 @@ def read_banner_history():
 
    return df 
 
+def get_rerun_slots_for_patch(patch):
+   rerun_slots = get_num_rerun_slots_per_patch()
+
+   match = rerun_slots[rerun_slots["Patch"] == patch]
+
+   return int(match.iloc[0]["Rerun_slots"])
+
 # Will update in the future to get the no of reruns that a patch ha
 def longest_time_is_rerun(): 
    df = read_banner_history() 
 
    chronicle_entries = df[df["Is_chronicle"] == 1]
    first_chronicle_patch = chronicle_entries.groupby("Name")["Patch"].min()
-   df["Cutoff_Patch"] = df["Name"].map(first_chronicle_patch).fillna(float('inf'))
+   df["Cutoff_Patch"] = df["Name"].map(first_chronicle_patch).fillna(float("inf"))
    df = df[df["Patch"] < df["Cutoff_Patch"]].copy()
 
    rerun_slots = get_num_rerun_slots_per_patch()
@@ -68,13 +75,15 @@ def longest_time_is_rerun():
       top = prediction_pool.nlargest(n, "Time_since_ran").copy()
       top["Patch"] = current_patch 
       
-      results.append(top[["Name", "Patch", "Time_since_ran"]])
+      results.append(top[["Patch", "Name", "Time_since_ran"]])
 
    if not results:
       return pd.DataFrame()
 
    final = pd.concat(results).reset_index(drop=True)
-   print(final.to_string(index=False))
+   
+   final.to_csv("resources/longest_waiting_time_will_run_predictions.csv", index=False)
+   
    return final
 
 def prepare_features(df):
@@ -122,9 +131,11 @@ def show_predictions_for_patch(df_original, model, X, y, chronicle_names, patch)
    is_chronicle = names.isin(chronicle_names).values
    probs[is_chronicle] = 0.0
 
-   top4_indices = probs.argsort()[-4:][::-1]
+   n = get_rerun_slots_for_patch(patch)
+
+   top_indices = probs.argsort()[-n:][::-1]
    predicted = np.zeros(len(probs), dtype=int)
-   predicted[top4_indices] = 1
+   predicted[top_indices] = 1
 
    results = pd.DataFrame({
      "Name": names.values,
@@ -135,6 +146,12 @@ def show_predictions_for_patch(df_original, model, X, y, chronicle_names, patch)
 
    print(f"\nPatch {patch} Predictions")
    print(results.to_string(index=False))
+
+   predicted = results[results["Predicted"] == 1].copy()
+   predicted["Patch"] = patch 
+
+   return predicted[["Patch", "Name", "Predicted_prob"]]
+
 
 def predict_next_patch(df_original, model, chronicle_names, next_patch):
    this_patch = df_original.sort_values("Patch").groupby("Name").last().reset_index()
@@ -162,14 +179,16 @@ def predict_next_patch(df_original, model, chronicle_names, next_patch):
    names = this_patch["Name"].values
    probs = model.predict_proba(future)[:, 1]
 
-   # characters don't run before being off banner for 3 versions (6 cycles)
+   # characters don"t run before being off banner for 3 versions (6 cycles)
    for i in range(len(future)): 
       if future.iloc[i]["Time_since_ran"] <= 3: 
          probs[i] = 0.0 
 
-   top4_indices = probs.argsort()[-4:][::-1]
+   n = get_rerun_slots_for_patch(next_patch)
+
+   top_indices = probs.argsort()[-n:][::-1]
    predicted = np.zeros(len(probs), dtype=int)
-   predicted[top4_indices] = 1
+   predicted[top_indices] = 1
 
    results = pd.DataFrame({
       "Name": names,
@@ -181,12 +200,58 @@ def predict_next_patch(df_original, model, chronicle_names, next_patch):
    print(results.to_string(index=False))
 
 
+def predict_n_patches(df_original, X, y, chronicle_names, start_patch):
+   all_patches = sorted(X["Patch"].unique())
+
+   patches_to_predict = []
+
+   for p in all_patches:
+      if p >= start_patch:
+         patches_to_predict.append(p)
+
+   results = []
+
+   for patch in patches_to_predict: 
+      train_mask = X["Patch"] < patch 
+      test_mask = X["Patch"] == patch
+
+      if train_mask.sum() == 0 or test_mask.sum() == 0:
+         continue
+
+      X_train = X[train_mask].drop(columns=["Patch"])
+      y_train = y[train_mask]
+
+      X_patch = X[test_mask]
+      y_patch = y[test_mask]
+
+      model = RandomForestClassifier(n_estimators=100, random_state=42, class_weight="balanced")
+
+      model.fit(X_train, y_train)
+
+      predicted = show_predictions_for_patch(
+         df_original,
+         model, 
+         X_patch, 
+         y_patch,
+         chronicle_names,
+         patch
+      )
+
+      results.append(predicted)
+
+   final = pd.concat(results).reset_index(drop=True)
+
+   final.to_csv("resources/model_predictions.csv", index=False)
+
+   return final
+
+
 def calculate_prediction_accuracy(predicted_df, actual_df, min_patch):
    # Data types must match
    predicted_df["Patch"] = predicted_df["Patch"].astype(float)
    actual_df["Patch"] = actual_df["Patch"].astype(float)
 
-   filtered_predictions = predicted_df[predicted_df["Patch"] > min_patch].copy()
+   filtered_predictions = predicted_df[predicted_df["Patch"] >= min_patch].copy()
 
    if filtered_predictions.empty:
       print(f"No predictions found after patch {min_patch}.")
@@ -195,9 +260,9 @@ def calculate_prediction_accuracy(predicted_df, actual_df, min_patch):
    # Intersection to find where columns match (correct prediction)
    correct_predictions = pd.merge(
       filtered_predictions, 
-      actual_df[['Name', 'Patch']], 
-      on=['Name', 'Patch'], 
-      how='inner'
+      actual_df[["Name", "Patch"]], 
+      on=["Name", "Patch"], 
+      how="inner"
    )
 
    if not correct_predictions.empty:
@@ -214,11 +279,11 @@ def calculate_prediction_accuracy(predicted_df, actual_df, min_patch):
    
    return accuracy
 
-predicted_df = longest_time_is_rerun()
-actual_df = get_banner_runs()
-calculate_prediction_accuracy(predicted_df, actual_df, min_patch=6.0)
+# predicted_df = longest_time_is_rerun()
+# actual_df = get_banner_runs()
+# calculate_prediction_accuracy(predicted_df, actual_df, min_patch=6.0)
 
-"""
+
 df = read_banner_history()
 df_original = df.copy()
 
@@ -226,22 +291,34 @@ X, y, chronicle_names = prepare_features(df)
 
 df_original = df_original.sort_values(["Name", "Patch"]).reset_index(drop=True)
 
-split_patch = 6.0
+predicted_df = predict_n_patches(
+   df_original,
+   X,
+   y,
+   chronicle_names,
+   start_patch=5.8
+)
 
-X_train = X[X["Patch"] < split_patch].drop(columns=["Patch"])
-y_train = y[X["Patch"] < split_patch]
-X_test = X[X["Patch"] >= split_patch].drop(columns=["Patch"])
-y_test = y[X["Patch"] >= split_patch]
+actual_df = get_banner_runs()
+calculate_prediction_accuracy(predicted_df, actual_df, min_patch=5.8)
 
-print(f"Training rows: {len(X_train)}. Test rows: {len(X_test)}")
 
-model = RandomForestClassifier(n_estimators=100, random_state=42, class_weight="balanced")
-model.fit(X_train, y_train)
+print(predicted_df[predicted_df["Patch"] == 6.0].to_string(index=False))
 
-y_pred = model.predict(X_test)
+# split_patch = 6.0
 
-print(classification_report(y_test, y_pred))
+# X_train = X[X["Patch"] < split_patch].drop(columns=["Patch"])
+# y_train = y[X["Patch"] < split_patch]
+# X_test = X[X["Patch"] >= split_patch].drop(columns=["Patch"])
+# y_test = y[X["Patch"] >= split_patch]
 
-show_predictions_for_patch(df_original, model, X, y, chronicle_names, patch=6.4)
+# print(f"Training rows: {len(X_train)}. Test rows: {len(X_test)}")
 
-"""
+# model = RandomForestClassifier(n_estimators=100, random_state=42, class_weight="balanced")
+# model.fit(X_train, y_train)
+
+# y_pred = model.predict(X_test)
+
+# print(classification_report(y_test, y_pred))
+
+# show_predictions_for_patch(df_original, model, X, y, chronicle_names, patch=6.5)
