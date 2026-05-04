@@ -71,6 +71,13 @@ def longest_time_is_rerun():
       # Dont want debuts 
       prediction_pool = prediction_pool[prediction_pool["Total_runs"] >= 1]
 
+      # Exclude characters that are already on chronicle in current patch
+      # E.g. Clorinde will not show for longest in patch 6.5 where she is added as chronicle
+      prediction_pool = prediction_pool[
+         prediction_pool["Name"].map(first_chronicle_patch).fillna(float("inf")) > current_patch
+      ]
+
+
       # Pick n (num of rerun slots for that patch) top wait times
       top = prediction_pool.nlargest(n, "Time_since_ran").copy()
       top["Patch"] = current_patch 
@@ -279,31 +286,36 @@ def calculate_prediction_accuracy(predicted_df, actual_df, min_patch):
    
    return accuracy
 
-# predicted_df = longest_time_is_rerun()
-# actual_df = get_banner_runs()
+predicted_df = longest_time_is_rerun()
+actual_df = get_banner_runs()
+
+longest_time_is_rerun()
+calculate_prediction_accuracy(predicted_df, actual_df, min_patch=6.0)
+
+
 # calculate_prediction_accuracy(predicted_df, actual_df, min_patch=6.0)
 
 
-df = read_banner_history()
-df_original = df.copy()
+# df = read_banner_history()
+# df_original = df.copy()
 
-X, y, chronicle_names = prepare_features(df)
+# X, y, chronicle_names = prepare_features(df)
 
-df_original = df_original.sort_values(["Name", "Patch"]).reset_index(drop=True)
+# df_original = df_original.sort_values(["Name", "Patch"]).reset_index(drop=True)
 
-predicted_df = predict_n_patches(
-   df_original,
-   X,
-   y,
-   chronicle_names,
-   start_patch=5.8
-)
+# predicted_df = predict_n_patches(
+#    df_original,
+#    X,
+#    y,
+#    chronicle_names,
+#    start_patch=5.8
+# )
 
-actual_df = get_banner_runs()
-calculate_prediction_accuracy(predicted_df, actual_df, min_patch=5.8)
+# actual_df = get_banner_runs()
+# calculate_prediction_accuracy(predicted_df, actual_df, min_patch=5.8)
 
 
-print(predicted_df[predicted_df["Patch"] == 6.0].to_string(index=False))
+# print(predicted_df[predicted_df["Patch"] == 6.0].to_string(index=False))
 
 # split_patch = 6.0
 

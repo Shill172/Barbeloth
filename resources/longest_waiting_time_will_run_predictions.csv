@@ -61,9 +61,9 @@ Patch,Name,Time_since_ran
 4.4,Albedo,11
 4.4,Arataki Itto,9
 4.4,Xiao,8
-4.5,Albedo,12
 4.5,Arataki Itto,10
 4.5,Shenhe,8
+4.5,Ganyu,7
 4.6,Shenhe,9
 4.6,Ganyu,8
 4.6,Nilou,8
@@ -80,25 +80,25 @@ Patch,Name,Time_since_ran
 5.2,Shenhe,14
 5.2,Ganyu,13
 5.2,Sangonomiya Kokomi,11
-5.3,Shenhe,15
-5.3,Ganyu,14
+5.3,Sangonomiya Kokomi,12
+5.3,Venti,10
 5.4,Sangonomiya Kokomi,13
 5.4,Venti,11
 5.4,Wriothesley,11
 5.5,Sangonomiya Kokomi,14
 5.5,Venti,12
 5.5,Kamisato Ayato,11
-5.6,Sangonomiya Kokomi,15
-5.6,Kamisato Ayato,12
 5.6,Cyno,12
+5.6,Wanderer,8
+5.6,Alhaitham,7
 5.7,Cyno,13
 5.7,Wanderer,9
 5.7,Alhaitham,8
 5.8,Cyno,14
 5.8,Wanderer,10
 5.8,Alhaitham,9
-6.0,Cyno,15
-6.0,Wanderer,11
+6.0,Yelan,9
+6.0,Hu Tao,7
 6.1,Hu Tao,8
 6.1,Zhongli,7
 6.1,Lyney,7
@@ -111,5 +111,5 @@ Patch,Name,Time_since_ran
 6.4,Lyney,10
 6.4,Clorinde,9
 6.5,Hu Tao,12
-6.5,Lyney,11
-6.5,Clorinde,10
+6.5,Wriothesley,9
+6.5,Xianyun,8
