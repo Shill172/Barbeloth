@@ -49,67 +49,67 @@ Patch,Name,Time_since_ran
 3.8,Sangonomiya Kokomi,7
 4.0,Zhongli,8
 4.0,Venti,7
-4.0,Albedo,7
+4.0,Tartaglia,6
 4.1,Venti,8
-4.1,Albedo,8
-4.2,Albedo,9
+4.1,Raiden Shogun,6
 4.2,Raiden Shogun,7
 4.2,Arataki Itto,7
-4.3,Albedo,10
+4.2,Kamisato Ayato,7
 4.3,Raiden Shogun,8
 4.3,Arataki Itto,8
-4.4,Albedo,11
+4.3,Xiao,7
 4.4,Arataki Itto,9
 4.4,Xiao,8
+4.4,Nilou,6
 4.5,Arataki Itto,10
-4.5,Shenhe,8
-4.5,Ganyu,7
-4.6,Shenhe,9
-4.6,Ganyu,8
+4.5,Nilou,7
+4.5,Kaedehara Kazuha,6
 4.6,Nilou,8
-4.7,Shenhe,10
-4.7,Ganyu,9
-4.8,Shenhe,11
-4.8,Ganyu,10
+4.6,Alhaitham,7
+4.6,Wanderer,6
+4.7,Nilou,9
+4.7,Alhaitham,8
 4.8,Nilou,10
-5.0,Shenhe,12
-5.0,Ganyu,11
-5.1,Shenhe,13
-5.1,Ganyu,12
-5.1,Sangonomiya Kokomi,10
-5.2,Shenhe,14
-5.2,Ganyu,13
-5.2,Sangonomiya Kokomi,11
-5.3,Sangonomiya Kokomi,12
+4.8,Zhongli,7
+4.8,Yelan,7
+5.0,Zhongli,8
+5.0,Venti,7
+5.1,Zhongli,9
+5.1,Venti,8
+5.1,Hu Tao,8
+5.2,Zhongli,10
+5.2,Venti,9
+5.2,Wriothesley,9
 5.3,Venti,10
-5.4,Sangonomiya Kokomi,13
+5.3,Wriothesley,10
 5.4,Venti,11
 5.4,Wriothesley,11
-5.5,Sangonomiya Kokomi,14
+5.4,Xianyun,8
 5.5,Venti,12
-5.5,Kamisato Ayato,11
-5.6,Cyno,12
-5.6,Wanderer,8
-5.6,Alhaitham,7
-5.7,Cyno,13
-5.7,Wanderer,9
-5.7,Alhaitham,8
-5.8,Cyno,14
-5.8,Wanderer,10
-5.8,Alhaitham,9
+5.5,Xianyun,9
+5.5,Yelan,5
+5.6,Yelan,6
+5.6,Navia,6
+5.6,Emilie,6
+5.7,Yelan,7
+5.7,Emilie,7
+5.7,Mualani,6
+5.8,Yelan,8
+5.8,Mualani,7
+5.8,Hu Tao,6
 6.0,Yelan,9
 6.0,Hu Tao,7
 6.1,Hu Tao,8
 6.1,Zhongli,7
-6.1,Lyney,7
+6.1,Neuvillette,7
 6.2,Hu Tao,9
-6.2,Lyney,8
 6.2,Neuvillette,8
+6.2,Wriothesley,6
 6.3,Hu Tao,10
-6.3,Lyney,9
+6.3,Neuvillette,9
 6.4,Hu Tao,11
-6.4,Lyney,10
-6.4,Clorinde,9
+6.4,Wriothesley,8
+6.4,Xianyun,7
 6.5,Hu Tao,12
 6.5,Wriothesley,9
 6.5,Xianyun,8

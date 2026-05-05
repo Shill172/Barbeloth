@@ -35,14 +35,44 @@ def get_rerun_slots_for_patch(patch):
 
    return int(match.iloc[0]["Rerun_slots"])
 
-# Will update in the future to get the no of reruns that a patch ha
+def get_last_regular_rerun():
+   df = read_banner_history()
+
+   chronicle_chars = df[df["Is_chronicle"] == 1]["Name"].unique()
+   
+   chronicle_info = df[df["Is_chronicle"] == 1].groupby("Name")["Patch"].min().reset_index()
+   chronicle_info.columns = ["Name", "First_Chronicle_Patch"]
+
+   standard_reruns = df[
+      (df["Name"].isin(chronicle_chars)) & 
+      (df["Ran"] == 1) & 
+      (df["Is_chronicle"] == 0) & 
+      (df["Total_runs"] > 1)
+   ].copy()
+
+   merged = pd.merge(standard_reruns, chronicle_info, on="Name", how="inner")
+
+   # Keep reruns only if they happened BEFORE the first chronicle appearance
+   valid_reruns = merged[merged["Patch"] < merged["First_Chronicle_Patch"]]
+
+   final_reruns = valid_reruns.sort_values("Patch").groupby("Name").last().reset_index()
+
+   result = final_reruns[["Patch", "Name"]]
+   
+   result.to_csv("resources/last_regular_rerun.csv", index=False)
+   return result
+
 def longest_time_is_rerun(): 
    df = read_banner_history() 
+   
+   last_regular_rerun = pd.read_csv("resources/last_regular_rerun.csv")
+   last_regular_map = dict(zip(last_regular_rerun["Name"], last_regular_rerun["Patch"].astype(float)))
 
-   chronicle_entries = df[df["Is_chronicle"] == 1]
-   first_chronicle_patch = chronicle_entries.groupby("Name")["Patch"].min()
-   df["Cutoff_Patch"] = df["Name"].map(first_chronicle_patch).fillna(float("inf"))
-   df = df[df["Patch"] < df["Cutoff_Patch"]].copy()
+   # Exclude entries where a characters next appearence is chronicle
+   # E.g. Lyney is chronicle in 6.5, meaning from his latest regular rerun (5.2)
+   # He will not be counted
+   df["Cutoff_Patch"] = df["Name"].map(last_regular_map).fillna(float("inf"))
+   df = df[df["Patch"] <= df["Cutoff_Patch"]].copy()
 
    rerun_slots = get_num_rerun_slots_per_patch()
    
@@ -70,13 +100,6 @@ def longest_time_is_rerun():
 
       # Dont want debuts 
       prediction_pool = prediction_pool[prediction_pool["Total_runs"] >= 1]
-
-      # Exclude characters that are already on chronicle in current patch
-      # E.g. Clorinde will not show for longest in patch 6.5 where she is added as chronicle
-      prediction_pool = prediction_pool[
-         prediction_pool["Name"].map(first_chronicle_patch).fillna(float("inf")) > current_patch
-      ]
-
 
       # Pick n (num of rerun slots for that patch) top wait times
       top = prediction_pool.nlargest(n, "Time_since_ran").copy()
@@ -285,6 +308,8 @@ def calculate_prediction_accuracy(predicted_df, actual_df, min_patch):
    print(f"Accuracy: {accuracy:.2f}%")
    
    return accuracy
+
+get_last_regular_rerun()
 
 predicted_df = longest_time_is_rerun()
 actual_df = get_banner_runs()
