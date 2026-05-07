@@ -28,6 +28,18 @@ def read_banner_history():
 
    return df 
 
+def load_last_regular_rerun_map():
+    # Returns {Name: last_regular_patch} for chronicle characters.
+    df = pd.read_csv("resources/last_regular_rerun.csv")
+    return dict(zip(df["Name"], df["Patch"].astype(float)))
+
+def is_chronicle_excluded(name, patch, last_regular_map):
+   # Returns True if this character should be excluded at this patch because
+   # their next appearance would be a chronicle slot
+    if name not in last_regular_map:
+        return False 
+    return patch > last_regular_map[name]
+
 def get_rerun_slots_for_patch(patch):
    rerun_slots = get_num_rerun_slots_per_patch()
 
@@ -144,6 +156,9 @@ def prepare_features(df):
    return X, y, chronicle_names
 
 def show_predictions_for_patch(df_original, model, X, y, chronicle_names, patch):
+
+   last_regular_map = load_last_regular_rerun_map()
+
    # Get the rows for this patch from the original df (which still has Name)
    patch_mask = X["Patch"] == patch
    X_patch = X[patch_mask].drop(columns=["Patch"])
@@ -157,9 +172,10 @@ def show_predictions_for_patch(df_original, model, X, y, chronicle_names, patch)
    probs = model.predict_proba(X_patch)[:, 1]  # probability of Ran=1
    actuals = y[patch_mask]
 
-   # Chronicle characters do not rerun
-   is_chronicle = names.isin(chronicle_names).values
-   probs[is_chronicle] = 0.0
+   # Exclude chronicle characters whose last regular rerun has already passed
+   for i, name in enumerate(names.values):
+      if is_chronicle_excluded(name, patch, last_regular_map):
+         probs[i] = 0.0
 
    n = get_rerun_slots_for_patch(patch)
 
@@ -184,10 +200,16 @@ def show_predictions_for_patch(df_original, model, X, y, chronicle_names, patch)
 
 
 def predict_next_patch(df_original, model, chronicle_names, next_patch):
+
+   last_regular_map = load_last_regular_rerun_map()
+
    this_patch = df_original.sort_values("Patch").groupby("Name").last().reset_index()
 
    is_chronicle = this_patch["Name"].isin(chronicle_names)
-   this_patch = this_patch[is_chronicle == False]
+
+   this_patch = this_patch[
+      ~this_patch["Name"].apply(lambda name: is_chronicle_excluded(name, next_patch, last_regular_map))
+   ]
 
 
    # Since theres no data for the next patch, we must build the features for it
@@ -321,28 +343,25 @@ calculate_prediction_accuracy(predicted_df, actual_df, min_patch=6.0)
 # calculate_prediction_accuracy(predicted_df, actual_df, min_patch=6.0)
 
 
-# df = read_banner_history()
-# df_original = df.copy()
+df = read_banner_history()
+df_original = df.copy()
 
-# X, y, chronicle_names = prepare_features(df)
+X, y, chronicle_names = prepare_features(df)
 
-# df_original = df_original.sort_values(["Name", "Patch"]).reset_index(drop=True)
+df_original = df_original.sort_values(["Name", "Patch"]).reset_index(drop=True)
 
-# predicted_df = predict_n_patches(
-#    df_original,
-#    X,
-#    y,
-#    chronicle_names,
-#    start_patch=5.8
-# )
+predicted_df = predict_n_patches(
+   df_original,
+   X,
+   y,
+   chronicle_names,
+   start_patch=5.0
+)
 
-# actual_df = get_banner_runs()
-# calculate_prediction_accuracy(predicted_df, actual_df, min_patch=5.8)
+actual_df = get_banner_runs()
+calculate_prediction_accuracy(predicted_df, actual_df, min_patch=5.0)
 
-
-# print(predicted_df[predicted_df["Patch"] == 6.0].to_string(index=False))
-
-# split_patch = 6.0
+# split_patch = 6.5
 
 # X_train = X[X["Patch"] < split_patch].drop(columns=["Patch"])
 # y_train = y[X["Patch"] < split_patch]

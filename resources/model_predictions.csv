@@ -1,4 +1,26 @@
 Patch,Name,Predicted_prob
+5.0,Neuvillette,0.67
+5.0,Xianyun,0.67
+5.1,Sigewinne,0.59
+5.1,Neuvillette,0.56
+5.1,Xianyun,0.53
+5.2,Lyney,0.39
+5.2,Wriothesley,0.28
+5.2,Clorinde,0.28
+5.3,Arlecchino,0.68
+5.3,Clorinde,0.4
+5.4,Mualani,0.87
+5.4,Sigewinne,0.77
+5.4,Xianyun,0.32
+5.5,Mualani,0.58
+5.5,Kinich,0.56
+5.5,Emilie,0.42
+5.6,Mualani,0.63
+5.6,Raiden Shogun,0.24
+5.6,Kinich,0.21
+5.7,Mavuika,0.38
+5.7,Emilie,0.24
+5.7,Chasca,0.18
 5.8,Chasca,0.29
 5.8,Mualani,0.24
 5.8,Neuvillette,0.18
