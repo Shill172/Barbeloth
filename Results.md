@@ -39,7 +39,7 @@ Chronicle banner characters couldn't be guessed after their last regular banner.
 Patch 5.0+
 - Total Predicted: 41
 - Correct Hits: 18
-- Accuaracy: 43.90%
+- Accuracy: 43.90%
 
 Patch 6.0+
 - Total Predicted: 16
@@ -73,14 +73,14 @@ This logic lead to some constraint based success. For example, Lauma and Chasca 
 Patch 5.0+
 - Total Predicted: 41
 - Correct Hits: 11
-- Accuaracy: 26.83%
+- Accuracy: 26.83%
 
 Patch 6.0+
 - Total Predicted: 16
 - Correct Hits: 3
 - Accuracy: 18.75%
 
-# Limitaions
+# Limitations
 
 While the model shows a significant lead over LWW (43.0% vs. 26.8&), The testing set is limited to 41 slots. A few lucky guesses or curveballs by hoyo could significantly alter these results. 
 
@@ -96,7 +96,7 @@ Testing will be continued in the future to see if these results continue.
 
 Overall, the prediction model performed better than the LWW heuristic. 
 
-The obvious weakness that LWW has is characters who have debuted recently woudln't be guessed on their second or even third run. Characters with less total appearences tend to have less time in-between reruns, meaning they woudln't be guessed as they have less time off banner compared to older characters.
+The obvious weakness that LWW has is characters who have debuted recently wouldn't be guessed on their second or even third run. Characters with less total appearances tend to have less time in-between reruns, meaning they wouldn't be guessed as they have less time off banner compared to older characters.
 
 The model, however did capture some characters on their second and third reruns, showing that there is a rough pattern that can be learned. 
 
