@@ -8,7 +8,7 @@ Predictions for 6.6 are also shown, and will be updated after characters are con
 
 Test set starts from version 5.0 and ends at version 6.5. In total, there are 41 rerun slots to guess. Testing starts from 5.0 to give the model some time to learn. 
 
-The character column contains all rerun-ed characters for a patch. Correct predictions are <span style="color:green"> green</span>, missed predictions are <span style="color:red"> red</span>.
+The character column contains all rerun-ed characters for a patch. Correct predictions are <span style="color:green"> green (G)</span>, missed predictions are <span style="color:red"> red (R)</span>.
 
 
 Chronicle banner characters couldn't be guessed after their last regular banner. Characters who are on the chronicle banner do not get regular rerun banners.
@@ -17,24 +17,23 @@ Chronicle banner characters couldn't be guessed after their last regular banner.
 
 ### Model Predictions
 
-|Patch                   |Character                               |
-|------------------------|----------------------------------------|
-|5.0                     | <span style=color:red>Kaedehara Kazuha</span> / <span style=color:red>Raiden Shogun</span>|
-|5.1                     | <span style=color:red>Nahida</span> / <span style=color:red>Hu Tao</span> / <span style=color:red>Chiori</span>|
-|5.2                     | <span style=color:green>Lyney</span> / <span style=color:red>Zhongli</span> / <span style=color:red>Neuvillette</span>|
-|5.3                     | <span style=color:green>Arlecchino</span> / <span style=color:green>Clorinde</span>|
-|5.4                     | <span style=color:red>Furina</span> / <span style=color:green>Sigewinne</span> / <span style=color:red>Wriothesley</span>|
-|5.5                     | <span style=color:red>Venti</span> / <span style=color:red>Xianyun</span> / <span style=color:red>Xilonen</span>|
-|5.6                     | <span style=color:green>Kinich</span> / <span style=color:red>Navia</span> / <span style=color:green>Raiden Shogun</span>|
-|5.7                     | <span style=color:green>Mavuika</span> / <span style=color:green>Emilie</span> / <span style=color:red>Shenhe</span>|
-|5.8                     | <span style=color:red>Citlali</span> / <span style=color:green>Chasca</span> / <span style=color:green>Mualani</span>|
-|6.0                     | <span style=color:red>Yelan</span> / <span style=color:red>Nahida</span>|
-|6.1                     | <span style=color:green>Furina</span> / <span style=color:red>Zhongli</span> / <span style=color:red>Arlecchino</span>|
-|6.2                     | <span style=color:red>Venti</span> / <span style=color:green>Varesa</span> / <span style=color:green>Xilonen</span>|
-|6.3                     | <span style=color:red>Neuvillette</span> / <span style=color:green>Ineffa</span>|
-|6.4                     | <span style=color:green>Skirk</span> / <span style=color:red>Escoffier</span> / <span style=color:green>Flins</span>|
-|6.5                     | <span style=color:green>Chasca</span> / <span style=color:green>Lauma</span> / <span style=color:red>Nefer</span>|
-
+| Patch | Character |
+| :--- | :--- |
+| 5.0 | <span style="color:red">Kaedehara Kazuha (R)</span> / <span style="color:red">Raiden Shogun (R)</span> |
+| 5.1 | <span style="color:red">Nahida (R)</span> / <span style="color:red">Hu Tao (R)</span> / <span style="color:red">Chiori (R)</span> |
+| 5.2 | <span style="color:green">Lyney (G)</span> / <span style="color:red">Zhongli (R)</span> / <span style="color:red">Neuvillette (R)</span> |
+| 5.3 | <span style="color:green">Arlecchino (G)</span> / <span style="color:green">Clorinde (G)</span> |
+| 5.4 | <span style="color:red">Furina (R)</span> / <span style="color:green">Sigewinne (G)</span> / <span style="color:red">Wriothesley (R)</span> |
+| 5.5 | <span style="color:red">Venti (R)</span> / <span style="color:red">Xianyun (R)</span> / <span style="color:red">Xilonen (R)</span> |
+| 5.6 | <span style="color:green">Kinich (G)</span> / <span style="color:red">Navia (R)</span> / <span style="color:green">Raiden Shogun (G)</span> |
+| 5.7 | <span style="color:green">Mavuika (G)</span> / <span style="color:green">Emilie (G)</span> / <span style="color:red">Shenhe (R)</span> |
+| 5.8 | <span style="color:red">Citlali (R)</span> / <span style="color:green">Chasca (G)</span> / <span style="color:green">Mualani (G)</span> |
+| 6.0 | <span style="color:red">Yelan (R)</span> / <span style="color:red">Nahida (R)</span> |
+| 6.1 | <span style="color:green">Furina (G)</span> / <span style="color:red">Zhongli (R)</span> / <span style="color:red">Arlecchino (R)</span> |
+| 6.2 | <span style="color:red">Venti (R)</span> / <span style="color:green">Varesa (G)</span> / <span style="color:green">Xilonen (G)</span> |
+| 6.3 | <span style="color:red">Neuvillette (R)</span> / <span style="color:green">Ineffa (G)</span> |
+| 6.4 | <span style="color:green">Skirk (G)</span> / <span style="color:red">Escoffier (R)</span> / <span style="color:green">Flins (G)</span> |
+| 6.5 | <span style="color:green">Chasca (G)</span> / <span style="color:green">Lauma (G)</span> / <span style="color:red">Nefer (R)</span> |
 
 
 Patch 5.0+
@@ -53,23 +52,23 @@ This logic lead to some constraint based success. For example, Lauma and Chasca 
 
 ### LWW Predictions
 
-|Patch|Character                    |
-|-----|-----------------------------|
-|5.0  |<span style="color:red">Kaedehara Kazuha</span> / <span style="color:red">Raiden Shogun</span>|
-|5.1  |<span style="color:red">Nahida</span> / <span style="color:green">Hu Tao</span> / <span style="color:red">Chiori</span>|
-|5.2  |<span style="color:red">Lyney</span> / <span style="color:green">Zhongli</span> / <span style="color:red">Neuvillette</span>|
-|5.3  |<span style="color:red">Arlecchino</span> / <span style="color:red">Clorinde</span>|
-|5.4  |<span style="color:red">Furina</span> / <span style="color:red">Sigewinne</span> / <span style="color:green">Wriothesley</span>|
-|5.5  |<span style="color:green">Venti</span> / <span style="color:green">Xianyun</span> / <span style="color:red">Xilonen</span>|
-|5.6  |<span style="color:red">Kinich</span> / <span style="color:green">Navia</span> / <span style="color:red">Raiden Shogun</span>|
-|5.7  |<span style="color:red">Mavuika</span> / <span style="color:green">Emilie</span> / <span style="color:red">Shenhe</span>|
-|5.8  |<span style="color:red">Citlali</span> / <span style="color:red">Chasca</span> / <span style="color:green">Mualani</span>|
-|6.0  |<span style="color:green">Yelan</span> / <span style="color:red">Nahida</span>|
-|6.1  |<span style="color:red">Furina</span> / <span style="color:green">Zhongli</span> / <span style="color:red">Arlecchino</span>|
-|6.2  |<span style="color:red">Venti</span> / <span style="color:red">Varesa</span> / <span style="color:red">Xilonen</span>|
-|6.3  |<span style="color:green">Neuvillette</span> / <span style="color:red">Ineffa</span>|
-|6.4  |<span style="color:red">Skirk</span> / <span style="color:red">Escoffier</span> / <span style="color:red">Flins</span>|
-|6.5  |<span style="color:red">Chasca</span> / <span style="color:red">Lauma</span> / <span style="color:red">Nefer</span>|
+| Patch | Character |
+| :--- | :--- |
+| 5.0 | <span style="color:red">Kaedehara Kazuha (R)</span> / <span style="color:red">Raiden Shogun (R)</span> |
+| 5.1 | <span style="color:red">Nahida (R)</span> / <span style="color:green">Hu Tao (G)</span> / <span style="color:red">Chiori (R)</span> |
+| 5.2 | <span style="color:red">Lyney (R)</span> / <span style="color:green">Zhongli (G)</span> / <span style="color:red">Neuvillette (R)</span> |
+| 5.3 | <span style="color:red">Arlecchino (R)</span> / <span style="color:red">Clorinde (R)</span> |
+| 5.4 | <span style="color:red">Furina (R)</span> / <span style="color:red">Sigewinne (R)</span> / <span style="color:green">Wriothesley (G)</span> |
+| 5.5 | <span style="color:green">Venti (G)</span> / <span style="color:green">Xianyun (G)</span> / <span style="color:red">Xilonen (R)</span> |
+| 5.6 | <span style="color:red">Kinich (R)</span> / <span style="color:green">Navia (G)</span> / <span style="color:red">Raiden Shogun (R)</span> |
+| 5.7 | <span style="color:red">Mavuika (R)</span> / <span style="color:green">Emilie (G)</span> / <span style="color:red">Shenhe (R)</span> |
+| 5.8 | <span style="color:red">Citlali (R)</span> / <span style="color:red">Chasca (R)</span> / <span style="color:green">Mualani (G)</span> |
+| 6.0 | <span style="color:green">Yelan (G)</span> / <span style="color:red">Nahida (R)</span> |
+| 6.1 | <span style="color:red">Furina (R)</span> / <span style="color:green">Zhongli (G)</span> / <span style="color:red">Arlecchino (R)</span> |
+| 6.2 | <span style="color:red">Venti (R)</span> / <span style="color:red">Varesa (R)</span> / <span style="color:red">Xilonen (R)</span> |
+| 6.3 | <span style="color:green">Neuvillette (G)</span> / <span style="color:red">Ineffa (R)</span> |
+| 6.4 | <span style="color:red">Skirk (R)</span> / <span style="color:red">Escoffier (R)</span> / <span style="color:red">Flins (R)</span> |
+| 6.5 | <span style="color:red">Chasca (R)</span> / <span style="color:red">Lauma (R)</span> / <span style="color:red">Nefer (R)</span> |
 
 Patch 5.0+
 - Total Predicted: 41
