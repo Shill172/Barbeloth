@@ -41,11 +41,15 @@ def is_chronicle_excluded(name, patch, last_regular_map):
     return patch > last_regular_map[name]
 
 def get_rerun_slots_for_patch(patch):
-   rerun_slots = get_num_rerun_slots_per_patch()
+    rerun_slots = get_num_rerun_slots_per_patch()
+    match = rerun_slots[rerun_slots["Patch"] == patch]
 
-   match = rerun_slots[rerun_slots["Patch"] == patch]
+    if match.empty:
+        latest = rerun_slots[rerun_slots["Rerun_slots"] > 0].iloc[-1]
+        print(f"Warning: Patch {patch} not in history yet. Falling back to patch {latest['Patch']} ({int(latest['Rerun_slots'])} slots).")
+        return int(latest["Rerun_slots"])
 
-   return int(match.iloc[0]["Rerun_slots"])
+    return int(match.iloc[0]["Rerun_slots"])
 
 def get_last_regular_rerun():
    df = read_banner_history()

@@ -211,7 +211,7 @@ def parse_banner_history():
 
 
 def get_num_rerun_slots_per_patch():
-    df = read_banner_history()
+    df = read_banner_history() 
 
     all_patches = df["Patch"].copy().unique()
 
@@ -230,7 +230,7 @@ def get_num_rerun_slots_per_patch():
 
     final = final.sort_values("Patch").reset_index(drop=True)
 
-    print(final)
+    final.to_csv("resources/rerun_slot_history.csv", index=False)  # <- added
 
     return final
 
@@ -248,11 +248,6 @@ def get_banner_runs():
 
     return df
     
-
-
-get_num_rerun_slots_per_patch()
-
-get_banner_runs()
 
 #read_google_doc_for_rerun_info("1QLE2W3Suz-UgJCLKWL7FuffZlP5a7QUy", "551073839") 
 

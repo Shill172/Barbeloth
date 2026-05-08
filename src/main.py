@@ -28,13 +28,12 @@ def main():
     model = RandomForestClassifier(n_estimators=100, random_state=42, class_weight="balanced")
     model.fit(X, y)
 
-    last_patch = df["Patch"].max()
-    next_patch = round(last_patch + 0.1, 1) 
+    next_patch = 6.6
     
     print(f"Generating predictions for next patch: {next_patch}")
     predict_next_patch(df_original, model, chronicle_names, next_patch)
 
-    print("NOTE: Patches don't often contain 4 rerun slots, take predictions with a large grain of salt")
+    print("NOTE: Patches don't often contain a set amount rerun slots, take predictions with a large grain of salt")
 
 if __name__ == "__main__":
     main()
