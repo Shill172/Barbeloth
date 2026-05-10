@@ -104,6 +104,8 @@ Also, there is bound to be unpredictable variables with predicting gacha game ch
 
 # Version 6.6 Predictions
 
-         Name  Predicted_prob  Predicted
-        Durin            0.29          1
-    Arlecchino           0.22          1
+         Name  Predicted_prob  Predicted    Actual
+        Durin            0.29          1        1
+    Arlecchino           0.22          1        0
+
+    Actuals are Durin and Mavuika. 
