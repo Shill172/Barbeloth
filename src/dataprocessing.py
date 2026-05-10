@@ -5,35 +5,37 @@ import requests
 import os
 import csv
 import pandas as pd
+from config import (
+    DATA_FILE, FILTERED_FILE, BANNER_HISTORY_FILE,
+    RERUN_SLOT_HISTORY_FILE, BANNER_RUNS_FILE,
+    ARCHONS, LUNA_VERSION_MAP
+)
 
-DATA_FILE = "resources/data.csv"
-FILTERED_FILE = "resources/filtered_data.csv"
-STANDARD_CHARACTERS = ["Keqing", "Diluc", "Mona", "Qiqi", 
-                        "Jean", "Dehya", "Tighnari", "Yumemizuki Mizuki"]
-ARCHONS = ["Venti", "Zhongli", "Raiden Shogun", "Nahida", "Furina", "Mavuika", "Columbina"]
-
-luna_version_map = {
-    "Luna I": 6.0,
-    "Luna II": 6.1,
-    "Luna III": 6.2,
-    "Luna IV": 6.3,
-    "Luna V": 6.4,
-    "Luna VI": 6.5,
-    "Luna VII": 6.6,
-    "Luna VIII": 6.7
+# Some names are spelt wrong in the google doc
+NAME_CORRECTIONS = {
+    "XIanyun": "Xianyun",
+    "Emelie": "Emilie",
+    "Mauvika": "Mavuika"
 }
 
+
 def read_banner_history():
-    df = pd.read_csv("resources/banner_history_long.csv")
-    df["Patch"] = df["Patch"].map(luna_version_map).fillna(df["Patch"])
+    """
+    Reads banner_history_long.csv and converts patch names to floats
+    """
+
+    df = pd.read_csv(BANNER_HISTORY_FILE)
+    df["Patch"] = df["Patch"].map(LUNA_VERSION_MAP).fillna(df["Patch"])
     df["Patch"] = df["Patch"].astype(float)
     return df
 
-def read_google_doc_for_rerun_info(doc_id, gid):
 
-    resources = "resources"
-    if not os.path.exists(resources):
-        os.makedirs(resources)
+def read_google_doc_for_rerun_info(doc_id, gid):
+    """
+    Fetches the community maintained Google Sheet as a CSV and saves it to
+    resources/data.csv. The sheet is only for visual purposes, so
+    it's quite messy in raw csv format 
+    """
 
     url = f"https://docs.google.com/spreadsheets/d/{doc_id}/export?format=csv&gid={gid}"
 
@@ -48,20 +50,22 @@ def read_google_doc_for_rerun_info(doc_id, gid):
     else: 
         return "Error: Couldn't fetch document"
     
-# Transforms the raw banner history into a long format CSV. 
-# Each row represents one patch where a character: 
-# 0: didn't run
-# 1: run
-# 2: run on chronicle banner
+
 def parse_banner_history():
+    """
+    Transforms raw data.csv to banner_history_long.csv
 
-    # Some names are spelt wrong in the google doc
-    CORRECTIONS = {
-        "XIanyun": "Xianyun",
-        "Emelie": "Emilie",
-        "Mauvika": "Mavuika"
-    }
-
+    Each row is a (character, patch) pair with: 
+        Ran                 - 1 if the character ran that patch, 0 otherwise
+        Time_since_ran      - patches since thier last banner 
+        Total_runs          - total banner appearences
+        Patches_since_debut - patches since thier first banner
+        Run_frequency       - Total_runs / Patches_since_debut
+        Is_archon           - 1 if character is an archon, 0 otherwise
+        Is_chronicle        - 1 if the banner appearence is chronicle
+        Element             - character element
+        Weapon              - character weapon
+    """
     with open(DATA_FILE, "r", encoding="utf-8") as f:
         reader = list(csv.reader(f))
 
@@ -98,10 +102,10 @@ def parse_banner_history():
         name1 = slot1_row[col_idx].strip() if col_idx < len(slot1_row) else ""
         name2 = slot2_row[col_idx].strip() if col_idx < len(slot2_row) else ""
 
-        if name1 in CORRECTIONS:
-            name1 = CORRECTIONS[name1]
-        if name2 in CORRECTIONS:
-            name2 = CORRECTIONS[name2]
+        if name1 in NAME_CORRECTIONS:
+            name1 = NAME_CORRECTIONS[name1]
+        if name2 in NAME_CORRECTIONS:
+            name2 = NAME_CORRECTIONS[name2]
 
         if name1 != "":
             col_to_characters[col_idx].append(name1)
@@ -109,7 +113,6 @@ def parse_banner_history():
             col_to_characters[col_idx].append(name2)
 
     # (character, patch) -> run type 
-    # Stores either 0, 1, C 
     ran_in_patch = {}
 
     # Read from banner header rows 
@@ -126,15 +129,14 @@ def parse_banner_history():
                 ran_in_patch[(name, patch)] = 1
 
     # Check for chronicle runs
-
     chronicles = set()
     for row in reader:
         if row[1] != "★★★★★":
             continue
 
         name = row[2].strip()
-        if name in CORRECTIONS:
-            name = CORRECTIONS[name]
+        if name in NAME_CORRECTIONS:
+            name = NAME_CORRECTIONS[name]
 
         for col_idx in range(BANNER_COL_START, len(row)):
             if row[col_idx].strip() == "C":
@@ -202,25 +204,25 @@ def parse_banner_history():
 
             
 
-    with open("resources/banner_history_long.csv", "w", newline="", encoding="utf-8") as f:
+    with open(BANNER_HISTORY_FILE, "w", newline="", encoding="utf-8") as f:
         writer = csv.writer(f)
         writer.writerow(["Name", "Patch", "Ran", "Time_since_ran", "Total_runs", "Patches_since_debut", "Run_frequency", "Is_archon", "Is_chronicle", "Element", "Weapon"])
         writer.writerows(rows)
 
-    print(f"Written {len(rows)} rows to banner_history_long.csv")
+    print(f"Written {len(rows)} rows to {BANNER_HISTORY_FILE}")
 
 
 def get_num_rerun_slots_per_patch():
+    """
+    Returns a DataFrame (Patch, Rerun_slots) of how many non-chronicle rerun slots
+    a patch had. Writes to rerun_slot_history.csv
+    """
     df = read_banner_history() 
-
     all_patches = df["Patch"].copy().unique()
 
     df = df[df["Is_chronicle"] == 0]
-
     df = df[(df["Total_runs"] > 1) & (df["Ran"] == 1)] 
-
     runs_per_patch = df.groupby("Patch")["Ran"].sum().reset_index()
-
     runs_per_patch.columns = ["Patch", "Rerun_slots"]
     
     full_df = pd.DataFrame({"Patch": all_patches})
@@ -230,11 +232,15 @@ def get_num_rerun_slots_per_patch():
 
     final = final.sort_values("Patch").reset_index(drop=True)
 
-    final.to_csv("resources/rerun_slot_history.csv", index=False)  # <- added
-
+    final.to_csv(RERUN_SLOT_HISTORY_FILE, index=False)
     return final
 
 def get_banner_runs():
+    """
+    Returns a DataFrame (Patch, Name) for all non chronicle reruns. 
+    Need this to calculate model and heuristic accuaracy. Also writes to file
+    banner_runs.csv.
+    """
     df = read_banner_history()
 
     df = df[df["Is_chronicle"] == 0]
@@ -249,9 +255,8 @@ def get_banner_runs():
     return df
     
 
-#read_google_doc_for_rerun_info("1QLE2W3Suz-UgJCLKWL7FuffZlP5a7QUy", "551073839") 
-
-#parse_banner_history() 
-
-#     doc_id = "1QLE2W3Suz-UgJCLKWL7FuffZlP5a7QUy"
-#     gid = "551073839"
+if __name__ == "__main__":
+    parse_banner_history()
+    get_num_rerun_slots_per_patch()
+    get_banner_runs()
+    print("Done.")
