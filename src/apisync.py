@@ -2,32 +2,17 @@ import requests
 import json
 import os 
 import csv
-
-JMP_URL = "https://genshin.jmp.blue/characters/all"
-MY_API = "resources/characters.json"
-STANDARD_CHARACTERS = ["Keqing", "Diluc", "Mona", "Qiqi", 
-                        "Jean", "Dehya", "Tighnari", "Yumemizuki Mizuki", 
-                        "Aloy"]
-MANUAL_DATA = {
-    "Xilonen": {"element": "Geo", "weapon": "Sword"},
-    "Chasca": {"element": "Anemo", "weapon": "Bow"},
-    "Mavuika": {"element": "Pyro", "weapon": "Claymore"},
-    "Citlali": {"element": "Cryo", "weapon": "Catalyst"},
-    "Varesa": {"element": "Electro", "weapon": "Catalyst"},
-    "Escoffier": {"element": "Cryo", "weapon": "Polearm"},
-    "Skirk": {"element": "Cryo", "weapon": "Sword"},
-    "Ineffa": {"element": "Electro", "weapon": "Polearm"},
-    "Lauma": {"element": "Dendro", "weapon": "Catalyst"},
-    "Flins": {"element": "Electro", "weapon": "Polearm"},
-    "Nefer": {"element": "Dendro", "weapon": "Catalyst"},
-    "Durin": {"element": "Pyro", "weapon": "Sword"},
-    "Columbina": {"element": "Hydro", "weapon": "Catalyst"},
-    "Zibai": {"element": "Geo", "weapon": "Sword"},
-    "Varka": {"element": "Anemo", "weapon": "Claymore"},
-    "Linnea": {"element": "Geo", "weapon": "Bow"}
-}
+from config import (
+    JMP_URL, CHARACTERS_FILE,
+    STANDARD_CHARACTERS, MANUAL_DATA, FILTERED_FILE
+)
 
 def sync_local_data():
+    """
+    Pulls 5 stars from JMP Blue API and then merges in any manual data
+    from config.py. Writes the results to resources.characters.json. 
+    """
+
     print("Fetching data from JMP Blue API")
     response = requests.get(JMP_URL)
 
@@ -46,24 +31,29 @@ def sync_local_data():
                     "weapon": character.get("weapon")
                 }
 
-            clean_data.update(MANUAL_DATA)
+        clean_data.update(MANUAL_DATA)
 
         os.makedirs("resources", exist_ok=True)
-        with open(MY_API, "w", encoding="utf-8") as f:
+        with open(CHARACTERS_FILE, "w", encoding="utf-8") as f:
             json.dump(clean_data, f, indent=4)
 
-        print(f"Saved {len(clean_data)} characters to {MY_API}")
+        print(f"Saved {len(clean_data)} characters to {CHARACTERS_FILE}")
     else:
         print(f"Failed to sync. API returned: {response.status_code}")
 
-# Need this as JMP API isn't updated. 
+
 def find_missing_characters():
-    with open (MY_API, "r", encoding="utf-8") as f: 
+    """
+    Compares characters.json against filtered_data.csv to find any charactes
+    found in csv but not in json. Indicates whether a character needs to be 
+    added to MANUAL_DATA in config.py. 
+    """
+    with open (CHARACTERS_FILE, "r", encoding="utf-8") as f: 
         api_data = json.load(f)
 
     missing = []
 
-    with open("resources/filtered_data.csv", "r", encoding="utf-8") as f: 
+    with open(FILTERED_FILE, "r", encoding="utf-8") as f: 
         reader = csv.DictReader(f)
 
         for row in reader:
@@ -73,7 +63,7 @@ def find_missing_characters():
                 missing.append(name)
         
         if missing: 
-            print("Following characters are in filtered data but not in api")
+            print("Following characters are in filtered_data.csv but not in api")
             for name in missing:
                 print(f"{name}")
         else: 
