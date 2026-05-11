@@ -62,9 +62,9 @@ def find_missing_characters():
             if name not in api_data:
                 missing.append(name)
         
-        if missing: 
-            print("Following characters are in filtered_data.csv but not in api")
-            for name in missing:
-                print(f"{name}")
-        else: 
-            print("All characters are accounted for")
+    if missing: 
+        print("Following characters are in filtered_data.csv but not in api")
+        for name in missing:
+            print(f"{name}")
+    else: 
+        print("All characters are accounted for")

@@ -8,7 +8,7 @@ import pandas as pd
 from config import (
     DATA_FILE, FILTERED_FILE, BANNER_HISTORY_FILE,
     RERUN_SLOT_HISTORY_FILE, BANNER_RUNS_FILE,
-    ARCHONS, LUNA_VERSION_MAP
+    ARCHONS, LUNA_VERSION_MAP, LAST_REGULAR_RERUN_FILE
 )
 
 # Some names are spelt wrong in the google doc
@@ -235,6 +235,7 @@ def get_num_rerun_slots_per_patch():
     final.to_csv(RERUN_SLOT_HISTORY_FILE, index=False)
     return final
 
+
 def get_banner_runs():
     """
     Returns a DataFrame (Patch, Name) for all non chronicle reruns. 
@@ -250,9 +251,56 @@ def get_banner_runs():
 
     df = df.sort_values(by="Patch", ascending=True)
 
-    df.to_csv("resources/banner_runs.csv", index=False)
+    df.to_csv(BANNER_RUNS_FILE, index=False)
 
     return df
+
+
+def get_rerun_slots_for_patch(patch):
+   """
+   Returns the number of rerun slots a patch has, so models can predict that many slots.
+   Falls back to most recent patch if patch isn't in history
+   """
+   rerun_slots = get_num_rerun_slots_per_patch()
+   match = rerun_slots[rerun_slots["Patch"] == patch]
+
+   if match.empty:
+      latest = rerun_slots[rerun_slots["Rerun_slots"] > 0].iloc[-1]
+      print(f"Warning: Patch {patch} not in history yet. Falling back to patch {latest['Patch']} ({int(latest['Rerun_slots'])} slots).")
+      return int(latest["Rerun_slots"])
+
+   return int(match.iloc[0]["Rerun_slots"])
+
+
+def get_last_regular_rerun():
+   """
+   For chronicle characters, finds the last patch they reran before becoming chronicle 
+   """ 
+   df = read_banner_history()
+
+   chronicle_chars = df[df["Is_chronicle"] == 1]["Name"].unique()
+   
+   chronicle_info = df[df["Is_chronicle"] == 1].groupby("Name")["Patch"].min().reset_index()
+   chronicle_info.columns = ["Name", "First_Chronicle_Patch"]
+
+   standard_reruns = df[
+      (df["Name"].isin(chronicle_chars)) & 
+      (df["Ran"] == 1) & 
+      (df["Is_chronicle"] == 0) & 
+      (df["Total_runs"] > 1)
+   ].copy()
+
+   merged = pd.merge(standard_reruns, chronicle_info, on="Name", how="inner")
+
+   # Keep reruns only if they happened BEFORE the first chronicle appearance
+   valid_reruns = merged[merged["Patch"] < merged["First_Chronicle_Patch"]]
+
+   final_reruns = valid_reruns.sort_values("Patch").groupby("Name").last().reset_index()
+
+   result = final_reruns[["Patch", "Name"]]
+   
+   result.to_csv(LAST_REGULAR_RERUN_FILE, index=False)
+   return result
     
 
 if __name__ == "__main__":

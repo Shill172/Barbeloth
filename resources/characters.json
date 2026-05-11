@@ -3,70 +3,6 @@
         "element": "Geo",
         "weapon": "Sword"
     },
-    "Xilonen": {
-        "element": "Geo",
-        "weapon": "Sword"
-    },
-    "Chasca": {
-        "element": "Anemo",
-        "weapon": "Bow"
-    },
-    "Mavuika": {
-        "element": "Pyro",
-        "weapon": "Claymore"
-    },
-    "Citlali": {
-        "element": "Cryo",
-        "weapon": "Catalyst"
-    },
-    "Varesa": {
-        "element": "Electro",
-        "weapon": "Catalyst"
-    },
-    "Escoffier": {
-        "element": "Cryo",
-        "weapon": "Polearm"
-    },
-    "Skirk": {
-        "element": "Cryo",
-        "weapon": "Sword"
-    },
-    "Ineffa": {
-        "element": "Electro",
-        "weapon": "Polearm"
-    },
-    "Lauma": {
-        "element": "Dendro",
-        "weapon": "Catalyst"
-    },
-    "Flins": {
-        "element": "Electro",
-        "weapon": "Polearm"
-    },
-    "Nefer": {
-        "element": "Dendro",
-        "weapon": "Catalyst"
-    },
-    "Durin": {
-        "element": "Pyro",
-        "weapon": "Sword"
-    },
-    "Columbina": {
-        "element": "Hydro",
-        "weapon": "Catalyst"
-    },
-    "Zibai": {
-        "element": "Geo",
-        "weapon": "Sword"
-    },
-    "Varka": {
-        "element": "Anemo",
-        "weapon": "Claymore"
-    },
-    "Linnea": {
-        "element": "Geo",
-        "weapon": "Bow"
-    },
     "Alhaitham": {
         "element": "Dendro",
         "weapon": "Sword"
@@ -218,5 +154,69 @@
     "Zhongli": {
         "element": "Geo",
         "weapon": "Polearm"
+    },
+    "Xilonen": {
+        "element": "Geo",
+        "weapon": "Sword"
+    },
+    "Chasca": {
+        "element": "Anemo",
+        "weapon": "Bow"
+    },
+    "Mavuika": {
+        "element": "Pyro",
+        "weapon": "Claymore"
+    },
+    "Citlali": {
+        "element": "Cryo",
+        "weapon": "Catalyst"
+    },
+    "Varesa": {
+        "element": "Electro",
+        "weapon": "Catalyst"
+    },
+    "Escoffier": {
+        "element": "Cryo",
+        "weapon": "Polearm"
+    },
+    "Skirk": {
+        "element": "Cryo",
+        "weapon": "Sword"
+    },
+    "Ineffa": {
+        "element": "Electro",
+        "weapon": "Polearm"
+    },
+    "Lauma": {
+        "element": "Dendro",
+        "weapon": "Catalyst"
+    },
+    "Flins": {
+        "element": "Electro",
+        "weapon": "Polearm"
+    },
+    "Nefer": {
+        "element": "Dendro",
+        "weapon": "Catalyst"
+    },
+    "Durin": {
+        "element": "Pyro",
+        "weapon": "Sword"
+    },
+    "Columbina": {
+        "element": "Hydro",
+        "weapon": "Catalyst"
+    },
+    "Zibai": {
+        "element": "Geo",
+        "weapon": "Sword"
+    },
+    "Varka": {
+        "element": "Anemo",
+        "weapon": "Claymore"
+    },
+    "Linnea": {
+        "element": "Geo",
+        "weapon": "Bow"
     }
 }
