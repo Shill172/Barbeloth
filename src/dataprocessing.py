@@ -2,13 +2,14 @@
 # Num reruns, avg rerun time,.. 
 
 import requests 
-import os
 import csv
 import pandas as pd
+import json 
 from config import (
     DATA_FILE, FILTERED_FILE, BANNER_HISTORY_FILE,
     RERUN_SLOT_HISTORY_FILE, BANNER_RUNS_FILE,
-    ARCHONS, LUNA_VERSION_MAP, LAST_REGULAR_RERUN_FILE
+    ARCHONS, LUNA_VERSION_MAP, LAST_REGULAR_RERUN_FILE,
+    CHARACTERS_FILE, CURRENT_PATCH, FIRST_APPEARANCE_FILE
 )
 
 # Some names are spelt wrong in the google doc
@@ -150,6 +151,15 @@ def parse_banner_history():
                     chronicles.add((name, patch))
 
     all_patches = list(patch_columns.keys())    
+
+
+    def _patch_to_float(p):
+        return LUNA_VERSION_MAP.get(p, None) or (float(p) if p.replace(".", "", 1).isdigit() else None)
+
+    all_patches = [
+        p for p in all_patches
+        if _patch_to_float(p) is not None and _patch_to_float(p) <= CURRENT_PATCH
+    ]
 
 
     # Pull from filtered_data.csv to get all the characters we care about
@@ -301,10 +311,79 @@ def get_last_regular_rerun():
    
    result.to_csv(LAST_REGULAR_RERUN_FILE, index=False)
    return result
+
+
+def generate_filtered_data():
+    """
+    Builds filtered_data.csv (Name, Appearances, Element, Weapon) from
+    characters.json (names/element/weapon) and the raw data.csv sheet
+    (appearance counts). Sorted by first appearance patch using
+    first_appearance.txt.
+    """
+    with open(CHARACTERS_FILE, "r", encoding="utf-8") as f:
+        api_data = json.load(f)
+
+    with open(DATA_FILE, "r", encoding="utf-8") as f:
+        reader = list(csv.reader(f))
+
+    patch_row = reader[3]
+    BANNER_COL_START = 5
+
+    patch_columns = {}
+    for col_idx in range(BANNER_COL_START, len(patch_row)):
+        patch = patch_row[col_idx].strip()
+        if patch == "":
+            continue
+        patch_columns.setdefault(patch, []).append(col_idx)
+
+    def patch_to_float(p):
+        if p in LUNA_VERSION_MAP:
+            return LUNA_VERSION_MAP[p]
+        stripped = p.replace(".", "", 1)
+        return float(p) if stripped.isdigit() else None
+
+    valid_cols = set()
+    for patch, cols in patch_columns.items():
+        pf = patch_to_float(patch)
+        if pf is not None and pf <= CURRENT_PATCH:
+            valid_cols.update(cols)
+
+    slot1_row = reader[8]
+    slot2_row = reader[10]
+
+    appearances = {name: 0 for name in api_data}
+
+    for col_idx in valid_cols:
+        for row in (slot1_row, slot2_row):
+            if col_idx < len(row):
+                name = row[col_idx].strip()
+                if name in NAME_CORRECTIONS:
+                    name = NAME_CORRECTIONS[name]
+                if name in appearances:
+                    appearances[name] += 1
+
+    first_appearance = {}
+    with open(FIRST_APPEARANCE_FILE, "r", encoding="utf-8") as f:
+        for row in csv.DictReader(f):
+            first_appearance[row["Name"]] = float(row["Patch"])
+
+    rows = []
+    for name, info in api_data.items():
+        rows.append([name, appearances.get(name, 0), info.get("element"), info.get("weapon")])
+
+    rows.sort(key=lambda r: first_appearance.get(r[0], float("inf")))
+
+    with open(FILTERED_FILE, "w", newline="", encoding="utf-8") as f:
+        writer = csv.writer(f)
+        writer.writerow(["Name", "Appearances", "Element", "Weapon"])
+        writer.writerows(rows)
+
+    print(f"Written {len(rows)} characters to {FILTERED_FILE}")
     
 
 if __name__ == "__main__":
     parse_banner_history()
     get_num_rerun_slots_per_patch()
     get_banner_runs()
+    generate_filtered_data()
     print("Done.")

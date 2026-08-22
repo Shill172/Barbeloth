@@ -3,13 +3,14 @@ from dataprocessing import (
     read_google_doc_for_rerun_info, 
     parse_banner_history, 
     read_banner_history,
-    get_last_regular_rerun)
+    get_last_regular_rerun,
+    generate_filtered_data)
 from apisync import sync_local_data, find_missing_characters
 from model import predict_next_patch, prepare_features
 
 GOOGLE_DOC_ID = "1QLE2W3Suz-UgJCLKWL7FuffZlP5a7QUy"
 GOOGLE_GID = "551073839"
-NEXT_PATCH = 6.6
+NEXT_PATCH = 7.1
 
 def main(): 
     print("Fetching Google Sheet...")
@@ -17,6 +18,9 @@ def main():
 
     print("Syncing API data...")
     sync_local_data()
+
+    print("Generating filtered_data.csv...")
+    generate_filtered_data()
 
     print("Filtering data...")
     parse_banner_history()

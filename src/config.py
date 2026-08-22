@@ -10,11 +10,15 @@ MODEL_PREDICTIONS_FILE = "resources/model_predictions.csv"
 LAST_REGULAR_RERUN_FILE = "resources/last_regular_rerun.csv"
 LONGEST_WAIT_PREDICTIONS_FILE = "resources/longest_waiting_time_will_run_predictions.csv"
 CHARACTERS_FILE = "resources/characters.json"
+FIRST_APPEARANCE_FILE = "resources/first_appearance.txt"
+
+CURRENT_PATCH = 7.0
 
 # Character lists
 STANDARD_CHARACTERS = [
     "Keqing", "Diluc", "Mona", "Qiqi",
-    "Jean", "Dehya", "Tighnari", "Yumemizuki Mizuki", "Aloy"
+    "Jean", "Dehya", "Tighnari", "Yumemizuki Mizuki",
+    "Aloy", "Traveler"
 ]
 
 ARCHONS = [
@@ -54,4 +58,8 @@ MANUAL_DATA = {
     "Zibai":     {"element": "Geo",      "weapon": "Sword"},
     "Varka":     {"element": "Anemo",    "weapon": "Claymore"},
     "Linnea":    {"element": "Geo",      "weapon": "Bow"},
+    "Nicole":    {"element": "Pyro",     "weapon": "Catalyst"},
+    "Lohen":     {"element": "Cryo",     "weapon": "Polearm"},
+    "Sandrone":  {"element": "Cryo",     "weapon": "Claymore"},
+    "Odette":    {"element": "Cryo",     "weapon": "Sword"}
 }

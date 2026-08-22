@@ -115,10 +115,6 @@
         "element": "Hydro",
         "weapon": "Bow"
     },
-    "Traveler": {
-        "element": "Hydro",
-        "weapon": "Sword"
-    },
     "Venti": {
         "element": "Anemo",
         "weapon": "Bow"
@@ -218,5 +214,21 @@
     "Linnea": {
         "element": "Geo",
         "weapon": "Bow"
+    },
+    "Nicole": {
+        "element": "Pyro",
+        "weapon": "Catalyst"
+    },
+    "Lohen": {
+        "element": "Cryo",
+        "weapon": "Polearm"
+    },
+    "Sandrone": {
+        "element": "Cryo",
+        "weapon": "Claymore"
+    },
+    "Odette": {
+        "element": "Cryo",
+        "weapon": "Sword"
     }
 }
