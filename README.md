@@ -6,7 +6,7 @@ Genshin Impact characters return to "banners" (their in-game shop rotation) at i
 
 ## How It Works
 
-1. **Data collection** — Pulls historical banner appearance data from a community-maintained [Google Sheet](https://docs.google.com/spreadsheets/d/1QLE2W3Suz-UgJCLKWL7FuffZlP5a7QUy), and syncs character metadata (element, weapon type) from the [genshin.jmp.blue](https://genshin.dev/) public API.
+1. **Data collection** — Pulls historical banner appearance data from a community-maintained [Google Sheet](https://docs.google.com/spreadsheets/d/1QLE2W3Suz-UgJCLKWL7FuffZlP5a7QUy), and syncs character metadata (name, element, weapon type) from [Enka.Network](https://enka.network/)'s public reference data.
 2. **Data processing** — Cleans and reshapes the raw data into a long-format table of `(character, patch)` pairs, computing features such as time since last run, total run count, and run frequency.
 3. **Feature engineering** — Shifts time-based features forward by one patch per character to prevent data leakage, ensuring the model only ever sees information that would have been available *before* the patch it's predicting.
 4. **Model training** — Trains a `RandomForestClassifier` (scikit-learn) on the processed dataset to predict the probability a character runs in a given patch.
@@ -30,7 +30,7 @@ See [`Results.md`](Results.md) for the full patch-by-patch breakdown and discuss
 ```
 src/
   main.py            # Entry point — orchestrates data sync, processing, training, and prediction
-  apisync.py         # Syncs character metadata from the genshin.jmp.blue API
+  apisync.py         # Syncs character metadata from Enka's reference data
   dataprocessing.py  # Cleans and transforms raw banner history into model-ready features
   model.py           # Feature preparation, prediction, and leakage-prevention logic
   evaluate.py        # Baseline heuristic and model comparison
@@ -53,11 +53,10 @@ This will fetch the latest data, retrain the model on full history, and print pr
 
 - The test set is limited to 41 rerun slots, so results can shift significantly with a small number of surprising picks.
 - Character reruns are influenced by unpredictable factors (popularity, story relevance, events) that aren't captured in the model's features.
-- Characters released from Version 5.0+ have manually maintained metadata, since the public API doesn't yet cover them.
 
 ## Credits
 
 - [Genshin Banner History Spreadsheet](https://docs.google.com/spreadsheets/d/1QLE2W3Suz-UgJCLKWL7FuffZlP5a7QUy) — maintained by Reddit user Serato-S
-- [genshin.jmp.blue](https://genshin.dev/) — character data API
+- [Enka.Network](https://enka.network/) — character reference data ([API-docs](https://github.com/EnkaNetwork/API-docs))
 
 This project is not affiliated with HoYoverse.

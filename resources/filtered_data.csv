@@ -1,39 +1,39 @@
 Name,Appearances,Element,Weapon
-Klee,4,Pyro,Catalyst
 Venti,7,Anemo,Bow
-Tartaglia,5,Hydro,Bow
+Klee,4,Pyro,Catalyst
 Zhongli,7,Geo,Polearm
-Albedo,3,Geo,Sword
+Tartaglia,5,Hydro,Bow
 Ganyu,4,Cryo,Bow
-Hu Tao,5,Pyro,Polearm
+Albedo,3,Geo,Sword
 Xiao,5,Anemo,Polearm
+Hu Tao,5,Pyro,Polearm
 Eula,3,Cryo,Claymore
 Kaedehara Kazuha,5,Anemo,Sword
 Kamisato Ayaka,4,Cryo,Sword
 Yoimiya,5,Pyro,Bow
-Sangonomiya Kokomi,4,Hydro,Catalyst
 Raiden Shogun,7,Electro,Polearm
+Sangonomiya Kokomi,4,Hydro,Catalyst
 Arataki Itto,4,Geo,Claymore
 Shenhe,3,Cryo,Polearm
 Yae Miko,4,Electro,Catalyst
 Kamisato Ayato,3,Hydro,Sword
 Yelan,5,Hydro,Bow
-Cyno,3,Electro,Polearm
 Nilou,3,Hydro,Sword
+Cyno,3,Electro,Polearm
 Nahida,5,Dendro,Catalyst
 Wanderer,3,Anemo,Catalyst
 Alhaitham,3,Dendro,Sword
 Baizhu,3,Dendro,Catalyst
 Lyney,3,Pyro,Bow
-Neuvillette,4,Hydro,Catalyst
 Wriothesley,2,Cryo,Catalyst
+Neuvillette,4,Hydro,Catalyst
 Furina,4,Hydro,Sword
 Navia,3,Geo,Claymore
 Xianyun,2,Anemo,Catalyst
 Chiori,2,Geo,Sword
 Arlecchino,4,Pyro,Polearm
-Clorinde,2,Electro,Sword
 Sigewinne,2,Hydro,Bow
+Clorinde,2,Electro,Sword
 Emilie,2,Dendro,Polearm
 Kinich,2,Dendro,Claymore
 Mualani,2,Hydro,Catalyst
@@ -44,16 +44,16 @@ Citlali,3,Cryo,Catalyst
 Varesa,2,Electro,Catalyst
 Escoffier,2,Cryo,Polearm
 Skirk,2,Cryo,Sword
-Ineffa,2,Electro,Polearm
+Ineffa,3,Electro,Polearm
 Lauma,2,Dendro,Catalyst
-Flins,2,Electro,Polearm
+Flins,3,Electro,Polearm
 Nefer,2,Dendro,Catalyst
 Durin,2,Pyro,Sword
 Columbina,2,Hydro,Catalyst
 Zibai,1,Geo,Sword
 Varka,1,Anemo,Claymore
 Linnea,1,Geo,Bow
-Nicole,1,Pyro,Catalyst
 Lohen,1,Cryo,Polearm
+Nicole,1,Pyro,Catalyst
 Sandrone,1,Cryo,Claymore
 Odette,1,Cryo,Sword

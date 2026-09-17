@@ -10,7 +10,11 @@ MODEL_PREDICTIONS_FILE = "resources/model_predictions.csv"
 LAST_REGULAR_RERUN_FILE = "resources/last_regular_rerun.csv"
 LONGEST_WAIT_PREDICTIONS_FILE = "resources/longest_waiting_time_will_run_predictions.csv"
 CHARACTERS_FILE = "resources/characters.json"
-FIRST_APPEARANCE_FILE = "resources/first_appearance.txt"
+FIRST_APPEARANCE_FILE = "resources/first_appearance.csv"
+
+# Cached Enka reference data
+AVATARS_FILE = "resources/avatars.json"
+LOC_FILE = "resources/loc.json"
 
 CURRENT_PATCH = 7.0
 
@@ -37,29 +41,35 @@ LUNA_VERSION_MAP = {
     "Luna VIII":6.7,
 }
 
-# API 
-JMP_URL = "https://genshin.jmp.blue/characters/all"
+# API
+# Enka publishes the game's own reference tables. avatars.json holds one entry
+# per playable character (element, weapon, rarity, name hash). 
+# locs.json maps those name hashes to localized display names.
+ENKA_AVATARS_URL = "https://raw.githubusercontent.com/EnkaNetwork/API-docs/refs/heads/master/store/gi/avatars.json"
+ENKA_LOC_URL = "https://raw.githubusercontent.com/EnkaNetwork/API-docs/refs/heads/master/store/gi/locs.json"
 
-# Characters missing in JMP API
-MANUAL_DATA = {
-    "Xilonen":   {"element": "Geo",      "weapon": "Sword"},
-    "Chasca":    {"element": "Anemo",    "weapon": "Bow"},
-    "Mavuika":   {"element": "Pyro",     "weapon": "Claymore"},
-    "Citlali":   {"element": "Cryo",     "weapon": "Catalyst"},
-    "Varesa":    {"element": "Electro",  "weapon": "Catalyst"},
-    "Escoffier": {"element": "Cryo",     "weapon": "Polearm"},
-    "Skirk":     {"element": "Cryo",     "weapon": "Sword"},
-    "Ineffa":    {"element": "Electro",  "weapon": "Polearm"},
-    "Lauma":     {"element": "Dendro",   "weapon": "Catalyst"},
-    "Flins":     {"element": "Electro",  "weapon": "Polearm"},
-    "Nefer":     {"element": "Dendro",   "weapon": "Catalyst"},
-    "Durin":     {"element": "Pyro",     "weapon": "Sword"},
-    "Columbina": {"element": "Hydro",    "weapon": "Catalyst"},
-    "Zibai":     {"element": "Geo",      "weapon": "Sword"},
-    "Varka":     {"element": "Anemo",    "weapon": "Claymore"},
-    "Linnea":    {"element": "Geo",      "weapon": "Bow"},
-    "Nicole":    {"element": "Pyro",     "weapon": "Catalyst"},
-    "Lohen":     {"element": "Cryo",     "weapon": "Polearm"},
-    "Sandrone":  {"element": "Cryo",     "weapon": "Claymore"},
-    "Odette":    {"element": "Cryo",     "weapon": "Sword"}
+USER_AGENT = "Barbeloth"
+LANG = "en"
+
+# Enka stores internal codenames, not the names players see.
+ELEMENT_MAP = {
+    "Fire":     "Pyro",
+    "Water":    "Hydro",
+    "Wind":     "Anemo",
+    "Electric": "Electro",
+    "Grass":    "Dendro",
+    "Ice":      "Cryo",
+    "Rock":     "Geo",
 }
+
+WEAPON_MAP = {
+    "WEAPON_SWORD_ONE_HAND": "Sword",
+    "WEAPON_CLAYMORE":       "Claymore",
+    "WEAPON_POLE":           "Polearm",
+    "WEAPON_BOW":            "Bow",
+    "WEAPON_CATALYST":       "Catalyst",
+}
+
+# QUALITY_ORANGE is 5-star. QUALITY_ORANGE_SP covers Aloy and the Traveler
+# variants, which are excluded as standard characters anyway.
+FIVE_STAR_QUALITY = "QUALITY_ORANGE"
