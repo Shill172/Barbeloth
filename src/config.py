@@ -18,7 +18,7 @@ LOC_FILE = "resources/loc.json"
 
 CURRENT_PATCH = 7.0
 
-# Character lists
+# Standard characters, Archons, Luna version map are manually maintained as no API expose them
 STANDARD_CHARACTERS = [
     "Keqing", "Diluc", "Mona", "Qiqi",
     "Jean", "Dehya", "Tighnari", "Yumemizuki Mizuki",
