@@ -5,7 +5,7 @@ import requests
 import csv
 import pandas as pd
 import json 
-from config import (
+from barbeloth.config import (
     DATA_FILE, FILTERED_FILE, BANNER_HISTORY_FILE,
     RERUN_SLOT_HISTORY_FILE, BANNER_RUNS_FILE,
     ARCHONS, LUNA_VERSION_MAP, LAST_REGULAR_RERUN_FILE,

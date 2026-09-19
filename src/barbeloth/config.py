@@ -1,20 +1,23 @@
 # Shared constants used across the project.
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent.parent
 
 # File paths
-DATA_FILE = "resources/data.csv"
-FILTERED_FILE = "resources/filtered_data.csv"
-BANNER_HISTORY_FILE = "resources/banner_history_long.csv"
-RERUN_SLOT_HISTORY_FILE = "resources/rerun_slot_history.csv"
-BANNER_RUNS_FILE = "resources/banner_runs.csv"
-MODEL_PREDICTIONS_FILE = "resources/model_predictions.csv"
-LAST_REGULAR_RERUN_FILE = "resources/last_regular_rerun.csv"
-LONGEST_WAIT_PREDICTIONS_FILE = "resources/longest_waiting_time_will_run_predictions.csv"
-CHARACTERS_FILE = "resources/characters.json"
-FIRST_APPEARANCE_FILE = "resources/first_appearance.csv"
+DATA_FILE = ROOT / "resources" / "data.csv"
+FILTERED_FILE = ROOT / "resources" / "filtered_data.csv"
+BANNER_HISTORY_FILE = ROOT / "resources" / "banner_history_long.csv"
+RERUN_SLOT_HISTORY_FILE = ROOT / "resources" / "rerun_slot_history.csv"
+BANNER_RUNS_FILE = ROOT / "resources" / "banner_runs.csv"
+MODEL_PREDICTIONS_FILE = ROOT / "resources" / "model_predictions.csv"
+LAST_REGULAR_RERUN_FILE = ROOT / "resources" / "last_regular_rerun.csv"
+LONGEST_WAIT_PREDICTIONS_FILE = ROOT / "resources" / "longest_waiting_time_will_run_predictions.csv"
+CHARACTERS_FILE = ROOT / "resources" / "characters.json"
+FIRST_APPEARANCE_FILE = ROOT / "resources" / "first_appearance.csv"
 
 # Cached Enka reference data
-AVATARS_FILE = "resources/avatars.json"
-LOC_FILE = "resources/loc.json"
+AVATARS_FILE = ROOT / "resources" / "avatars.json"
+LOC_FILE = ROOT / "resources" / "loc.json"
 
 CURRENT_PATCH = 7.0
 

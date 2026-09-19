@@ -1,9 +1,9 @@
 import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
  
-from config import MODEL_PREDICTIONS_FILE, LONGEST_WAIT_PREDICTIONS_FILE
-from dataprocessing import read_banner_history, get_banner_runs, get_num_rerun_slots_per_patch, get_last_regular_rerun
-from model import (
+from barbeloth.config import MODEL_PREDICTIONS_FILE, LONGEST_WAIT_PREDICTIONS_FILE
+from barbeloth.dataprocessing import read_banner_history, get_banner_runs, get_num_rerun_slots_per_patch, get_last_regular_rerun
+from barbeloth.model import (
     show_predictions_for_patch,
     prepare_features,
     load_last_regular_rerun_map

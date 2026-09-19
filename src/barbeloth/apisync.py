@@ -4,7 +4,8 @@ import requests
 import json
 import os
 import csv
-from config import (
+from pathlib import Path
+from barbeloth.config import (
     ENKA_AVATARS_URL, ENKA_LOC_URL, USER_AGENT, LANG,
     AVATARS_FILE, LOC_FILE, CHARACTERS_FILE,
     ELEMENT_MAP, WEAPON_MAP, FIVE_STAR_QUALITY,
@@ -30,26 +31,29 @@ def fetch_cached_json(url, path):
     Enka's reference files are several hundred KB and rarely change, so we
     send the stored ETag and fall back to disk on a 304.
     """
-    os.makedirs(os.path.dirname(path), exist_ok=True)
-    etag_path = path + ".etag"
+    path = Path(path)
+    path.parent.mkdir(parents=True, exist_ok=True)
+
+    etag_path = path.with_name(path.name + ".etag")
 
     cached_etag = load_etag(etag_path)
     headers = {"User-Agent": USER_AGENT}
 
-    if cached_etag and os.path.exists(path):
+    if cached_etag and path.exists():
         headers["If-None-Match"] = cached_etag
 
     response = requests.get(url, headers=headers)
 
     if response.status_code == 304:  # Nothing changed
-        with open(path, "r", encoding="utf-8") as f:
+        with path.open("r", encoding="utf-8") as f:
             return json.load(f)
 
     if response.status_code != 200:
         raise Exception(f"Request failed: {response.status_code} for {url}")
 
     data = response.json()
-    with open(path, "w", encoding="utf-8") as f:
+
+    with path.open("w", encoding="utf-8") as f:
         json.dump(data, f, indent=4)
 
     new_etag = response.headers.get("ETag")
@@ -108,14 +112,16 @@ def sync_local_data():
         clean_data[name] = {"element": element, "weapon": weapon}
 
     if not clean_data:
-        raise Exception("Enka sync produced no characters, aborting rather than overwriting")
+        raise Exception(
+            "Enka sync produced no characters, aborting rather than overwriting"
+        )
 
-    os.makedirs("resources", exist_ok=True)
+    CHARACTERS_FILE.parent.mkdir(parents=True, exist_ok=True)
+
     with open(CHARACTERS_FILE, "w", encoding="utf-8") as f:
         json.dump(clean_data, f, indent=4)
 
     print(f"Saved {len(clean_data)} characters to {CHARACTERS_FILE}")
-
     if unresolved:
         print(f"Skipped {len(unresolved)} entries with incomplete data: {', '.join(map(str, unresolved))}")
 

@@ -1,7 +1,7 @@
 import pandas as pd # Basically excel for python 
 import numpy as np 
-from dataprocessing import get_rerun_slots_for_patch
-from config import LAST_REGULAR_RERUN_FILE
+from barbeloth.dataprocessing import get_rerun_slots_for_patch
+from barbeloth.config import LAST_REGULAR_RERUN_FILE
 
 
 def load_last_regular_rerun_map():
