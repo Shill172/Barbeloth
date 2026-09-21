@@ -7,7 +7,7 @@ dependencies = [
     "numpy",
     "scikit-learn",
     "requests",
-    "statsmodels
+    "statsmodels",
 ]
 
 [build-system]

@@ -1,7 +1,7 @@
 # Shared constants used across the project.
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent.parent.parent
+ROOT = Path.cwd()
 
 # File paths
 DATA_FILE = ROOT / "resources" / "data.csv"

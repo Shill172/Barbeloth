@@ -21,38 +21,68 @@ Tested on 41 rerun slots across patches 5.0–6.5:
 | Total Accuracy (5.0+) | 43.9% | 26.8% |
 | Recent Accuracy (6.0+) | 50.0% | 18.75% |
 
-The model consistently outperforms the baseline, particularly for characters on their second or third rerun — a pattern the "longest wait" heuristic misses, since newer characters haven't accumulated enough time off-banner to be favoured by it.
+The model shows a numerical lead over LWW (43.9% vs. 26.8%), but this
+difference is not statistically significant at the current sample size
+(McNemar's p = 0.23). The testing
+set is limited to 41 slots; a few lucky guesses or curveballs by Hoyo
+could meaningfully shift these results either way.
 
 See [`Results.md`](Results.md) for the full patch-by-patch breakdown and discussion of limitations.
 
 ## Project Structure
 
 ```
-src/
-  main.py            # Entry point — orchestrates data sync, processing, training, and prediction
-  apisync.py         # Syncs character metadata from Enka's reference data
-  dataprocessing.py  # Cleans and transforms raw banner history into model-ready features
-  model.py           # Feature preparation, prediction, and leakage-prevention logic
-  evaluate.py        # Baseline heuristic and model comparison
-  config.py          # Shared file paths and constants
-resources/           # Cached data files (banner history, character metadata, predictions)
+Barbeloth/
+├── src/
+│   └── barbeloth/
+│       ├── __init__.py       
+│       ├── main.py           # Entry point — orchestrates the application workflow
+│       ├── apisync.py        # Syncs character metadata from Enka's reference data
+│       ├── config.py         # Shared file paths and configuration constants
+│       ├── dataprocessing.py # Cleans and transforms raw banner history into model-ready features
+│       ├── evaluate.py       # Evaluates the model against the LWW heuristic and random accuracy
+│       ├── model.py          # Feature preparation, predictions. 
+│       └── stats_utils.py    # Statistical utilities: Wilson CIs, McNemar's test,
+│                             # and random-baseline calculations
+│
+├── resources/                # Cached data, banner history, metadata, and predictions
+├── pyproject.toml            # Project metadata and dependency configuration
+├── README.md
+└── CHANGELOG.md
 ```
 
-## Usage
+## Installation
 
+Clone the repository:
 ```bash
 git clone https://github.com/Shill172/Barbeloth.git
 cd Barbeloth
-pip install -r requirements.txt
-python src/main.py
+```
+Create and activate a virtual environment:
+```bash
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+```
+Install Barbeloth and its dependencies:
+```bash
+python -m pip install . (or python -m pip install -e . for your own development)
 ```
 
-This will fetch the latest data, retrain the model on full history, and print predictions for the next patch.
+## Usage
+Run Barbeloth from the project directory:
+```bash
+python src\barbeloth\main.py
+```
 
-## Limitations
+Barbeloth will:
+1. Fetch the latest banner data from the configured Google Sheet.
+2. Synchronise character data from Enka.Network.
+3. Generate the required data files in the ```resources/``` directory.
+4. Train the prediction model.
+5. Generate predictions for the next patch.
 
-- The test set is limited to 41 rerun slots, so results can shift significantly with a small number of surprising picks.
-- Character reruns are influenced by unpredictable factors (popularity, story relevance, events) that aren't captured in the model's features.
+Important: Barbeloth must be run from the project directory containing the ```resources/``` folder. This folder stores downloaded data and generated prediction files.
+
 
 ## Credits
 
