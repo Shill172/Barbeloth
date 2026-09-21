@@ -80,11 +80,31 @@ Patch 6.0+
 - Correct Hits: 3
 - Accuracy: 18.75%
 
+## Statistical Significance
+
+*Note: the analysis below applies to the backtest as it was tested 8th May*
+
+- **Accuracy (5.0+), model:** 43.9% (95% Wilson CI: 29.9%–59.0%)
+- **Random-guess floor (5.0+):** 7.7%
+- **McNemar's exact test (model vs. LWW, paired by event):** 16 model-only
+  wins, 9 baseline-only wins, p = 0.2295
+
+At the current sample size (41 events), the accuracy gap between the model
+and LWW is not statistically significant. Both methods clearly outperform
+random guessing (7.7% floor), confirming there is learnable structure in
+the data, however, distinguishing the model from the heuristic will need either
+a larger sample or a bigger effect size than currently observed.
+
 # Limitations
 
-While the model shows a significant lead over LWW (43.0% vs. 26.8&), The testing set is limited to 41 slots. A few lucky guesses or curveballs by hoyo could significantly alter these results. 
+The model shows a numerical lead over LWW (43.9% vs. 26.8%), but this
+difference is not statistically significant at the current sample size
+(McNemar's p = 0.23, see Statistical Significance above). The testing
+set is limited to 41 slots; a few lucky guesses or curveballs by Hoyo
+could meaningfully shift these results either way.
 
-Testing will be continued in the future to see if these results continue. 
+Testing will be continued in the future to see if this gap widens with
+more data.
 
 # Conclusions 
 
@@ -93,8 +113,7 @@ Testing will be continued in the future to see if these results continue.
 |Total Accuracy (5.0+)|43.90%                       |26.83%       |+17.07%    |
 |Recent Accuracy (6.0+)|50.00%                       |18.75%       |+31.25%    |
 
-
-Overall, the prediction model performed better than the LWW heuristic. 
+*These figures represent observed accuracy on the evaluated patches. The differences between the prediction model and the LWW heuristic were not statistically significant according to McNemar’s exact test.*
 
 The obvious weakness that LWW has is characters who have debuted recently wouldn't be guessed on their second or even third run. Characters with less total appearances tend to have less time in-between reruns, meaning they wouldn't be guessed as they have less time off banner compared to older characters.
 

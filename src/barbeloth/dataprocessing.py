@@ -7,7 +7,7 @@ import pandas as pd
 import json 
 from barbeloth.config import (
     DATA_FILE, FILTERED_FILE, BANNER_HISTORY_FILE,
-    RERUN_SLOT_HISTORY_FILE, BANNER_RUNS_FILE,
+    RERUN_SLOT_HISTORY_FILE, ACTUAL_BANNER_RUNS_FILE,
     ARCHONS, LUNA_VERSION_MAP, LAST_REGULAR_RERUN_FILE,
     CHARACTERS_FILE, CURRENT_PATCH, FIRST_APPEARANCE_FILE
 )
@@ -261,7 +261,7 @@ def get_banner_runs():
 
     df = df.sort_values(by="Patch", ascending=True)
 
-    df.to_csv(BANNER_RUNS_FILE, index=False)
+    df.to_csv(ACTUAL_BANNER_RUNS_FILE, index=False)
 
     return df
 

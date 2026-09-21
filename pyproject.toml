@@ -2,7 +2,13 @@
 name = "barbeloth"
 version = "0.1.0"
 requires-python = ">=3.11"
-dependencies = ["pandas", "numpy", "scikit-learn", "requests"]
+dependencies = [
+    "pandas",
+    "numpy",
+    "scikit-learn",
+    "requests",
+    "statsmodels
+]
 
 [build-system]
 requires = ["setuptools"]

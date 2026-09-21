@@ -1,7 +1,10 @@
 import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
- 
-from barbeloth.config import MODEL_PREDICTIONS_FILE, LONGEST_WAIT_PREDICTIONS_FILE
+from barbeloth.config import (
+    MODEL_PREDICTIONS_FILE, LONGEST_WAIT_PREDICTIONS_FILE, 
+    ACTUAL_BANNER_RUNS_FILE, RERUN_SLOT_HISTORY_FILE
+)
+from barbeloth.stats_utils import accuracy_with_ci, mcnemar_test, random_baseline_accuracy
 from barbeloth.dataprocessing import read_banner_history, get_banner_runs, get_num_rerun_slots_per_patch, get_last_regular_rerun
 from barbeloth.model import (
     show_predictions_for_patch,
@@ -157,22 +160,80 @@ def calculate_prediction_accuracy(predicted_df, actual_df, min_patch):
     return accuracy
 
 
+model_df = pd.read_csv(MODEL_PREDICTIONS_FILE)
+lww_df = pd.read_csv(LONGEST_WAIT_PREDICTIONS_FILE)
+actual_df = pd.read_csv(ACTUAL_BANNER_RUNS_FILE)
+slot_history_df = pd.read_csv(RERUN_SLOT_HISTORY_FILE)
+
+
+def patches_in_range(df, start, end):
+    return sorted(p for p in df["Patch"].unique() if start <= p <= end)
+
+
+def get_names_for_patch(df, patch):
+    rows = df[df["Patch"] == patch]
+    return set(rows["Name"])
+
+
+def backtest_and_collect_records(start_patch, end_patch):
+    records = []
+    for patch in patches_in_range(actual_df, start_patch, end_patch):
+        actual_reruns = get_names_for_patch(actual_df, patch)
+        model_guesses = get_names_for_patch(model_df, patch, score_col="Predicted_prob")
+        baseline_guesses = get_names_for_patch(lww_df, patch, score_col="Time_since_ran")
+
+        for character in actual_reruns:
+            records.append({
+                "patch": patch,
+                "character": character,
+                "model_correct": character in model_guesses,
+                "baseline_correct": character in baseline_guesses,
+            })
+    return records
+
+
+def get_random_acc(start_patch=5.0, end_patch=6.5):
+    pool_sizes, slot_counts = [], []
+    for patch in patches_in_range(slot_history_df, start_patch, end_patch):
+        prior_appearances = actual_df[actual_df["Patch"] < patch]
+        pool_sizes.append(prior_appearances["Name"].nunique())
+        n_slots = slot_history_df.loc[slot_history_df["Patch"] == patch, "Rerun_slots"].iloc[0]
+        slot_counts.append(n_slots)
+
+    return random_baseline_accuracy(pool_sizes, slot_counts)
+
+
 if __name__ == "__main__":
+
+    acc, lo, hi = accuracy_with_ci(18, 41)
+    print(f"{acc:.1%} (95% CI: {lo:.1%}-{hi:.1%})")
+
+    records = backtest_and_collect_records(5.0, 6.5)
+    model_correct = [r["model_correct"] for r in records]
+    baseline_correct = [r["baseline_correct"] for r in records]
+    b, c, p = mcnemar_test(model_correct, baseline_correct)
+    print(f"ML-only wins: {b}")
+    print(f"Baseline-only wins: {c}")
+    print(f"McNemar's p-value: {p:.4f}")
+
+    print(get_random_acc())
+
     
-    get_last_regular_rerun()
- 
-    actual_df = get_banner_runs()
- 
-    print("\nBaseline: longest wait time")
-    baseline_predictions = longest_time_is_rerun()
-    calculate_prediction_accuracy(baseline_predictions, actual_df, min_patch=6.0)
- 
-    print("\nML model backtest")
-    df = read_banner_history()
-    df_original = df.copy()
-    df_original = df_original.sort_values(["Name", "Patch"]).reset_index(drop=True)
- 
-    X, y = prepare_features(df)
- 
-    ml_predictions = predict_n_patches(df_original, X, y, start_patch=5.0)
-    calculate_prediction_accuracy(ml_predictions, actual_df, min_patch=5.0)
+    """     get_last_regular_rerun()
+
+        actual_df = get_banner_runs()
+
+        print("\nBaseline: longest wait time")
+        baseline_predictions = longest_time_is_rerun()
+        calculate_prediction_accuracy(baseline_predictions, actual_df, min_patch=6.0)
+
+        print("\nML model backtest")
+        df = read_banner_history()
+        df_original = df.copy()
+        df_original = df_original.sort_values(["Name", "Patch"]).reset_index(drop=True)
+
+        X, y = prepare_features(df)
+
+        ml_predictions = predict_n_patches(df_original, X, y, start_patch=5.0)
+        calculate_prediction_accuracy(ml_predictions, actual_df, min_patch=5.0) 
+    """

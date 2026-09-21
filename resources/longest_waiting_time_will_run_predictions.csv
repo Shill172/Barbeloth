@@ -3,10 +3,10 @@ Patch,Name,Time_since_ran
 1.4,Klee,3
 1.5,Klee,4
 1.6,Klee,5
-2.2,Albedo,6
 2.2,Ganyu,6
-2.3,Albedo,7
+2.2,Albedo,6
 2.3,Ganyu,7
+2.3,Albedo,7
 2.4,Ganyu,8
 2.4,Xiao,7
 2.4,Venti,6
@@ -119,3 +119,5 @@ Patch,Name,Time_since_ran
 6.7,Wriothesley,11
 6.7,Xianyun,10
 7.0,Hu Tao,15
+7.0,Wriothesley,12
+7.0,Xianyun,11
