@@ -179,8 +179,8 @@ def backtest_and_collect_records(start_patch, end_patch):
     records = []
     for patch in patches_in_range(actual_df, start_patch, end_patch):
         actual_reruns = get_names_for_patch(actual_df, patch)
-        model_guesses = get_names_for_patch(model_df, patch, score_col="Predicted_prob")
-        baseline_guesses = get_names_for_patch(lww_df, patch, score_col="Time_since_ran")
+        model_guesses = get_names_for_patch(model_df, patch)
+        baseline_guesses = get_names_for_patch(lww_df, patch)
 
         for character in actual_reruns:
             records.append({
